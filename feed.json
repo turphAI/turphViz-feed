@@ -1,0 +1,257 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-06-03T06:16:48-04:00",
+  "_note": "Live snapshot \u2014 pulled from the mini's real _ops artifacts (still manual; the Phase 2 publisher will automate this). See SCHEMA.md.",
+  "nodes": [
+    {
+      "id": "turph",
+      "name": "turph",
+      "kind": "core",
+      "desc": "Consumption hub \u2014 the suite's PWA. Reads every producer's _ops artifacts.",
+      "status": "ok",
+      "last_run_at": null,
+      "queue_depth": 0
+    },
+    {
+      "id": "newsletter",
+      "name": "Newsletter",
+      "kind": "pipeline",
+      "desc": "Gmail digest orchestrator. Runs 8am & 2pm; reshaped every 30 min by newsletter-ops.",
+      "status": "ok",
+      "last_run_at": "2026-06-02T18:08:08Z",
+      "queue_depth": 0
+    },
+    {
+      "id": "witness",
+      "name": "Witness",
+      "kind": "service",
+      "desc": "Medication-journey tracker. Holds PHI at rest; only code-health metadata surfaces.",
+      "status": "ok",
+      "last_run_at": null,
+      "queue_depth": 0
+    },
+    {
+      "id": "relo",
+      "name": "ReLo",
+      "kind": "pipeline",
+      "desc": "Retirement-location research pipeline (on-demand).",
+      "status": "ok",
+      "last_run_at": "2026-05-26T00:00:00-04:00",
+      "queue_depth": 0
+    }
+  ],
+  "edges": [
+    {
+      "from": "newsletter",
+      "to": "turph",
+      "kind": "publishes",
+      "label": "digests + updates"
+    },
+    {
+      "from": "witness",
+      "to": "turph",
+      "kind": "publishes",
+      "label": "quality"
+    },
+    {
+      "from": "relo",
+      "to": "turph",
+      "kind": "publishes",
+      "label": "reports + updates"
+    }
+  ],
+  "events": [
+    {
+      "id": "digest_published-2026-06-02-afternoon",
+      "at": "2026-06-02T18:08:08Z",
+      "app": "newsletter",
+      "kind": "digest_published",
+      "headline": "Afternoon digest \u00b7 kept 29/8",
+      "detail_url": "#/news/2026-06-02-afternoon"
+    },
+    {
+      "id": "digest_published-2026-06-02-morning",
+      "at": "2026-06-02T12:08:27Z",
+      "app": "newsletter",
+      "kind": "digest_published",
+      "headline": "Morning digest \u00b7 kept 37/9",
+      "detail_url": "#/news/2026-06-02-morning"
+    },
+    {
+      "id": "digest_published-2026-06-01-afternoon",
+      "at": "2026-06-01T18:13:52Z",
+      "app": "newsletter",
+      "kind": "digest_published",
+      "headline": "Afternoon digest \u00b7 kept 37/8",
+      "detail_url": "#/news/2026-06-01-afternoon"
+    },
+    {
+      "id": "digest_published-2026-06-01-morning",
+      "at": "2026-06-01T12:09:51Z",
+      "app": "newsletter",
+      "kind": "digest_published",
+      "headline": "Morning digest \u00b7 kept 29/8",
+      "detail_url": "#/news/2026-06-01-morning"
+    },
+    {
+      "id": "digest_published-2026-05-31-afternoon",
+      "at": "2026-05-31T18:04:44Z",
+      "app": "newsletter",
+      "kind": "digest_published",
+      "headline": "Afternoon digest \u00b7 kept 12/4",
+      "detail_url": "#/news/2026-05-31-afternoon"
+    },
+    {
+      "id": "digest_published-2026-05-31-morning",
+      "at": "2026-05-31T12:07:36Z",
+      "app": "newsletter",
+      "kind": "digest_published",
+      "headline": "Morning digest \u00b7 kept 16/6",
+      "detail_url": "#/news/2026-05-31-morning"
+    },
+    {
+      "id": "digest_published-2026-05-30-afternoon",
+      "at": "2026-05-30T18:06:55Z",
+      "app": "newsletter",
+      "kind": "digest_published",
+      "headline": "Afternoon digest \u00b7 kept 40/6",
+      "detail_url": "#/news/2026-05-30-afternoon"
+    },
+    {
+      "id": "digest_published-2026-05-30-morning",
+      "at": "2026-05-30T12:08:08Z",
+      "app": "newsletter",
+      "kind": "digest_published",
+      "headline": "Morning digest \u00b7 kept 27/5",
+      "detail_url": "#/news/2026-05-30-morning"
+    },
+    {
+      "id": "digest_published-2026-05-29-afternoon",
+      "at": "2026-05-29T18:05:45Z",
+      "app": "newsletter",
+      "kind": "digest_published",
+      "headline": "Afternoon digest \u00b7 kept 26/5",
+      "detail_url": "#/news/2026-05-29-afternoon"
+    },
+    {
+      "id": "digest_published-2026-05-29-ondemand",
+      "at": "2026-05-29T12:57:14Z",
+      "app": "newsletter",
+      "kind": "digest_published",
+      "headline": "Ondemand digest \u00b7 kept 17/4",
+      "detail_url": "#/news/2026-05-29-ondemand"
+    },
+    {
+      "id": "run_failed-2026-05-29T12:50:27Z",
+      "at": "2026-05-29T12:50:27Z",
+      "app": "newsletter",
+      "kind": "run_failed",
+      "headline": "Ondemand run failed \u2014 RuntimeError: claude CLI not found on PATH",
+      "detail_url": null
+    },
+    {
+      "id": "digest_published-2026-05-29-morning",
+      "at": "2026-05-29T12:10:16Z",
+      "app": "newsletter",
+      "kind": "digest_published",
+      "headline": "Morning digest \u00b7 kept 43/9",
+      "detail_url": "#/news/2026-05-29-morning"
+    },
+    {
+      "id": "digest_published-2026-05-28-afternoon",
+      "at": "2026-05-28T18:06:36Z",
+      "app": "newsletter",
+      "kind": "digest_published",
+      "headline": "Afternoon digest \u00b7 kept 42/7",
+      "detail_url": "#/news/2026-05-28-afternoon"
+    },
+    {
+      "id": "digest_published-2026-05-28-morning",
+      "at": "2026-05-28T12:06:45Z",
+      "app": "newsletter",
+      "kind": "digest_published",
+      "headline": "Morning digest \u00b7 kept 33/9",
+      "detail_url": "#/news/2026-05-28-morning"
+    },
+    {
+      "id": "digest_published-2026-05-27-afternoon",
+      "at": "2026-05-27T18:06:29Z",
+      "app": "newsletter",
+      "kind": "digest_published",
+      "headline": "Afternoon digest \u00b7 kept 24/6",
+      "detail_url": "#/news/2026-05-27-afternoon"
+    },
+    {
+      "id": "digest_published-2026-05-27-morning",
+      "at": "2026-05-27T12:07:00Z",
+      "app": "newsletter",
+      "kind": "digest_published",
+      "headline": "Morning digest \u00b7 kept 23/10",
+      "detail_url": "#/news/2026-05-27-morning"
+    },
+    {
+      "id": "digest_published-2026-05-26-afternoon",
+      "at": "2026-05-26T18:09:30Z",
+      "app": "newsletter",
+      "kind": "digest_published",
+      "headline": "Afternoon digest \u00b7 kept 51/9",
+      "detail_url": "#/news/2026-05-26-afternoon"
+    },
+    {
+      "id": "digest_published-2026-05-26-morning",
+      "at": "2026-05-26T12:06:23Z",
+      "app": "newsletter",
+      "kind": "digest_published",
+      "headline": "Morning digest \u00b7 kept 27/5",
+      "detail_url": "#/news/2026-05-26-morning"
+    },
+    {
+      "id": "report_published-report_2026-05-26_run5-nc-sc-md",
+      "at": "2026-05-26T00:00:00-04:00",
+      "app": "relo",
+      "kind": "report_published",
+      "headline": "Board report \u2014 2026-05-26 (run5-nc-sc-md)",
+      "detail_url": "#/relo/reports"
+    },
+    {
+      "id": "digest_published-2026-05-25-afternoon",
+      "at": "2026-05-25T18:09:50Z",
+      "app": "newsletter",
+      "kind": "digest_published",
+      "headline": "Afternoon digest \u00b7 kept 47/14",
+      "detail_url": "#/news/2026-05-25-afternoon"
+    },
+    {
+      "id": "digest_published-2026-05-25-morning",
+      "at": "2026-05-25T12:08:05Z",
+      "app": "newsletter",
+      "kind": "digest_published",
+      "headline": "Morning digest \u00b7 kept 32/6",
+      "detail_url": "#/news/2026-05-25-morning"
+    },
+    {
+      "id": "digest_published-2026-05-24-afternoon",
+      "at": "2026-05-24T18:04:25Z",
+      "app": "newsletter",
+      "kind": "digest_published",
+      "headline": "Afternoon digest \u00b7 kept 22/5",
+      "detail_url": "#/news/2026-05-24-afternoon"
+    },
+    {
+      "id": "digest_published-2026-05-24-morning",
+      "at": "2026-05-24T12:02:55Z",
+      "app": "newsletter",
+      "kind": "digest_published",
+      "headline": "Morning digest \u00b7 kept 12/4",
+      "detail_url": "#/news/2026-05-24-morning"
+    },
+    {
+      "id": "digest_published-2026-05-23-afternoon",
+      "at": "2026-05-23T18:01:19Z",
+      "app": "newsletter",
+      "kind": "digest_published",
+      "headline": "Afternoon digest \u00b7 kept 4/2",
+      "detail_url": "#/news/2026-05-23-afternoon"
+    }
+  ]
+}
