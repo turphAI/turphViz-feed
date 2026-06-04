@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-04T12:34:16-04:00",
+  "generated_at": "2026-06-04T12:36:26-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -11,6 +11,16 @@
       "last_run_at": null,
       "queue_depth": 0,
       "heartbeat": null
+    },
+    {
+      "id": "insurance",
+      "name": "Insurance",
+      "kind": "service",
+      "desc": "Policy review + 45-day renewal watch",
+      "status": "unknown",
+      "last_run_at": null,
+      "queue_depth": 0,
+      "heartbeat": "2026-06-04T12:36:26-04:00"
     },
     {
       "id": "newsletter",
@@ -95,6 +105,12 @@
     }
   ],
   "edges": [
+    {
+      "from": "insurance",
+      "to": "turph",
+      "kind": "publishes",
+      "label": "reviews + renewal alerts"
+    },
     {
       "from": "newsletter",
       "to": "turph",
