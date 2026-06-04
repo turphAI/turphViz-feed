@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-04T13:46:32-04:00",
+  "generated_at": "2026-06-04T13:56:33-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -16,11 +16,11 @@
       "id": "insurance",
       "name": "Insurance",
       "kind": "service",
-      "desc": "Policy review + 45-day renewal watch",
-      "status": "unknown",
+      "desc": "On-demand auto/home policy reviews; only code-health and renewal metadata surfaces, never policy documents.",
+      "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-06-04T12:36:26-04:00"
+      "heartbeat": "2026-06-04T13:47:12-04:00"
     },
     {
       "id": "newsletter",
@@ -35,7 +35,7 @@
       "status": "ok",
       "last_run_at": "2026-06-04T12:13:41Z",
       "queue_depth": 0,
-      "heartbeat": "2026-06-04T13:33:28-04:00"
+      "heartbeat": "2026-06-04T13:47:12-04:00"
     },
     {
       "id": "relo",
@@ -91,7 +91,7 @@
       "status": "ok",
       "last_run_at": "2026-05-26T00:00:00-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-06-04T13:42:15-04:00"
+      "heartbeat": "2026-06-04T13:47:12-04:00"
     },
     {
       "id": "witness",
@@ -109,7 +109,7 @@
       "from": "insurance",
       "to": "turph",
       "kind": "publishes",
-      "label": "reviews + renewal alerts"
+      "label": "quality + renewals"
     },
     {
       "from": "newsletter",
