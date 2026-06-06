@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-06T18:32:46-04:00",
+  "generated_at": "2026-06-06T18:42:47-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -35,7 +35,7 @@
       "status": "ok",
       "last_run_at": "2026-06-06T18:02:30Z",
       "queue_depth": 0,
-      "heartbeat": "2026-06-06T18:03:38-04:00"
+      "heartbeat": "2026-06-06T18:33:38-04:00"
     },
     {
       "id": "relo",
@@ -91,7 +91,7 @@
       "status": "ok",
       "last_run_at": "2026-05-26T00:00:00-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-06-06T17:42:21-04:00"
+      "heartbeat": "2026-06-06T18:42:21-04:00"
     },
     {
       "id": "witness",
