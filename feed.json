@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-09T14:00:16-04:00",
+  "generated_at": "2026-06-09T14:10:18-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -33,9 +33,9 @@
         "run_failed"
       ],
       "status": "ok",
-      "last_run_at": "2026-06-09T12:09:51Z",
+      "last_run_at": "2026-06-09T18:07:06Z",
       "queue_depth": 0,
-      "heartbeat": "2026-06-09T13:33:51-04:00"
+      "heartbeat": "2026-06-09T14:07:06-04:00"
     },
     {
       "id": "relo",
@@ -147,6 +147,14 @@
     }
   ],
   "events": [
+    {
+      "id": "digest_published-2026-06-09-afternoon",
+      "at": "2026-06-09T18:07:06Z",
+      "app": "newsletter",
+      "kind": "digest_published",
+      "headline": "Afternoon digest · kept 32/8",
+      "detail_url": "#/news/2026-06-09-afternoon"
+    },
     {
       "id": "digest_published-2026-06-09-morning",
       "at": "2026-06-09T12:09:51Z",
@@ -538,14 +546,6 @@
       "kind": "report_published",
       "headline": "Board report — 2026-05-19 (hb11)",
       "detail_url": "#/relo/reports"
-    },
-    {
-      "id": "pipeline_progress-2026-05-19",
-      "at": "2026-05-19T00:00:00-04:00",
-      "app": "relo",
-      "kind": "pipeline_progress",
-      "headline": "Run #4: Winchester VA Re-Scored to 154",
-      "detail_url": "#/relo"
     }
   ]
 }
