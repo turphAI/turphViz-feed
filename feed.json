@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-09T08:09:27-04:00",
+  "generated_at": "2026-06-09T08:19:28-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -20,7 +20,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-06-09T07:47:33-04:00"
+      "heartbeat": "2026-06-09T08:17:33-04:00"
     },
     {
       "id": "newsletter",
@@ -33,9 +33,9 @@
         "run_failed"
       ],
       "status": "ok",
-      "last_run_at": "2026-06-08T18:07:50Z",
+      "last_run_at": "2026-06-09T12:09:51Z",
       "queue_depth": 0,
-      "heartbeat": "2026-06-09T08:03:50-04:00"
+      "heartbeat": "2026-06-09T08:09:51-04:00"
     },
     {
       "id": "relo",
@@ -147,6 +147,14 @@
     }
   ],
   "events": [
+    {
+      "id": "digest_published-2026-06-09-morning",
+      "at": "2026-06-09T12:09:51Z",
+      "app": "newsletter",
+      "kind": "digest_published",
+      "headline": "Morning digest · kept 47/9",
+      "detail_url": "#/news/2026-06-09-morning"
+    },
     {
       "id": "digest_published-2026-06-08-afternoon",
       "at": "2026-06-08T18:07:50Z",
@@ -538,14 +546,6 @@
       "kind": "pipeline_progress",
       "headline": "Run #4: Winchester VA Re-Scored to 154",
       "detail_url": "#/relo"
-    },
-    {
-      "id": "digest_published-2026-05-18-afternoon",
-      "at": "2026-05-18T18:06:40Z",
-      "app": "newsletter",
-      "kind": "digest_published",
-      "headline": "Afternoon digest · kept 28/7",
-      "detail_url": "#/news/2026-05-18-afternoon"
     }
   ]
 }
