@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-10T08:02:39-04:00",
+  "generated_at": "2026-06-10T08:12:40-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -33,9 +33,9 @@
         "run_failed"
       ],
       "status": "ok",
-      "last_run_at": "2026-06-09T18:07:06Z",
+      "last_run_at": "2026-06-10T12:07:51Z",
       "queue_depth": 0,
-      "heartbeat": "2026-06-10T07:33:54-04:00"
+      "heartbeat": "2026-06-10T08:07:51-04:00"
     },
     {
       "id": "relo",
@@ -147,6 +147,14 @@
     }
   ],
   "events": [
+    {
+      "id": "digest_published-2026-06-10-morning",
+      "at": "2026-06-10T12:07:51Z",
+      "app": "newsletter",
+      "kind": "digest_published",
+      "headline": "Morning digest · kept 38/8",
+      "detail_url": "#/news/2026-06-10-morning"
+    },
     {
       "id": "digest_published-2026-06-09-afternoon",
       "at": "2026-06-09T18:07:06Z",
@@ -538,14 +546,6 @@
       "kind": "digest_published",
       "headline": "Morning digest · kept 50/11",
       "detail_url": "#/news/2026-05-19-morning"
-    },
-    {
-      "id": "report_published-report_2026-05-19_hb11",
-      "at": "2026-05-19T00:00:00-04:00",
-      "app": "relo",
-      "kind": "report_published",
-      "headline": "Board report — 2026-05-19 (hb11)",
-      "detail_url": "#/relo/reports"
     }
   ]
 }
