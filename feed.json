@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-10T18:54:08-04:00",
+  "generated_at": "2026-06-10T19:03:59-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -35,7 +35,7 @@
       "status": "ok",
       "last_run_at": "2026-06-10T18:06:19Z",
       "queue_depth": 0,
-      "heartbeat": "2026-06-10T18:33:56-04:00"
+      "heartbeat": "2026-06-10T19:03:56-04:00"
     },
     {
       "id": "relo",
@@ -50,48 +50,56 @@
         {
           "id": "relo.scout",
           "name": "Scout",
-          "kind": "agent"
+          "kind": "agent",
+          "desc": "identifies candidate locations"
         },
         {
           "id": "relo.screener",
           "name": "Screener",
-          "kind": "agent"
+          "kind": "agent",
+          "desc": "hard-filter pass/fail"
         },
         {
           "id": "relo.tax_analyst",
           "name": "Tax Analyst",
-          "kind": "agent"
+          "kind": "agent",
+          "desc": "location tax + cost analysis"
         },
         {
           "id": "relo.researcher",
           "name": "Researcher",
-          "kind": "agent"
+          "kind": "agent",
+          "desc": "deep data on screened locations"
         },
         {
           "id": "relo.analyst",
           "name": "Analyst",
-          "kind": "agent"
+          "kind": "agent",
+          "desc": "scores + ranks the shortlist"
         },
         {
           "id": "relo.reporter",
           "name": "Reporter",
-          "kind": "agent"
+          "kind": "agent",
+          "desc": "writes board reports"
         },
         {
           "id": "relo.monitor",
           "name": "Monitor",
-          "kind": "agent"
+          "kind": "agent",
+          "desc": "watches for ranking changes"
         },
         {
           "id": "relo.director",
           "name": "Director",
-          "kind": "agent"
+          "kind": "agent",
+          "desc": "orchestrates the agent team"
         }
       ],
       "status": "stale",
       "last_run_at": "2026-05-26T00:00:00-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-06-10T18:42:31-04:00"
+      "heartbeat": "2026-06-10T19:02:29-04:00"
     },
     {
       "id": "turphfolio",
@@ -111,7 +119,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-06-10T18:29:07-04:00"
+      "heartbeat": "2026-06-10T18:59:07-04:00"
     }
   ],
   "edges": [
@@ -425,7 +433,8 @@
       "app": "relo",
       "kind": "report_published",
       "headline": "Board report — 2026-05-26 (run5-nc-sc-md)",
-      "detail_url": "#/relo/reports"
+      "detail_url": "#/relo/reports",
+      "from": "relo.reporter"
     },
     {
       "id": "digest_published-2026-05-25-afternoon",
