@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-12T13:48:43-04:00",
+  "generated_at": "2026-06-12T14:08:44-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -33,9 +33,9 @@
         "run_failed"
       ],
       "status": "ok",
-      "last_run_at": "2026-06-12T12:13:28Z",
+      "last_run_at": "2026-06-12T18:04:52Z",
       "queue_depth": 0,
-      "heartbeat": "2026-06-12T13:34:05-04:00"
+      "heartbeat": "2026-06-12T14:04:52-04:00"
     },
     {
       "id": "relo",
@@ -122,7 +122,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-06-12T13:29:15-04:00"
+      "heartbeat": "2026-06-12T13:59:15-04:00"
     }
   ],
   "edges": [
@@ -158,6 +158,15 @@
     }
   ],
   "events": [
+    {
+      "id": "digest_published-2026-06-12-afternoon",
+      "at": "2026-06-12T18:04:52Z",
+      "app": "newsletter",
+      "kind": "digest_published",
+      "headline": "Afternoon digest · kept 20/5",
+      "detail_url": "#/news/2026-06-12-afternoon",
+      "magnitude": 0.571
+    },
     {
       "id": "digest_published-2026-06-12-morning",
       "at": "2026-06-12T12:13:28Z",
@@ -597,15 +606,6 @@
       "headline": "Afternoon digest · kept 90/20",
       "detail_url": "#/news/2026-05-20-afternoon",
       "magnitude": 0.857
-    },
-    {
-      "id": "digest_published-2026-05-20-morning",
-      "at": "2026-05-20T19:55:43Z",
-      "app": "newsletter",
-      "kind": "digest_published",
-      "headline": "Morning digest · kept 57/18",
-      "detail_url": "#/news/2026-05-20-morning",
-      "magnitude": 0.792
     }
   ]
 }
