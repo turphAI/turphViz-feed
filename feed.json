@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-18T08:06:26-04:00",
+  "generated_at": "2026-06-18T08:16:28-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -33,9 +33,9 @@
         "run_failed"
       ],
       "status": "ok",
-      "last_run_at": "2026-06-17T18:06:06Z",
+      "last_run_at": "2026-06-18T12:07:59Z",
       "queue_depth": 0,
-      "heartbeat": "2026-06-18T07:38:42-04:00"
+      "heartbeat": "2026-06-18T08:08:42-04:00"
     },
     {
       "id": "relo",
@@ -158,6 +158,15 @@
     }
   ],
   "events": [
+    {
+      "id": "digest_published-2026-06-18-morning",
+      "at": "2026-06-18T12:07:59Z",
+      "app": "newsletter",
+      "kind": "digest_published",
+      "headline": "Morning digest · kept 36/9",
+      "detail_url": "#/news/2026-06-18-morning",
+      "magnitude": 0.706
+    },
     {
       "id": "digest_published-2026-06-17-afternoon",
       "at": "2026-06-17T18:06:06Z",
@@ -597,15 +606,6 @@
       "headline": "Board report — 2026-05-26 (run5-nc-sc-md)",
       "detail_url": "#/relo/reports",
       "from": "relo.reporter"
-    },
-    {
-      "id": "digest_published-2026-05-25-afternoon",
-      "at": "2026-05-25T18:09:50Z",
-      "app": "newsletter",
-      "kind": "digest_published",
-      "headline": "Afternoon digest · kept 47/14",
-      "detail_url": "#/news/2026-05-25-afternoon",
-      "magnitude": 0.758
     }
   ]
 }
