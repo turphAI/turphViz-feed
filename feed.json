@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-19T07:49:09-04:00",
+  "generated_at": "2026-06-19T08:09:10-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -32,10 +32,13 @@
         "run_completed",
         "run_failed"
       ],
-      "status": "ok",
+      "status": "stale",
       "last_run_at": "2026-06-18T18:07:03Z",
       "queue_depth": 0,
-      "heartbeat": "2026-06-19T07:38:46-04:00"
+      "heartbeat": "2026-06-19T08:08:46-04:00",
+      "warnings": [
+        "No run in 18h — expected twice daily"
+      ]
     },
     {
       "id": "relo",
@@ -122,7 +125,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-06-19T07:29:45-04:00"
+      "heartbeat": "2026-06-19T07:59:45-04:00"
     }
   ],
   "edges": [
