@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-19T08:09:10-04:00",
+  "generated_at": "2026-06-19T08:19:11-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -20,7 +20,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-06-19T07:48:18-04:00"
+      "heartbeat": "2026-06-19T08:18:18-04:00"
     },
     {
       "id": "newsletter",
@@ -32,13 +32,10 @@
         "run_completed",
         "run_failed"
       ],
-      "status": "stale",
-      "last_run_at": "2026-06-18T18:07:03Z",
+      "status": "failed",
+      "last_run_at": "2026-06-19T12:17:58Z",
       "queue_depth": 0,
-      "heartbeat": "2026-06-19T08:08:46-04:00",
-      "warnings": [
-        "No run in 18h — expected twice daily"
-      ]
+      "heartbeat": "2026-06-19T08:17:59-04:00"
     },
     {
       "id": "relo",
@@ -161,6 +158,14 @@
     }
   ],
   "events": [
+    {
+      "id": "run_failed-2026-06-19T12:17:58Z",
+      "at": "2026-06-19T12:17:58Z",
+      "app": "newsletter",
+      "kind": "run_failed",
+      "headline": "Morning run failed — TimeoutExpired: Command '['/opt/homebrew/bin/claude', '--print', '--model', 'sonnet', '--output-format', 'json', '--disable-slash-commands', '--no-session-persistence', '--tools', '']' timed out after 300 seconds",
+      "detail_url": null
+    },
     {
       "id": "digest_published-2026-06-18-afternoon",
       "at": "2026-06-18T18:07:03Z",
@@ -600,15 +605,6 @@
       "headline": "Afternoon digest · kept 51/9",
       "detail_url": "#/news/2026-05-26-afternoon",
       "magnitude": 0.773
-    },
-    {
-      "id": "digest_published-2026-05-26-morning",
-      "at": "2026-05-26T12:06:23Z",
-      "app": "newsletter",
-      "kind": "digest_published",
-      "headline": "Morning digest · kept 27/5",
-      "detail_url": "#/news/2026-05-26-morning",
-      "magnitude": 0.643
     }
   ]
 }
