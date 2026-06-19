@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-19T16:00:00-04:00",
+  "generated_at": "2026-06-19T16:10:01-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -33,9 +33,9 @@
         "run_failed"
       ],
       "status": "failed",
-      "last_run_at": "2026-06-19T18:24:33Z",
+      "last_run_at": "2026-06-19T19:55:10Z",
       "queue_depth": 0,
-      "heartbeat": "2026-06-19T15:38:48-04:00"
+      "heartbeat": "2026-06-19T16:08:48-04:00"
     },
     {
       "id": "relo",
@@ -158,6 +158,14 @@
     }
   ],
   "events": [
+    {
+      "id": "run_failed-2026-06-19T19:55:10Z",
+      "at": "2026-06-19T19:55:10Z",
+      "app": "newsletter",
+      "kind": "run_failed",
+      "headline": "Afternoon run failed — TimeoutExpired: Command '['/opt/homebrew/bin/claude', '--print', '--model', 'sonnet', '--output-format', 'json', '--disable-slash-commands', '--no-session-persistence', '--tools', '']' timed out after 300 seconds",
+      "detail_url": null
+    },
     {
       "id": "run_failed-2026-06-19T18:24:33Z",
       "at": "2026-06-19T18:24:33Z",
@@ -595,15 +603,6 @@
       "headline": "Afternoon digest · kept 24/6",
       "detail_url": "#/news/2026-05-27-afternoon",
       "magnitude": 0.615
-    },
-    {
-      "id": "digest_published-2026-05-27-morning",
-      "at": "2026-05-27T12:07:00Z",
-      "app": "newsletter",
-      "kind": "digest_published",
-      "headline": "Morning digest · kept 23/10",
-      "detail_url": "#/news/2026-05-27-morning",
-      "magnitude": 0.605
     }
   ]
 }
