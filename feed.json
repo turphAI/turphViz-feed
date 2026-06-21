@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-21T00:04:01-04:00",
+  "generated_at": "2026-06-21T00:14:03-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -35,7 +35,7 @@
       "status": "ok",
       "last_run_at": "2026-06-20T18:02:10Z",
       "queue_depth": 0,
-      "heartbeat": "2026-06-20T23:38:54-04:00"
+      "heartbeat": "2026-06-21T00:08:54-04:00"
     },
     {
       "id": "relo",
