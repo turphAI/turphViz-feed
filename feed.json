@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-23T08:00:58-04:00",
+  "generated_at": "2026-06-23T08:10:59-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -32,10 +32,13 @@
         "run_completed",
         "run_failed"
       ],
-      "status": "ok",
+      "status": "stale",
       "last_run_at": "2026-06-22T18:03:54Z",
       "queue_depth": 0,
-      "heartbeat": "2026-06-23T07:39:06-04:00"
+      "heartbeat": "2026-06-23T08:09:06-04:00",
+      "warnings": [
+        "No run in 18h — expected twice daily"
+      ]
     },
     {
       "id": "relo",
