@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-26T07:30:30-04:00",
+  "generated_at": "2026-06-26T07:40:31-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -35,7 +35,7 @@
       "status": "stale",
       "last_run_at": "2026-06-22T18:03:54Z",
       "queue_depth": 0,
-      "heartbeat": "2026-06-26T07:09:21-04:00",
+      "heartbeat": "2026-06-26T07:39:21-04:00",
       "warnings": [
         "No run in 89h — expected twice daily"
       ]
