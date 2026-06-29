@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-29T08:09:32-04:00",
+  "generated_at": "2026-06-29T08:19:33-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -20,7 +20,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-06-29T07:49:02-04:00"
+      "heartbeat": "2026-06-29T08:19:02-04:00"
     },
     {
       "id": "newsletter",
@@ -35,7 +35,7 @@
       "status": "ok",
       "last_run_at": "2026-06-29T12:07:34Z",
       "queue_depth": 0,
-      "heartbeat": "2026-06-29T08:07:34-04:00"
+      "heartbeat": "2026-06-29T08:09:35-04:00"
     },
     {
       "id": "relo",
