@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-30T03:11:51-04:00",
+  "generated_at": "2026-06-30T03:21:52-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -20,7 +20,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-06-30T02:49:06-04:00"
+      "heartbeat": "2026-06-30T03:19:06-04:00"
     },
     {
       "id": "newsletter",
