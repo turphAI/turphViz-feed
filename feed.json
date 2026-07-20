@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-20T14:02:03-04:00",
+  "generated_at": "2026-07-20T14:12:04-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -33,9 +33,9 @@
         "run_failed"
       ],
       "status": "ok",
-      "last_run_at": "2026-07-20T12:13:17Z",
+      "last_run_at": "2026-07-20T18:10:36Z",
       "queue_depth": 0,
-      "heartbeat": "2026-07-20T13:54:54-04:00"
+      "heartbeat": "2026-07-20T14:10:36-04:00"
     },
     {
       "id": "relo",
@@ -122,7 +122,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-07-20T13:32:05-04:00"
+      "heartbeat": "2026-07-20T14:02:05-04:00"
     }
   ],
   "edges": [
@@ -158,6 +158,15 @@
     }
   ],
   "events": [
+    {
+      "id": "digest_published-2026-07-20-afternoon",
+      "at": "2026-07-20T18:10:36Z",
+      "app": "newsletter",
+      "kind": "digest_published",
+      "headline": "Afternoon digest · kept 41/7",
+      "detail_url": "#/news/2026-07-20-afternoon",
+      "magnitude": 0.732
+    },
     {
       "id": "digest_published-2026-07-20-morning",
       "at": "2026-07-20T12:13:17Z",
@@ -598,14 +607,6 @@
       "headline": "Morning digest · kept 97/22",
       "detail_url": "#/news/2026-06-26-morning",
       "magnitude": 0.866
-    },
-    {
-      "id": "run_failed-2026-06-26T13:18:04Z",
-      "at": "2026-06-26T13:18:04Z",
-      "app": "newsletter",
-      "kind": "run_failed",
-      "headline": "Morning run failed — RuntimeError: claude CLI not found on PATH",
-      "detail_url": null
     }
   ]
 }
