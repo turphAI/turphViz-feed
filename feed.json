@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-28T09:58:24-04:00",
+  "generated_at": "2026-07-28T10:18:26-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -112,7 +112,7 @@
       "status": "ok",
       "last_run_at": "2026-07-08T16:59:24.816576-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-07-28T06:30:01-04:00"
+      "heartbeat": "2026-07-28T10:12:17-04:00"
     },
     {
       "id": "witness",
@@ -166,6 +166,14 @@
       "headline": "Morning digest · kept 48/8",
       "detail_url": "#/news/2026-07-28-morning",
       "magnitude": 0.762
+    },
+    {
+      "id": "deploy_completed-20260728T1012170400-4530",
+      "at": "2026-07-28T10:12:17-04:00",
+      "app": "turphfolio",
+      "kind": "deploy_completed",
+      "headline": "Deployed the latest commit to turphfolio.",
+      "detail_url": null
     },
     {
       "id": "digest_published-2026-07-27-afternoon",
@@ -598,15 +606,6 @@
       "headline": "Morning digest · kept 16/5",
       "detail_url": "#/news/2026-07-04-morning",
       "magnitude": 0.516
-    },
-    {
-      "id": "digest_published-2026-07-03-afternoon",
-      "at": "2026-07-03T18:09:14Z",
-      "app": "newsletter",
-      "kind": "digest_published",
-      "headline": "Afternoon digest · kept 30/6",
-      "detail_url": "#/news/2026-07-03-afternoon",
-      "magnitude": 0.667
     }
   ]
 }
