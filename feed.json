@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-06T11:28:56-04:00",
+  "generated_at": "2026-08-06T11:38:58-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -120,9 +120,9 @@
       "kind": "pipeline",
       "desc": "Wearable/weather ingestion + correlation research for Tracie's vasospasm case; only pipeline-health metadata surfaces, never the underlying clinical data.",
       "status": "ok",
-      "last_run_at": "2026-08-06T11:01:54-04:00",
+      "last_run_at": "2026-08-06T11:28:53-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-08-06T11:08:18-04:00"
+      "heartbeat": "2026-08-06T11:38:18-04:00"
     },
     {
       "id": "witness",
@@ -184,6 +184,14 @@
       "magnitude": 0.483
     },
     {
+      "id": "lag_analysis_run-2026-08-06",
+      "at": "2026-08-06T11:28:53-04:00",
+      "app": "vasospasm",
+      "kind": "run_completed",
+      "headline": "Lag analysis completed — 0 tests, 0 candidates",
+      "detail_url": null
+    },
+    {
       "id": "weather_run-2026-08-06",
       "at": "2026-08-06T11:01:54-04:00",
       "app": "vasospasm",
@@ -197,14 +205,6 @@
       "app": "vasospasm",
       "kind": "run_completed",
       "headline": "Monthly analysis completed — 0 tests, 0 candidates",
-      "detail_url": null
-    },
-    {
-      "id": "lag_analysis_run-2026-08-06",
-      "at": "2026-08-06T11:01:52-04:00",
-      "app": "vasospasm",
-      "kind": "run_completed",
-      "headline": "Lag analysis completed — 0 tests, 0 candidates",
       "detail_url": null
     },
     {
