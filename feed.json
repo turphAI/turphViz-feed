@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-10T06:29:44-04:00",
+  "generated_at": "2026-08-10T06:39:45-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -142,7 +142,7 @@
       "status": "ok",
       "last_run_at": "2026-08-01T03:01:24.037829-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-08-09T06:30:03-04:00"
+      "heartbeat": "2026-08-10T06:30:00-04:00"
     },
     {
       "id": "vasospasm",
@@ -152,7 +152,7 @@
       "status": "ok",
       "last_run_at": "2026-08-09T08:05:01-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-08-10T06:08:37-04:00"
+      "heartbeat": "2026-08-10T06:38:37-04:00"
     },
     {
       "id": "witness",
