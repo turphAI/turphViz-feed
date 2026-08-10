@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-09T21:28:26-04:00",
+  "generated_at": "2026-08-09T21:48:28-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -11,6 +11,36 @@
       "last_run_at": null,
       "queue_depth": 0,
       "heartbeat": null
+    },
+    {
+      "id": "ops",
+      "name": "turphOps",
+      "kind": "service",
+      "desc": "The suite's own watchers — credentials, coherence, stuck work.",
+      "children": [
+        {
+          "id": "ops.auth",
+          "name": "Credential preflight",
+          "kind": "agent",
+          "desc": "Watches the suite's auth tokens for lapses (journal 002)"
+        },
+        {
+          "id": "ops.integrity",
+          "name": "Coherence auditor",
+          "kind": "agent",
+          "desc": "Watches surface↔backend drift across producers (journal 003)"
+        },
+        {
+          "id": "ops.sweep-pr",
+          "name": "Sweep-PR watch",
+          "kind": "agent",
+          "desc": "Watches for sweep-finding PRs stuck unmerged"
+        }
+      ],
+      "status": "ok",
+      "last_run_at": null,
+      "queue_depth": 0,
+      "heartbeat": "2026-08-10T01:23:34Z"
     },
     {
       "id": "insurance",
@@ -35,7 +65,7 @@
       "status": "ok",
       "last_run_at": "2026-08-09T18:02:31Z",
       "queue_depth": 0,
-      "heartbeat": "2026-08-09T21:12:05-04:00"
+      "heartbeat": "2026-08-09T21:42:06-04:00"
     },
     {
       "id": "relo",
@@ -122,7 +152,7 @@
       "status": "ok",
       "last_run_at": "2026-08-09T08:05:01-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-08-09T21:08:35-04:00"
+      "heartbeat": "2026-08-09T21:38:36-04:00"
     },
     {
       "id": "witness",
@@ -132,7 +162,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-08-09T21:17:28-04:00"
+      "heartbeat": "2026-08-09T21:47:28-04:00"
     }
   ],
   "edges": [
@@ -619,5 +649,6 @@
       "detail_url": "#/news/2026-07-18-afternoon",
       "magnitude": 0.0
     }
-  ]
+  ],
+  "attention": []
 }
