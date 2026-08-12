@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-12T13:47:35-04:00",
+  "generated_at": "2026-08-12T13:57:36-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-08-12T17:24:00Z"
+      "heartbeat": "2026-08-12T17:54:01Z"
     },
     {
       "id": "insurance",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-08-12T13:21:07-04:00"
+      "heartbeat": "2026-08-12T13:51:07-04:00"
     },
     {
       "id": "newsletter",
@@ -129,7 +129,7 @@
       "status": "stale",
       "last_run_at": "2026-05-26T00:00:00-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-08-12T12:49:54-04:00",
+      "heartbeat": "2026-08-12T13:49:54-04:00",
       "warnings": [
         "No pipeline activity in 78d"
       ]
@@ -162,7 +162,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-08-12T13:17:40-04:00"
+      "heartbeat": "2026-08-12T13:47:41-04:00"
     }
   ],
   "edges": [
