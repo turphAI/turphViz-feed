@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-12T03:46:23-04:00",
+  "generated_at": "2026-08-12T03:56:24-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-08-12T07:23:56Z"
+      "heartbeat": "2026-08-12T07:53:56Z"
     },
     {
       "id": "insurance",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-08-12T03:21:05-04:00"
+      "heartbeat": "2026-08-12T03:51:05-04:00"
     },
     {
       "id": "newsletter",
@@ -129,7 +129,7 @@
       "status": "stale",
       "last_run_at": "2026-05-26T00:00:00-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-08-12T02:49:52-04:00",
+      "heartbeat": "2026-08-12T03:49:53-04:00",
       "warnings": [
         "No pipeline activity in 78d"
       ]
@@ -162,7 +162,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-08-12T03:17:39-04:00"
+      "heartbeat": "2026-08-12T03:47:39-04:00"
     }
   ],
   "edges": [
@@ -655,7 +655,7 @@
       "id": "integrity:freshness:repo-doctor.laptop",
       "app": "integrity",
       "priority": 2,
-      "headline": "repo-doctor laptop (Needs-you) is out of sync — 8.5h ago",
+      "headline": "repo-doctor laptop (Needs-you) is out of sync — 9.0h ago",
       "node": "ops.integrity"
     },
     {
