@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-12T05:16:33-04:00",
+  "generated_at": "2026-08-12T05:26:35-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-08-12T08:53:57Z"
+      "heartbeat": "2026-08-12T09:23:57Z"
     },
     {
       "id": "insurance",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-08-12T04:51:05-04:00"
+      "heartbeat": "2026-08-12T05:21:05-04:00"
     },
     {
       "id": "newsletter",
@@ -162,7 +162,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-08-12T04:47:39-04:00"
+      "heartbeat": "2026-08-12T05:17:39-04:00"
     }
   ],
   "edges": [
@@ -655,7 +655,7 @@
       "id": "integrity:freshness:repo-doctor.laptop",
       "app": "integrity",
       "priority": 2,
-      "headline": "repo-doctor laptop (Needs-you) is out of sync — 10.0h ago",
+      "headline": "repo-doctor laptop (Needs-you) is out of sync — 10.5h ago",
       "node": "ops.integrity"
     },
     {
