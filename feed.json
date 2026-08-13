@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-12T21:48:33-04:00",
+  "generated_at": "2026-08-12T21:58:34-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-08-13T01:24:04Z"
+      "heartbeat": "2026-08-13T01:54:04Z"
     },
     {
       "id": "insurance",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-08-12T21:21:08-04:00"
+      "heartbeat": "2026-08-12T21:51:08-04:00"
     },
     {
       "id": "newsletter",
@@ -129,7 +129,7 @@
       "status": "stale",
       "last_run_at": "2026-05-26T00:00:00-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-08-12T20:49:54-04:00",
+      "heartbeat": "2026-08-12T21:49:55-04:00",
       "warnings": [
         "No pipeline activity in 78d"
       ]
