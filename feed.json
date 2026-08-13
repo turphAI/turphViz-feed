@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-12T21:18:29-04:00",
+  "generated_at": "2026-08-12T21:28:30-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-08-13T00:54:03Z"
+      "heartbeat": "2026-08-13T01:24:04Z"
     },
     {
       "id": "insurance",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-08-12T20:51:08-04:00"
+      "heartbeat": "2026-08-12T21:21:08-04:00"
     },
     {
       "id": "newsletter",
@@ -655,7 +655,7 @@
       "id": "integrity:freshness:turph.sweep",
       "app": "integrity",
       "priority": 2,
-      "headline": "turph code-health sweep (Concerns→code) is out of sync — 11.0d ago",
+      "headline": "turph code-health sweep (Concerns→code) is out of sync — 11.1d ago",
       "node": "ops.integrity"
     }
   ]
