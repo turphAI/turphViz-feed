@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-13T06:49:50-04:00",
+  "generated_at": "2026-08-13T06:59:51-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-08-13T10:24:07Z"
+      "heartbeat": "2026-08-13T10:54:08Z"
     },
     {
       "id": "insurance",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-08-13T06:21:10-04:00"
+      "heartbeat": "2026-08-13T06:51:10-04:00"
     },
     {
       "id": "newsletter",
@@ -129,7 +129,7 @@
       "status": "stale",
       "last_run_at": "2026-05-26T00:00:00-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-08-13T05:49:55-04:00",
+      "heartbeat": "2026-08-13T06:49:56-04:00",
       "warnings": [
         "No pipeline activity in 79d"
       ]
@@ -652,17 +652,10 @@
   ],
   "attention": [
     {
-      "id": "integrity:freshness:repo-doctor.laptop",
-      "app": "integrity",
-      "priority": 2,
-      "headline": "repo-doctor laptop (Needs-you) is out of sync — 8.2h ago",
-      "node": "ops.integrity"
-    },
-    {
       "id": "integrity:freshness:turph.sweep",
       "app": "integrity",
       "priority": 2,
-      "headline": "turph code-health sweep (Concerns→code) is out of sync — 11.4d ago",
+      "headline": "turph code-health sweep (Concerns→code) is out of sync — 11.5d ago",
       "node": "ops.integrity"
     }
   ]
