@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-14T18:26:00-04:00",
+  "generated_at": "2026-08-14T18:36:02-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-08-14T22:00:11Z"
+      "heartbeat": "2026-08-14T22:30:12Z"
     },
     {
       "id": "insurance",
@@ -650,13 +650,5 @@
       "magnitude": 0.667
     }
   ],
-  "attention": [
-    {
-      "id": "integrity:freshness:repo-doctor.laptop",
-      "app": "integrity",
-      "priority": 2,
-      "headline": "repo-doctor laptop (Needs-you) is out of sync — 8.4h ago",
-      "node": "ops.integrity"
-    }
-  ]
+  "attention": []
 }
