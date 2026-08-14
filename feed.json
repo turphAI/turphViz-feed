@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-14T06:23:56-04:00",
+  "generated_at": "2026-08-14T06:33:57-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-08-14T10:06:19Z"
+      "heartbeat": "2026-08-14T10:30:07Z"
     },
     {
       "id": "insurance",
@@ -142,7 +142,7 @@
       "status": "ok",
       "last_run_at": "2026-08-01T03:01:24.037829-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-08-13T06:30:00-04:00"
+      "heartbeat": "2026-08-14T06:30:01-04:00"
     },
     {
       "id": "vasospasm",
@@ -655,7 +655,7 @@
       "id": "integrity:freshness:repo-doctor.laptop",
       "app": "integrity",
       "priority": 2,
-      "headline": "repo-doctor laptop (Needs-you) is out of sync — 12.0h ago",
+      "headline": "repo-doctor laptop (Needs-you) is out of sync — 12.5h ago",
       "node": "ops.integrity"
     }
   ]
