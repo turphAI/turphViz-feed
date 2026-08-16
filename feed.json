@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-15T22:30:31-04:00",
+  "generated_at": "2026-08-15T22:40:33-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -152,7 +152,7 @@
       "status": "ok",
       "last_run_at": "2026-08-15T08:05:01-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-08-15T22:09:06-04:00"
+      "heartbeat": "2026-08-15T22:39:06-04:00"
     },
     {
       "id": "witness",
