@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-17T05:55:25-04:00",
+  "generated_at": "2026-08-17T06:05:26-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-08-17T09:30:36Z"
+      "heartbeat": "2026-08-17T10:00:37Z"
     },
     {
       "id": "insurance",
@@ -650,5 +650,13 @@
       "magnitude": 0.0
     }
   ],
-  "attention": []
+  "attention": [
+    {
+      "id": "auth:laptop-claude-subscription",
+      "app": "auth",
+      "priority": 2,
+      "headline": "Claude CLI subscription login (sweep reviewer + digest synthesis) has lapsed on laptop — re-auth; automation that needs it is failing silently",
+      "node": "ops.auth"
+    }
+  ]
 }
