@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-19T14:04:26-04:00",
+  "generated_at": "2026-08-19T14:14:27-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -73,9 +73,9 @@
         "run_failed"
       ],
       "status": "ok",
-      "last_run_at": "2026-08-19T12:04:52Z",
+      "last_run_at": "2026-08-19T18:05:16Z",
       "queue_depth": 0,
-      "heartbeat": "2026-08-19T13:42:54-04:00"
+      "heartbeat": "2026-08-19T14:12:54-04:00"
     },
     {
       "id": "relo",
@@ -162,7 +162,7 @@
       "status": "ok",
       "last_run_at": "2026-08-19T08:05:06-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-08-19T13:39:24-04:00"
+      "heartbeat": "2026-08-19T14:09:24-04:00"
     },
     {
       "id": "witness",
@@ -220,6 +220,15 @@
     }
   ],
   "events": [
+    {
+      "id": "digest_published-2026-08-19-afternoon",
+      "at": "2026-08-19T18:05:16Z",
+      "app": "newsletter",
+      "kind": "digest_published",
+      "headline": "Afternoon digest · kept 32/5",
+      "detail_url": "#/news/2026-08-19-afternoon",
+      "magnitude": 0.681
+    },
     {
       "id": "digest_published-2026-08-19-morning",
       "at": "2026-08-19T12:04:52Z",
@@ -656,14 +665,6 @@
       "headline": "Morning digest · kept 48/8",
       "detail_url": "#/news/2026-07-28-morning",
       "magnitude": 0.762
-    },
-    {
-      "id": "deploy_completed-20260728T1012170400-4530",
-      "at": "2026-07-28T10:12:17-04:00",
-      "app": "turphfolio",
-      "kind": "deploy_completed",
-      "headline": "Deployed the latest commit to turphfolio.",
-      "detail_url": null
     }
   ],
   "attention": []
