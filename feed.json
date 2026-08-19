@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-19T09:53:47-04:00",
+  "generated_at": "2026-08-19T10:03:49-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,17 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-08-19T13:30:59Z"
+      "heartbeat": "2026-08-19T14:00:59Z"
+    },
+    {
+      "id": "hiking",
+      "name": "Hiking",
+      "kind": "service",
+      "desc": "NH 4000-footer & ADK 46 progress tracker and hike log; only code-health metadata surfaces.",
+      "status": "ok",
+      "last_run_at": null,
+      "queue_depth": 0,
+      "heartbeat": "2026-08-19T09:58:37-04:00"
     },
     {
       "id": "insurance",
@@ -166,6 +176,12 @@
     }
   ],
   "edges": [
+    {
+      "from": "hiking",
+      "to": "turph",
+      "kind": "publishes",
+      "label": "quality"
+    },
     {
       "from": "insurance",
       "to": "turph",
