@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-19T08:53:38-04:00",
+  "generated_at": "2026-08-19T09:03:40-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-08-19T12:30:59Z"
+      "heartbeat": "2026-08-19T13:00:59Z"
     },
     {
       "id": "insurance",
@@ -650,13 +650,5 @@
       "detail_url": null
     }
   ],
-  "attention": [
-    {
-      "id": "sweep-pr:witness-99",
-      "app": "sweep-pr",
-      "priority": 2,
-      "headline": "witness sweep PR #99 has sat unmerged 2d — nothing lands until it's reviewed",
-      "node": "ops.sweep-pr"
-    }
-  ]
+  "attention": []
 }
