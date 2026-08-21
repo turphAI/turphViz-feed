@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-20T20:28:59-04:00",
+  "generated_at": "2026-08-20T20:39:00-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-08-21T00:01:14Z"
+      "heartbeat": "2026-08-21T00:31:14Z"
     },
     {
       "id": "hiking",
