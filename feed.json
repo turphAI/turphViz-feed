@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-25T08:32:35-04:00",
+  "generated_at": "2026-08-25T08:42:36-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-08-25T12:02:40Z"
+      "heartbeat": "2026-08-25T12:32:40Z"
     },
     {
       "id": "hiking",
@@ -672,7 +672,7 @@
       "id": "integrity:freshness:navigator",
       "app": "integrity",
       "priority": 2,
-      "headline": "Navigator (On-deck) is out of sync — 4.8d ago",
+      "headline": "Navigator (On-deck) is out of sync — 4.9d ago",
       "node": "ops.integrity"
     },
     {
