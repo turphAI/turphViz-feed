@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-25T08:02:32-04:00",
+  "generated_at": "2026-08-25T08:12:33-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-08-25T11:32:25Z"
+      "heartbeat": "2026-08-25T12:02:40Z"
     },
     {
       "id": "hiking",
@@ -72,13 +72,10 @@
         "run_completed",
         "run_failed"
       ],
-      "status": "stale",
-      "last_run_at": "2026-08-20T18:03:58Z",
+      "status": "ok",
+      "last_run_at": "2026-08-25T12:12:11Z",
       "queue_depth": 0,
-      "heartbeat": "2026-08-25T08:02:30-04:00",
-      "warnings": [
-        "No run in 113h — expected twice daily"
-      ]
+      "heartbeat": "2026-08-25T08:12:11-04:00"
     },
     {
       "id": "relo",
@@ -226,6 +223,15 @@
     }
   ],
   "events": [
+    {
+      "id": "digest_published-2026-08-25-morning",
+      "at": "2026-08-25T12:12:11Z",
+      "app": "newsletter",
+      "kind": "digest_published",
+      "headline": "Morning digest · kept 54/14",
+      "detail_url": "#/news/2026-08-25-morning",
+      "magnitude": 0.783
+    },
     {
       "id": "oura_run-2026-08-25",
       "at": "2026-08-25T08:00:11-04:00",
@@ -662,15 +668,6 @@
       "headline": "Afternoon digest · kept 45/7",
       "detail_url": "#/news/2026-07-29-afternoon",
       "magnitude": 0.75
-    },
-    {
-      "id": "digest_published-2026-07-29-morning",
-      "at": "2026-07-29T12:08:16Z",
-      "app": "newsletter",
-      "kind": "digest_published",
-      "headline": "Morning digest · kept 25/5",
-      "detail_url": "#/news/2026-07-29-morning",
-      "magnitude": 0.625
     }
   ],
   "attention": [
@@ -688,20 +685,6 @@
       "node": "ops.integrity"
     },
     {
-      "id": "integrity:freshness:repo-doctor.laptop",
-      "app": "integrity",
-      "priority": 2,
-      "headline": "repo-doctor laptop (Needs-you) is out of sync — 4.3d ago",
-      "node": "ops.integrity"
-    },
-    {
-      "id": "integrity:freshness:repo-doctor.mini",
-      "app": "integrity",
-      "priority": 2,
-      "headline": "repo-doctor mini (Needs-you) is out of sync — 4.2d ago",
-      "node": "ops.integrity"
-    },
-    {
       "id": "integrity:freshness:auth-watch.laptop",
       "app": "integrity",
       "priority": 2,
@@ -712,7 +695,7 @@
       "id": "integrity:freshness:sweep-pr-watch.laptop",
       "app": "integrity",
       "priority": 2,
-      "headline": "sweep-pr-watch laptop (Systems) is out of sync — 4.9d ago",
+      "headline": "sweep-pr-watch laptop (Systems) is out of sync — 5.0d ago",
       "node": "ops.integrity"
     },
     {
