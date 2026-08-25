@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-25T13:02:54-04:00",
+  "generated_at": "2026-08-25T13:32:56-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-08-25T17:02:42Z"
+      "heartbeat": "2026-08-25T17:32:43Z"
     },
     {
       "id": "hiking",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-08-25T13:02:31-04:00"
+      "heartbeat": "2026-08-25T13:32:31-04:00"
     },
     {
       "id": "insurance",
@@ -60,7 +60,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-08-25T13:02:31-04:00"
+      "heartbeat": "2026-08-25T13:32:31-04:00"
     },
     {
       "id": "newsletter",
@@ -75,7 +75,7 @@
       "status": "ok",
       "last_run_at": "2026-08-25T12:12:11Z",
       "queue_depth": 0,
-      "heartbeat": "2026-08-25T13:02:31-04:00"
+      "heartbeat": "2026-08-25T13:32:31-04:00"
     },
     {
       "id": "relo",
@@ -139,7 +139,7 @@
       "status": "stale",
       "last_run_at": "2026-05-26T00:00:00-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-08-25T12:32:30-04:00",
+      "heartbeat": "2026-08-25T13:32:30-04:00",
       "warnings": [
         "No pipeline activity in 91d"
       ]
@@ -162,7 +162,7 @@
       "status": "ok",
       "last_run_at": "2026-08-25T08:05:02-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-08-25T13:02:31-04:00"
+      "heartbeat": "2026-08-25T13:32:31-04:00"
     },
     {
       "id": "witness",
@@ -172,7 +172,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-08-25T13:02:31-04:00"
+      "heartbeat": "2026-08-25T13:32:31-04:00"
     }
   ],
   "edges": [
@@ -672,7 +672,7 @@
       "id": "integrity:freshness:navigator",
       "app": "integrity",
       "priority": 2,
-      "headline": "Navigator (On-deck) is out of sync — 5.0d ago",
+      "headline": "Navigator (On-deck) is out of sync — 5.1d ago",
       "node": "ops.integrity"
     },
     {
