@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-21T01:49:45-04:00",
+  "generated_at": "2026-08-25T07:32:25-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -60,7 +60,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-08-21T01:21:46-04:00"
+      "heartbeat": "2026-08-25T07:32:25-04:00"
     },
     {
       "id": "newsletter",
@@ -72,10 +72,13 @@
         "run_completed",
         "run_failed"
       ],
-      "status": "ok",
+      "status": "stale",
       "last_run_at": "2026-08-20T18:03:58Z",
       "queue_depth": 0,
-      "heartbeat": "2026-08-21T01:43:01-04:00"
+      "heartbeat": "2026-08-25T07:32:25-04:00",
+      "warnings": [
+        "No run in 113h — expected twice daily"
+      ]
     },
     {
       "id": "relo",
@@ -139,9 +142,9 @@
       "status": "stale",
       "last_run_at": "2026-05-26T00:00:00-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-08-21T00:50:16-04:00",
+      "heartbeat": "2026-08-25T07:32:25-04:00",
       "warnings": [
-        "No pipeline activity in 87d"
+        "No pipeline activity in 91d"
       ]
     },
     {
@@ -152,17 +155,21 @@
       "status": "ok",
       "last_run_at": "2026-08-01T03:01:24.037829-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-08-20T06:30:04-04:00"
+      "heartbeat": "2026-08-25T07:32:25-04:00"
     },
     {
       "id": "vasospasm",
       "name": "Vasospasm",
       "kind": "pipeline",
       "desc": "Wearable/weather ingestion + correlation research for Tracie's vasospasm case; only pipeline-health metadata surfaces, never the underlying clinical data.",
-      "status": "ok",
+      "status": "stale",
       "last_run_at": "2026-08-20T08:05:01-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-08-21T01:39:32-04:00"
+      "heartbeat": "2026-08-25T07:32:25-04:00",
+      "warnings": [
+        "oura: stale — last ran 2026-08-20T08:00:09-04:00, expected within 36h",
+        "weather: stale — last ran 2026-08-20T08:05:01-04:00, expected within 36h"
+      ]
     },
     {
       "id": "witness",
@@ -667,5 +674,12 @@
       "magnitude": 0.625
     }
   ],
-  "attention": []
+  "attention": [
+    {
+      "id": "newsletter:stale_no_run",
+      "app": "newsletter",
+      "priority": 2,
+      "headline": "Newsletter: No run in 113h — expected twice daily"
+    }
+  ]
 }
