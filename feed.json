@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-25T07:32:25-04:00",
+  "generated_at": "2026-08-25T07:42:30-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-08-21T05:31:16Z"
+      "heartbeat": "2026-08-25T11:32:25Z"
     },
     {
       "id": "hiking",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-08-21T01:28:45-04:00"
+      "heartbeat": "2026-08-25T07:32:25-04:00"
     },
     {
       "id": "insurance",
@@ -179,7 +179,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-08-21T01:48:20-04:00"
+      "heartbeat": "2026-08-25T07:32:25-04:00"
     }
   ],
   "edges": [
@@ -680,6 +680,48 @@
       "app": "newsletter",
       "priority": 2,
       "headline": "Newsletter: No run in 113h — expected twice daily"
+    },
+    {
+      "id": "integrity:freshness:navigator",
+      "app": "integrity",
+      "priority": 2,
+      "headline": "Navigator (On-deck) is out of sync — 4.8d ago",
+      "node": "ops.integrity"
+    },
+    {
+      "id": "integrity:freshness:repo-doctor.laptop",
+      "app": "integrity",
+      "priority": 2,
+      "headline": "repo-doctor laptop (Needs-you) is out of sync — 4.3d ago",
+      "node": "ops.integrity"
+    },
+    {
+      "id": "integrity:freshness:repo-doctor.mini",
+      "app": "integrity",
+      "priority": 2,
+      "headline": "repo-doctor mini (Needs-you) is out of sync — 4.2d ago",
+      "node": "ops.integrity"
+    },
+    {
+      "id": "integrity:freshness:auth-watch.laptop",
+      "app": "integrity",
+      "priority": 2,
+      "headline": "auth-watch laptop (Systems) is out of sync — 5.1d ago",
+      "node": "ops.integrity"
+    },
+    {
+      "id": "integrity:freshness:sweep-pr-watch.laptop",
+      "app": "integrity",
+      "priority": 2,
+      "headline": "sweep-pr-watch laptop (Systems) is out of sync — 4.9d ago",
+      "node": "ops.integrity"
+    },
+    {
+      "id": "integrity:freshness:turph.sweep",
+      "app": "integrity",
+      "priority": 2,
+      "headline": "turph code-health sweep (Concerns→code) is out of sync — 10.5d ago",
+      "node": "ops.integrity"
     }
   ]
 }
