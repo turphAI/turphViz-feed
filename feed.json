@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-28T06:06:51-04:00",
+  "generated_at": "2026-08-28T06:36:53-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-08-28T10:03:10Z"
+      "heartbeat": "2026-08-28T10:33:10Z"
     },
     {
       "id": "hiking",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-08-28T06:02:44-04:00"
+      "heartbeat": "2026-08-28T06:32:44-04:00"
     },
     {
       "id": "insurance",
@@ -60,7 +60,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-08-28T06:02:44-04:00"
+      "heartbeat": "2026-08-28T06:32:44-04:00"
     },
     {
       "id": "newsletter",
@@ -75,7 +75,7 @@
       "status": "ok",
       "last_run_at": "2026-08-27T18:03:56Z",
       "queue_depth": 0,
-      "heartbeat": "2026-08-28T06:02:44-04:00"
+      "heartbeat": "2026-08-28T06:32:44-04:00"
     },
     {
       "id": "relo",
@@ -139,7 +139,7 @@
       "status": "stale",
       "last_run_at": "2026-05-26T00:00:00-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-08-28T05:32:37-04:00",
+      "heartbeat": "2026-08-28T06:32:38-04:00",
       "warnings": [
         "No pipeline activity in 94d"
       ]
@@ -152,7 +152,7 @@
       "status": "ok",
       "last_run_at": "2026-08-01T03:01:24.037829-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-08-27T06:30:00-04:00"
+      "heartbeat": "2026-08-28T06:30:00-04:00"
     },
     {
       "id": "vasospasm",
@@ -162,7 +162,7 @@
       "status": "ok",
       "last_run_at": "2026-08-27T08:05:06-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-08-28T06:02:44-04:00"
+      "heartbeat": "2026-08-28T06:32:44-04:00"
     },
     {
       "id": "witness",
@@ -172,7 +172,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-08-28T06:02:44-04:00"
+      "heartbeat": "2026-08-28T06:32:44-04:00"
     }
   ],
   "edges": [
@@ -672,7 +672,7 @@
       "id": "integrity:freshness:repo-doctor.laptop",
       "app": "integrity",
       "priority": 2,
-      "headline": "repo-doctor laptop (Needs-you) is out of sync — 11.6h ago",
+      "headline": "repo-doctor laptop (Needs-you) is out of sync — 12.1h ago",
       "node": "ops.integrity"
     },
     {
