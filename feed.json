@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-29T08:38:28-04:00",
+  "generated_at": "2026-08-29T09:08:30-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-08-29T12:33:21Z"
+      "heartbeat": "2026-08-29T13:03:21Z"
     },
     {
       "id": "hiking",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-08-29T08:32:50-04:00"
+      "heartbeat": "2026-08-29T09:02:50-04:00"
     },
     {
       "id": "insurance",
@@ -60,7 +60,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-08-29T08:32:50-04:00"
+      "heartbeat": "2026-08-29T09:02:50-04:00"
     },
     {
       "id": "newsletter",
@@ -75,7 +75,7 @@
       "status": "ok",
       "last_run_at": "2026-08-29T12:05:23Z",
       "queue_depth": 0,
-      "heartbeat": "2026-08-29T08:32:50-04:00"
+      "heartbeat": "2026-08-29T09:02:50-04:00"
     },
     {
       "id": "relo",
@@ -162,7 +162,7 @@
       "status": "ok",
       "last_run_at": "2026-08-29T08:05:05-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-08-29T08:32:50-04:00"
+      "heartbeat": "2026-08-29T09:02:50-04:00"
     },
     {
       "id": "witness",
@@ -172,7 +172,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-08-29T08:32:50-04:00"
+      "heartbeat": "2026-08-29T09:02:50-04:00"
     }
   ],
   "edges": [
@@ -707,14 +707,14 @@
       "id": "sweep-pr:witness-106",
       "app": "sweep-pr",
       "priority": 2,
-      "headline": "witness sweep PR #106 has sat unmerged 4d — nothing lands until it's reviewed",
+      "headline": "witness sweep PR #106 has sat unmerged 5d — nothing lands until it's reviewed",
       "node": "ops.sweep-pr"
     },
     {
       "id": "sweep-pr:turphfolio-74",
       "app": "sweep-pr",
       "priority": 2,
-      "headline": "turphfolio sweep PR #74 has sat unmerged 4d — nothing lands until it's reviewed",
+      "headline": "turphfolio sweep PR #74 has sat unmerged 5d — nothing lands until it's reviewed",
       "node": "ops.sweep-pr"
     },
     {
