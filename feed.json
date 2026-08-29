@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-29T06:08:20-04:00",
+  "generated_at": "2026-08-29T06:38:22-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-08-29T10:03:31Z"
+      "heartbeat": "2026-08-29T10:33:20Z"
     },
     {
       "id": "hiking",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-08-29T06:02:49-04:00"
+      "heartbeat": "2026-08-29T06:32:50-04:00"
     },
     {
       "id": "insurance",
@@ -60,7 +60,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-08-29T06:02:49-04:00"
+      "heartbeat": "2026-08-29T06:32:50-04:00"
     },
     {
       "id": "newsletter",
@@ -75,7 +75,7 @@
       "status": "ok",
       "last_run_at": "2026-08-28T18:07:26Z",
       "queue_depth": 0,
-      "heartbeat": "2026-08-29T06:02:49-04:00"
+      "heartbeat": "2026-08-29T06:32:50-04:00"
     },
     {
       "id": "relo",
@@ -139,7 +139,7 @@
       "status": "stale",
       "last_run_at": "2026-05-26T00:00:00-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-08-29T05:32:40-04:00",
+      "heartbeat": "2026-08-29T06:32:40-04:00",
       "warnings": [
         "No pipeline activity in 95d"
       ]
@@ -152,7 +152,7 @@
       "status": "ok",
       "last_run_at": "2026-08-01T03:01:24.037829-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-08-28T06:30:00-04:00"
+      "heartbeat": "2026-08-29T06:30:00-04:00"
     },
     {
       "id": "vasospasm",
@@ -162,7 +162,7 @@
       "status": "ok",
       "last_run_at": "2026-08-28T08:05:03-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-08-29T06:02:49-04:00"
+      "heartbeat": "2026-08-29T06:32:50-04:00"
     },
     {
       "id": "witness",
@@ -172,7 +172,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-08-29T06:02:49-04:00"
+      "heartbeat": "2026-08-29T06:32:50-04:00"
     }
   ],
   "edges": [
@@ -716,6 +716,12 @@
       "priority": 2,
       "headline": "turphfolio sweep PR #74 has sat unmerged 4d — nothing lands until it's reviewed",
       "node": "ops.sweep-pr"
+    },
+    {
+      "id": "turphfolio:refresh_inputs",
+      "app": "turphfolio",
+      "priority": 1,
+      "headline": "pull fresh Fidelity positions CSVs + monthly statements and re-import"
     }
   ]
 }
