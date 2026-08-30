@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-30T07:39:49-04:00",
+  "generated_at": "2026-08-30T08:09:51-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-08-30T11:33:31Z"
+      "heartbeat": "2026-08-30T12:03:31Z"
     },
     {
       "id": "hiking",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-08-30T07:32:55-04:00"
+      "heartbeat": "2026-08-30T08:02:55-04:00"
     },
     {
       "id": "insurance",
@@ -60,7 +60,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-08-30T07:32:55-04:00"
+      "heartbeat": "2026-08-30T08:02:55-04:00"
     },
     {
       "id": "newsletter",
@@ -73,9 +73,9 @@
         "run_failed"
       ],
       "status": "ok",
-      "last_run_at": "2026-08-29T18:00:02Z",
+      "last_run_at": "2026-08-30T12:02:16Z",
       "queue_depth": 0,
-      "heartbeat": "2026-08-30T07:32:55-04:00"
+      "heartbeat": "2026-08-30T08:02:55-04:00"
     },
     {
       "id": "relo",
@@ -160,9 +160,9 @@
       "kind": "pipeline",
       "desc": "Wearable/weather ingestion + correlation research for Tracie's vasospasm case; only pipeline-health metadata surfaces, never the underlying clinical data.",
       "status": "ok",
-      "last_run_at": "2026-08-29T08:05:05-04:00",
+      "last_run_at": "2026-08-30T08:00:13-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-08-30T07:32:55-04:00"
+      "heartbeat": "2026-08-30T08:02:55-04:00"
     },
     {
       "id": "witness",
@@ -172,7 +172,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-08-30T07:32:55-04:00"
+      "heartbeat": "2026-08-30T08:02:55-04:00"
     }
   ],
   "edges": [
@@ -221,6 +221,23 @@
   ],
   "events": [
     {
+      "id": "digest_published-2026-08-30-morning",
+      "at": "2026-08-30T12:02:16Z",
+      "app": "newsletter",
+      "kind": "digest_published",
+      "headline": "Morning digest · kept 16/2",
+      "detail_url": "#/news/2026-08-30-morning",
+      "magnitude": 0.516
+    },
+    {
+      "id": "oura_run-2026-08-30",
+      "at": "2026-08-30T08:00:13-04:00",
+      "app": "vasospasm",
+      "kind": "run_completed",
+      "headline": "Oura ingest completed — 5950 rows across 9 endpoints",
+      "detail_url": null
+    },
+    {
       "id": "digest_published-2026-08-29-afternoon",
       "at": "2026-08-29T18:00:02Z",
       "app": "newsletter",
@@ -244,14 +261,6 @@
       "app": "vasospasm",
       "kind": "run_completed",
       "headline": "Weather ingest completed — 7 weather days, 168 hourly rows",
-      "detail_url": null
-    },
-    {
-      "id": "oura_run-2026-08-29",
-      "at": "2026-08-29T08:00:12-04:00",
-      "app": "vasospasm",
-      "kind": "run_completed",
-      "headline": "Oura ingest completed — 3746 rows across 9 endpoints",
       "detail_url": null
     },
     {
@@ -656,25 +665,9 @@
       "headline": "Afternoon digest · kept 34/10",
       "detail_url": "#/news/2026-08-03-afternoon",
       "magnitude": 0.694
-    },
-    {
-      "id": "digest_published-2026-08-03-morning",
-      "at": "2026-08-03T12:05:53Z",
-      "app": "newsletter",
-      "kind": "digest_published",
-      "headline": "Morning digest · kept 31/5",
-      "detail_url": "#/news/2026-08-03-morning",
-      "magnitude": 0.674
     }
   ],
   "attention": [
-    {
-      "id": "integrity:freshness:newsletter.sweep",
-      "app": "integrity",
-      "priority": 2,
-      "headline": "newsletter code-health sweep (Concerns→code) is out of sync — 14.5d ago",
-      "node": "ops.integrity"
-    },
     {
       "id": "integrity:freshness:turph.sweep",
       "app": "integrity",
@@ -687,13 +680,6 @@
       "app": "integrity",
       "priority": 2,
       "headline": "witness code-health sweep (Concerns→code) is out of sync — 14.5d ago",
-      "node": "ops.integrity"
-    },
-    {
-      "id": "integrity:freshness:insurance.sweep",
-      "app": "integrity",
-      "priority": 2,
-      "headline": "insurance code-health sweep (Concerns→code) is out of sync — 14.5d ago",
       "node": "ops.integrity"
     },
     {
