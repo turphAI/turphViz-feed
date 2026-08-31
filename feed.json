@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-31T04:11:06-04:00",
+  "generated_at": "2026-08-31T04:41:08-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-08-31T08:03:40Z"
+      "heartbeat": "2026-08-31T08:33:40Z"
     },
     {
       "id": "hiking",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-08-31T04:02:59-04:00"
+      "heartbeat": "2026-08-31T04:32:59-04:00"
     },
     {
       "id": "insurance",
@@ -60,7 +60,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-08-31T04:02:59-04:00"
+      "heartbeat": "2026-08-31T04:32:59-04:00"
     },
     {
       "id": "newsletter",
@@ -75,7 +75,7 @@
       "status": "ok",
       "last_run_at": "2026-08-30T18:03:28Z",
       "queue_depth": 0,
-      "heartbeat": "2026-08-31T04:02:59-04:00"
+      "heartbeat": "2026-08-31T04:32:59-04:00"
     },
     {
       "id": "relo",
@@ -139,7 +139,7 @@
       "status": "stale",
       "last_run_at": "2026-05-26T00:00:00-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-08-31T03:32:45-04:00",
+      "heartbeat": "2026-08-31T04:32:45-04:00",
       "warnings": [
         "No pipeline activity in 97d"
       ]
@@ -162,7 +162,7 @@
       "status": "ok",
       "last_run_at": "2026-08-30T08:05:01-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-08-31T04:02:59-04:00"
+      "heartbeat": "2026-08-31T04:32:59-04:00"
     },
     {
       "id": "witness",
@@ -172,7 +172,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-08-31T04:02:59-04:00"
+      "heartbeat": "2026-08-31T04:32:59-04:00"
     }
   ],
   "edges": [
@@ -672,28 +672,28 @@
       "id": "integrity:freshness:repo-doctor.laptop",
       "app": "integrity",
       "priority": 2,
-      "headline": "repo-doctor laptop (Needs-you) is out of sync — 11.0h ago",
+      "headline": "repo-doctor laptop (Needs-you) is out of sync — 11.5h ago",
       "node": "ops.integrity"
     },
     {
       "id": "integrity:freshness:turph.sweep",
       "app": "integrity",
       "priority": 2,
-      "headline": "turph code-health sweep (Concerns→code) is out of sync — 16.3d ago",
+      "headline": "turph code-health sweep (Concerns→code) is out of sync — 16.4d ago",
       "node": "ops.integrity"
     },
     {
       "id": "integrity:freshness:witness.sweep",
       "app": "integrity",
       "priority": 2,
-      "headline": "witness code-health sweep (Concerns→code) is out of sync — 15.3d ago",
+      "headline": "witness code-health sweep (Concerns→code) is out of sync — 15.4d ago",
       "node": "ops.integrity"
     },
     {
       "id": "integrity:freshness:turphfolio.sweep",
       "app": "integrity",
       "priority": 2,
-      "headline": "turphfolio code-health sweep (Concerns→code) is out of sync — 15.3d ago",
+      "headline": "turphfolio code-health sweep (Concerns→code) is out of sync — 15.4d ago",
       "node": "ops.integrity"
     },
     {
