@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-31T11:11:35-04:00",
+  "generated_at": "2026-08-31T11:41:37-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-08-31T15:03:43Z"
+      "heartbeat": "2026-08-31T15:33:43Z"
     },
     {
       "id": "hiking",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-08-31T11:03:01-04:00"
+      "heartbeat": "2026-08-31T11:33:01-04:00"
     },
     {
       "id": "insurance",
@@ -60,7 +60,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-08-31T11:03:01-04:00"
+      "heartbeat": "2026-08-31T11:33:01-04:00"
     },
     {
       "id": "newsletter",
@@ -75,7 +75,7 @@
       "status": "ok",
       "last_run_at": "2026-08-31T12:03:53Z",
       "queue_depth": 0,
-      "heartbeat": "2026-08-31T11:03:01-04:00"
+      "heartbeat": "2026-08-31T11:33:01-04:00"
     },
     {
       "id": "relo",
@@ -139,7 +139,7 @@
       "status": "stale",
       "last_run_at": "2026-05-26T00:00:00-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-08-31T10:32:46-04:00",
+      "heartbeat": "2026-08-31T11:32:46-04:00",
       "warnings": [
         "No pipeline activity in 97d"
       ]
@@ -162,7 +162,7 @@
       "status": "ok",
       "last_run_at": "2026-08-31T08:05:06-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-08-31T11:03:01-04:00"
+      "heartbeat": "2026-08-31T11:33:01-04:00"
     },
     {
       "id": "witness",
@@ -172,7 +172,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-08-31T11:03:01-04:00"
+      "heartbeat": "2026-08-31T11:33:01-04:00"
     }
   ],
   "edges": [
