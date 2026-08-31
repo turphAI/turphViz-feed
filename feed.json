@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-31T09:01:26-04:00",
+  "generated_at": "2026-08-31T09:11:27-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-08-31T13:00:04Z"
+      "heartbeat": "2026-08-31T13:03:42Z"
     },
     {
       "id": "hiking",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-08-31T08:33:00-04:00"
+      "heartbeat": "2026-08-31T09:03:00-04:00"
     },
     {
       "id": "insurance",
@@ -60,7 +60,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-08-31T08:33:00-04:00"
+      "heartbeat": "2026-08-31T09:03:00-04:00"
     },
     {
       "id": "newsletter",
@@ -75,7 +75,7 @@
       "status": "ok",
       "last_run_at": "2026-08-31T12:03:53Z",
       "queue_depth": 0,
-      "heartbeat": "2026-08-31T08:33:00-04:00"
+      "heartbeat": "2026-08-31T09:03:00-04:00"
     },
     {
       "id": "relo",
@@ -162,7 +162,7 @@
       "status": "ok",
       "last_run_at": "2026-08-31T08:05:06-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-08-31T08:33:00-04:00"
+      "heartbeat": "2026-08-31T09:03:00-04:00"
     },
     {
       "id": "witness",
@@ -172,7 +172,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-08-31T08:33:00-04:00"
+      "heartbeat": "2026-08-31T09:03:00-04:00"
     }
   ],
   "edges": [
@@ -669,13 +669,6 @@
   ],
   "attention": [
     {
-      "id": "integrity:freshness:turph.sweep",
-      "app": "integrity",
-      "priority": 2,
-      "headline": "turph code-health sweep (Concerns→code) is out of sync — 16.5d ago",
-      "node": "ops.integrity"
-    },
-    {
       "id": "integrity:freshness:witness.sweep",
       "app": "integrity",
       "priority": 2,
@@ -688,20 +681,6 @@
       "priority": 2,
       "headline": "turphfolio code-health sweep (Concerns→code) is out of sync — 15.5d ago",
       "node": "ops.integrity"
-    },
-    {
-      "id": "sweep-pr:witness-106",
-      "app": "sweep-pr",
-      "priority": 2,
-      "headline": "witness sweep PR #106 has sat unmerged 6d — nothing lands until it's reviewed",
-      "node": "ops.sweep-pr"
-    },
-    {
-      "id": "sweep-pr:turphfolio-74",
-      "app": "sweep-pr",
-      "priority": 2,
-      "headline": "turphfolio sweep PR #74 has sat unmerged 6d — nothing lands until it's reviewed",
-      "node": "ops.sweep-pr"
     },
     {
       "id": "turphfolio:refresh_inputs",
