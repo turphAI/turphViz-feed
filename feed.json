@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-01T03:12:34-04:00",
+  "generated_at": "2026-09-01T03:42:36-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-01T07:03:50Z"
+      "heartbeat": "2026-09-01T07:33:50Z"
     },
     {
       "id": "hiking",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-01T03:03:04-04:00"
+      "heartbeat": "2026-09-01T03:33:04-04:00"
     },
     {
       "id": "insurance",
@@ -60,7 +60,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-01T03:03:04-04:00"
+      "heartbeat": "2026-09-01T03:33:04-04:00"
     },
     {
       "id": "newsletter",
@@ -75,7 +75,7 @@
       "status": "ok",
       "last_run_at": "2026-08-31T18:06:34Z",
       "queue_depth": 0,
-      "heartbeat": "2026-09-01T03:03:04-04:00"
+      "heartbeat": "2026-09-01T03:33:04-04:00"
     },
     {
       "id": "relo",
@@ -139,7 +139,7 @@
       "status": "stale",
       "last_run_at": "2026-05-26T00:00:00-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-09-01T02:32:48-04:00",
+      "heartbeat": "2026-09-01T03:32:48-04:00",
       "warnings": [
         "No pipeline activity in 98d"
       ]
@@ -162,7 +162,7 @@
       "status": "ok",
       "last_run_at": "2026-08-31T08:05:06-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-09-01T03:03:04-04:00"
+      "heartbeat": "2026-09-01T03:33:04-04:00"
     },
     {
       "id": "witness",
@@ -172,7 +172,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-01T03:03:04-04:00"
+      "heartbeat": "2026-09-01T03:33:04-04:00"
     }
   ],
   "edges": [
@@ -667,12 +667,5 @@
       "magnitude": 0.712
     }
   ],
-  "attention": [
-    {
-      "id": "turphfolio:refresh_inputs",
-      "app": "turphfolio",
-      "priority": 1,
-      "headline": "pull fresh Fidelity positions CSVs + monthly statements and re-import"
-    }
-  ]
+  "attention": []
 }
