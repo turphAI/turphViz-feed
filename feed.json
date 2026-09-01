@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-01T15:13:43-04:00",
+  "generated_at": "2026-09-01T15:33:45-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-01T15:03:06-04:00"
+      "heartbeat": "2026-09-01T15:33:07-04:00"
     },
     {
       "id": "insurance",
@@ -60,7 +60,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-01T15:03:06-04:00"
+      "heartbeat": "2026-09-01T15:33:07-04:00"
     },
     {
       "id": "newsletter",
@@ -75,7 +75,7 @@
       "status": "ok",
       "last_run_at": "2026-09-01T18:05:26Z",
       "queue_depth": 0,
-      "heartbeat": "2026-09-01T15:03:06-04:00"
+      "heartbeat": "2026-09-01T15:33:07-04:00"
     },
     {
       "id": "relo",
@@ -139,7 +139,7 @@
       "status": "stale",
       "last_run_at": "2026-05-26T00:00:00-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-09-01T14:32:49-04:00",
+      "heartbeat": "2026-09-01T15:32:49-04:00",
       "warnings": [
         "No pipeline activity in 98d"
       ]
@@ -162,7 +162,7 @@
       "status": "ok",
       "last_run_at": "2026-09-01T08:10:03-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-09-01T15:03:06-04:00"
+      "heartbeat": "2026-09-01T15:33:07-04:00"
     },
     {
       "id": "witness",
@@ -172,7 +172,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-01T15:03:06-04:00"
+      "heartbeat": "2026-09-01T15:33:07-04:00"
     }
   ],
   "edges": [
