@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-01T02:42:32-04:00",
+  "generated_at": "2026-09-01T03:12:34-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-01T06:33:49Z"
+      "heartbeat": "2026-09-01T07:03:50Z"
     },
     {
       "id": "hiking",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-01T02:33:04-04:00"
+      "heartbeat": "2026-09-01T03:03:04-04:00"
     },
     {
       "id": "insurance",
@@ -60,7 +60,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-01T02:33:04-04:00"
+      "heartbeat": "2026-09-01T03:03:04-04:00"
     },
     {
       "id": "newsletter",
@@ -75,7 +75,7 @@
       "status": "ok",
       "last_run_at": "2026-08-31T18:06:34Z",
       "queue_depth": 0,
-      "heartbeat": "2026-09-01T02:33:04-04:00"
+      "heartbeat": "2026-09-01T03:03:04-04:00"
     },
     {
       "id": "relo",
@@ -150,9 +150,9 @@
       "kind": "service",
       "desc": "Conversational Fidelity look-through; only non-sensitive signal surfaces.",
       "status": "ok",
-      "last_run_at": "2026-08-01T03:01:24.037829-04:00",
+      "last_run_at": "2026-09-01T03:04:27.544377-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-08-31T06:30:00-04:00"
+      "heartbeat": "2026-09-01T03:04:28-04:00"
     },
     {
       "id": "vasospasm",
@@ -162,7 +162,7 @@
       "status": "ok",
       "last_run_at": "2026-08-31T08:05:06-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-09-01T02:33:04-04:00"
+      "heartbeat": "2026-09-01T03:03:04-04:00"
     },
     {
       "id": "witness",
@@ -172,7 +172,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-01T02:33:04-04:00"
+      "heartbeat": "2026-09-01T03:03:04-04:00"
     }
   ],
   "edges": [
