@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-02T07:34:49-04:00",
+  "generated_at": "2026-09-02T08:04:51-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-02T11:34:02Z"
+      "heartbeat": "2026-09-02T12:04:02Z"
     },
     {
       "id": "hiking",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-02T07:33:10-04:00"
+      "heartbeat": "2026-09-02T08:03:10-04:00"
     },
     {
       "id": "insurance",
@@ -60,7 +60,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-02T07:33:10-04:00"
+      "heartbeat": "2026-09-02T08:03:10-04:00"
     },
     {
       "id": "newsletter",
@@ -73,9 +73,9 @@
         "run_failed"
       ],
       "status": "ok",
-      "last_run_at": "2026-09-01T18:05:26Z",
+      "last_run_at": "2026-09-02T12:03:08Z",
       "queue_depth": 0,
-      "heartbeat": "2026-09-02T07:33:10-04:00"
+      "heartbeat": "2026-09-02T08:03:10-04:00"
     },
     {
       "id": "relo",
@@ -160,9 +160,9 @@
       "kind": "pipeline",
       "desc": "Wearable/weather ingestion + correlation research for Tracie's vasospasm case; only pipeline-health metadata surfaces, never the underlying clinical data.",
       "status": "ok",
-      "last_run_at": "2026-09-01T08:10:03-04:00",
+      "last_run_at": "2026-09-02T08:00:12-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-09-02T07:33:10-04:00"
+      "heartbeat": "2026-09-02T08:03:10-04:00"
     },
     {
       "id": "witness",
@@ -172,7 +172,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-02T07:33:10-04:00"
+      "heartbeat": "2026-09-02T08:03:10-04:00"
     }
   ],
   "edges": [
@@ -221,6 +221,23 @@
   ],
   "events": [
     {
+      "id": "digest_published-2026-09-02-morning",
+      "at": "2026-09-02T12:03:08Z",
+      "app": "newsletter",
+      "kind": "digest_published",
+      "headline": "Morning digest · kept 11/3",
+      "detail_url": "#/news/2026-09-02-morning",
+      "magnitude": 0.423
+    },
+    {
+      "id": "oura_run-2026-09-02",
+      "at": "2026-09-02T08:00:12-04:00",
+      "app": "vasospasm",
+      "kind": "run_completed",
+      "headline": "Oura ingest completed — 7351 rows across 9 endpoints",
+      "detail_url": null
+    },
+    {
       "id": "digest_published-2026-09-01-afternoon",
       "at": "2026-09-01T18:05:26Z",
       "app": "newsletter",
@@ -260,14 +277,6 @@
       "app": "vasospasm",
       "kind": "run_completed",
       "headline": "Weather ingest completed — 7 weather days, 168 hourly rows",
-      "detail_url": null
-    },
-    {
-      "id": "oura_run-2026-09-01",
-      "at": "2026-09-01T08:00:13-04:00",
-      "app": "vasospasm",
-      "kind": "run_completed",
-      "headline": "Oura ingest completed — 8572 rows across 9 endpoints",
       "detail_url": null
     },
     {
@@ -656,15 +665,6 @@
       "headline": "Afternoon digest · kept 23/4",
       "detail_url": "#/news/2026-08-06-afternoon",
       "magnitude": 0.605
-    },
-    {
-      "id": "digest_published-2026-08-06-morning",
-      "at": "2026-08-06T12:02:52Z",
-      "app": "newsletter",
-      "kind": "digest_published",
-      "headline": "Morning digest · kept 14/4",
-      "detail_url": "#/news/2026-08-06-morning",
-      "magnitude": 0.483
     }
   ],
   "attention": [
