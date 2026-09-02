@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-01T20:34:09-04:00",
+  "generated_at": "2026-09-01T21:04:11-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-02T00:33:57Z"
+      "heartbeat": "2026-09-02T01:03:57Z"
     },
     {
       "id": "hiking",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-01T20:33:08-04:00"
+      "heartbeat": "2026-09-01T21:03:08-04:00"
     },
     {
       "id": "insurance",
@@ -60,7 +60,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-01T20:33:08-04:00"
+      "heartbeat": "2026-09-01T21:03:08-04:00"
     },
     {
       "id": "newsletter",
@@ -75,7 +75,7 @@
       "status": "ok",
       "last_run_at": "2026-09-01T18:05:26Z",
       "queue_depth": 0,
-      "heartbeat": "2026-09-01T20:33:08-04:00"
+      "heartbeat": "2026-09-01T21:03:08-04:00"
     },
     {
       "id": "relo",
@@ -162,7 +162,7 @@
       "status": "ok",
       "last_run_at": "2026-09-01T08:10:03-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-09-01T20:33:08-04:00"
+      "heartbeat": "2026-09-01T21:03:08-04:00"
     },
     {
       "id": "witness",
@@ -172,7 +172,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-01T20:33:08-04:00"
+      "heartbeat": "2026-09-01T21:03:08-04:00"
     }
   ],
   "edges": [
