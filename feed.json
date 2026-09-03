@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-03T06:06:19-04:00",
+  "generated_at": "2026-09-03T06:36:21-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-03T10:04:11Z"
+      "heartbeat": "2026-09-03T10:34:12Z"
     },
     {
       "id": "hiking",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-03T06:03:15-04:00"
+      "heartbeat": "2026-09-03T06:33:15-04:00"
     },
     {
       "id": "insurance",
@@ -60,7 +60,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-03T06:03:15-04:00"
+      "heartbeat": "2026-09-03T06:33:15-04:00"
     },
     {
       "id": "newsletter",
@@ -75,7 +75,7 @@
       "status": "ok",
       "last_run_at": "2026-09-02T18:05:58Z",
       "queue_depth": 0,
-      "heartbeat": "2026-09-03T06:03:15-04:00"
+      "heartbeat": "2026-09-03T06:33:15-04:00"
     },
     {
       "id": "relo",
@@ -139,7 +139,7 @@
       "status": "stale",
       "last_run_at": "2026-05-26T00:00:00-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-09-03T05:32:54-04:00",
+      "heartbeat": "2026-09-03T06:32:54-04:00",
       "warnings": [
         "No pipeline activity in 100d"
       ]
@@ -152,7 +152,7 @@
       "status": "ok",
       "last_run_at": "2026-09-01T03:04:27.544377-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-09-02T06:30:00-04:00"
+      "heartbeat": "2026-09-03T06:30:00-04:00"
     },
     {
       "id": "vasospasm",
@@ -162,7 +162,7 @@
       "status": "ok",
       "last_run_at": "2026-09-02T08:05:03-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-09-03T06:03:15-04:00"
+      "heartbeat": "2026-09-03T06:33:15-04:00"
     },
     {
       "id": "witness",
@@ -172,7 +172,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-03T06:03:15-04:00"
+      "heartbeat": "2026-09-03T06:33:15-04:00"
     }
   ],
   "edges": [
