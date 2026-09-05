@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-05T11:39:32-04:00",
+  "generated_at": "2026-09-05T12:09:34-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-05T15:34:34Z"
+      "heartbeat": "2026-09-05T16:04:34Z"
     },
     {
       "id": "hiking",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-05T11:33:26-04:00"
+      "heartbeat": "2026-09-05T12:03:26-04:00"
     },
     {
       "id": "insurance",
@@ -60,7 +60,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-05T11:33:26-04:00"
+      "heartbeat": "2026-09-05T12:03:26-04:00"
     },
     {
       "id": "newsletter",
@@ -75,7 +75,7 @@
       "status": "ok",
       "last_run_at": "2026-09-05T12:01:39Z",
       "queue_depth": 0,
-      "heartbeat": "2026-09-05T11:33:26-04:00"
+      "heartbeat": "2026-09-05T12:03:26-04:00"
     },
     {
       "id": "relo",
@@ -162,7 +162,7 @@
       "status": "ok",
       "last_run_at": "2026-09-05T08:05:03-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-09-05T11:33:26-04:00"
+      "heartbeat": "2026-09-05T12:03:26-04:00"
     },
     {
       "id": "witness",
@@ -172,7 +172,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-05T11:33:26-04:00"
+      "heartbeat": "2026-09-05T12:03:26-04:00"
     }
   ],
   "edges": [
@@ -679,7 +679,7 @@
       "id": "integrity:freshness:auth-watch.laptop",
       "app": "integrity",
       "priority": 2,
-      "headline": "auth-watch laptop (Systems) is out of sync — 2.2d ago",
+      "headline": "auth-watch laptop (Systems) is out of sync — 2.3d ago",
       "node": "ops.integrity"
     },
     {
@@ -693,7 +693,7 @@
       "id": "integrity:freshness:relo.sweep",
       "app": "integrity",
       "priority": 2,
-      "headline": "relo code-health sweep (Concerns→code) is out of sync — 13.6d ago",
+      "headline": "relo code-health sweep (Concerns→code) is out of sync — 13.7d ago",
       "node": "ops.integrity"
     }
   ]
