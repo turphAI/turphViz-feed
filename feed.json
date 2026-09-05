@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-04T21:08:42-04:00",
+  "generated_at": "2026-09-04T21:38:44-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-05T01:04:28Z"
+      "heartbeat": "2026-09-05T01:34:28Z"
     },
     {
       "id": "hiking",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-04T21:03:23-04:00"
+      "heartbeat": "2026-09-04T21:33:23-04:00"
     },
     {
       "id": "insurance",
@@ -60,7 +60,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-04T21:03:23-04:00"
+      "heartbeat": "2026-09-04T21:33:23-04:00"
     },
     {
       "id": "newsletter",
@@ -75,7 +75,7 @@
       "status": "ok",
       "last_run_at": "2026-09-04T18:07:44Z",
       "queue_depth": 0,
-      "heartbeat": "2026-09-04T21:03:23-04:00"
+      "heartbeat": "2026-09-04T21:33:23-04:00"
     },
     {
       "id": "relo",
@@ -139,7 +139,7 @@
       "status": "stale",
       "last_run_at": "2026-05-26T00:00:00-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-09-04T20:32:58-04:00",
+      "heartbeat": "2026-09-04T21:32:58-04:00",
       "warnings": [
         "No pipeline activity in 101d"
       ]
@@ -162,7 +162,7 @@
       "status": "ok",
       "last_run_at": "2026-09-04T08:05:02-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-09-04T21:03:23-04:00"
+      "heartbeat": "2026-09-04T21:33:23-04:00"
     },
     {
       "id": "witness",
@@ -172,7 +172,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-04T21:03:23-04:00"
+      "heartbeat": "2026-09-04T21:33:23-04:00"
     }
   ],
   "edges": [
@@ -693,7 +693,7 @@
       "id": "integrity:freshness:relo.sweep",
       "app": "integrity",
       "priority": 2,
-      "headline": "relo code-health sweep (Concerns→code) is out of sync — 13.0d ago",
+      "headline": "relo code-health sweep (Concerns→code) is out of sync — 13.1d ago",
       "node": "ops.integrity"
     }
   ]
