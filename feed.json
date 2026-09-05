@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-05T13:39:39-04:00",
+  "generated_at": "2026-09-05T14:09:41-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-05T17:34:35Z"
+      "heartbeat": "2026-09-05T18:04:35Z"
     },
     {
       "id": "hiking",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-05T13:33:26-04:00"
+      "heartbeat": "2026-09-05T14:03:26-04:00"
     },
     {
       "id": "insurance",
@@ -60,7 +60,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-05T13:33:26-04:00"
+      "heartbeat": "2026-09-05T14:03:26-04:00"
     },
     {
       "id": "newsletter",
@@ -73,9 +73,9 @@
         "run_failed"
       ],
       "status": "ok",
-      "last_run_at": "2026-09-05T12:01:39Z",
+      "last_run_at": "2026-09-05T18:02:47Z",
       "queue_depth": 0,
-      "heartbeat": "2026-09-05T13:33:26-04:00"
+      "heartbeat": "2026-09-05T14:03:26-04:00"
     },
     {
       "id": "relo",
@@ -162,7 +162,7 @@
       "status": "ok",
       "last_run_at": "2026-09-05T08:05:03-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-09-05T13:33:26-04:00"
+      "heartbeat": "2026-09-05T14:03:26-04:00"
     },
     {
       "id": "witness",
@@ -172,7 +172,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-05T13:33:26-04:00"
+      "heartbeat": "2026-09-05T14:03:26-04:00"
     }
   ],
   "edges": [
@@ -220,6 +220,15 @@
     }
   ],
   "events": [
+    {
+      "id": "digest_published-2026-09-05-afternoon",
+      "at": "2026-09-05T18:02:47Z",
+      "app": "newsletter",
+      "kind": "digest_published",
+      "headline": "Afternoon digest · kept 20/2",
+      "detail_url": "#/news/2026-09-05-afternoon",
+      "magnitude": 0.571
+    },
     {
       "id": "digest_published-2026-09-05-morning",
       "at": "2026-09-05T12:01:39Z",
@@ -656,15 +665,6 @@
       "headline": "Morning digest · kept 21/5",
       "detail_url": "#/news/2026-08-10-morning",
       "magnitude": 0.583
-    },
-    {
-      "id": "digest_published-2026-08-09-afternoon",
-      "at": "2026-08-09T18:02:31Z",
-      "app": "newsletter",
-      "kind": "digest_published",
-      "headline": "Afternoon digest · kept 15/3",
-      "detail_url": "#/news/2026-08-09-afternoon",
-      "magnitude": 0.5
     }
   ],
   "attention": [
@@ -693,7 +693,7 @@
       "id": "integrity:freshness:relo.sweep",
       "app": "integrity",
       "priority": 2,
-      "headline": "relo code-health sweep (Concerns→code) is out of sync — 13.7d ago",
+      "headline": "relo code-health sweep (Concerns→code) is out of sync — 13.8d ago",
       "node": "ops.integrity"
     }
   ]
