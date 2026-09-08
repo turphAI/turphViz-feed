@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-08T12:04:20-04:00",
+  "generated_at": "2026-09-08T12:14:22-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-08T15:35:05Z"
+      "heartbeat": "2026-09-08T16:05:05Z"
     },
     {
       "id": "hiking",
@@ -679,14 +679,14 @@
       "id": "integrity:freshness:auth-watch.laptop",
       "app": "integrity",
       "priority": 2,
-      "headline": "auth-watch laptop (Systems) is out of sync — 5.2d ago",
+      "headline": "auth-watch laptop (Systems) is out of sync — 5.3d ago",
       "node": "ops.integrity"
     },
     {
       "id": "integrity:freshness:relo.sweep",
       "app": "integrity",
       "priority": 2,
-      "headline": "relo code-health sweep (Concerns→code) is out of sync — 16.6d ago",
+      "headline": "relo code-health sweep (Concerns→code) is out of sync — 16.7d ago",
       "node": "ops.integrity"
     },
     {
