@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-08T07:03:47-04:00",
+  "generated_at": "2026-09-08T07:13:48-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-08T10:35:03Z"
+      "heartbeat": "2026-09-08T11:05:03Z"
     },
     {
       "id": "hiking",
@@ -693,7 +693,7 @@
       "id": "integrity:freshness:relo.sweep",
       "app": "integrity",
       "priority": 2,
-      "headline": "relo code-health sweep (Concerns→code) is out of sync — 16.4d ago",
+      "headline": "relo code-health sweep (Concerns→code) is out of sync — 16.5d ago",
       "node": "ops.integrity"
     }
   ]
