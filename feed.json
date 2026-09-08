@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-08T14:34:36-04:00",
+  "generated_at": "2026-09-08T14:44:38-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-08T18:05:06Z"
+      "heartbeat": "2026-09-08T18:35:06Z"
     },
     {
       "id": "hiking",
@@ -679,7 +679,7 @@
       "id": "integrity:freshness:auth-watch.laptop",
       "app": "integrity",
       "priority": 2,
-      "headline": "auth-watch laptop (Systems) is out of sync — 5.3d ago",
+      "headline": "auth-watch laptop (Systems) is out of sync — 5.4d ago",
       "node": "ops.integrity"
     },
     {
