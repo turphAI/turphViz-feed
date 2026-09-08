@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-08T04:33:33-04:00",
+  "generated_at": "2026-09-08T04:43:34-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-08T08:05:02Z"
+      "heartbeat": "2026-09-08T08:35:02Z"
     },
     {
       "id": "hiking",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-08T04:03:40-04:00"
+      "heartbeat": "2026-09-08T04:33:40-04:00"
     },
     {
       "id": "insurance",
@@ -60,7 +60,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-08T04:03:40-04:00"
+      "heartbeat": "2026-09-08T04:33:40-04:00"
     },
     {
       "id": "newsletter",
@@ -75,7 +75,7 @@
       "status": "ok",
       "last_run_at": "2026-09-07T18:09:30Z",
       "queue_depth": 0,
-      "heartbeat": "2026-09-08T04:03:40-04:00"
+      "heartbeat": "2026-09-08T04:33:40-04:00"
     },
     {
       "id": "relo",
@@ -162,7 +162,7 @@
       "status": "ok",
       "last_run_at": "2026-09-07T08:05:02-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-09-08T04:03:40-04:00"
+      "heartbeat": "2026-09-08T04:33:40-04:00"
     },
     {
       "id": "witness",
@@ -172,7 +172,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-08T04:03:40-04:00"
+      "heartbeat": "2026-09-08T04:33:40-04:00"
     }
   ],
   "edges": [
@@ -693,7 +693,7 @@
       "id": "integrity:freshness:relo.sweep",
       "app": "integrity",
       "priority": 2,
-      "headline": "relo code-health sweep (Concerns→code) is out of sync — 16.3d ago",
+      "headline": "relo code-health sweep (Concerns→code) is out of sync — 16.4d ago",
       "node": "ops.integrity"
     }
   ]
