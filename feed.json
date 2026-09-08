@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-08T10:34:10-04:00",
+  "generated_at": "2026-09-08T10:44:11-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-08T14:05:04Z"
+      "heartbeat": "2026-09-08T14:35:05Z"
     },
     {
       "id": "hiking",
@@ -686,7 +686,7 @@
       "id": "integrity:freshness:sweep-pr-watch.laptop",
       "app": "integrity",
       "priority": 2,
-      "headline": "sweep-pr-watch laptop (Systems) is out of sync — 5.0d ago",
+      "headline": "sweep-pr-watch laptop (Systems) is out of sync — 5.1d ago",
       "node": "ops.integrity"
     },
     {
