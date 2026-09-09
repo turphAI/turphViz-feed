@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-08T21:05:15-04:00",
+  "generated_at": "2026-09-08T21:35:17-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-09T01:05:09Z"
+      "heartbeat": "2026-09-09T01:35:09Z"
     },
     {
       "id": "hiking",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-08T21:03:43-04:00"
+      "heartbeat": "2026-09-08T21:33:43-04:00"
     },
     {
       "id": "insurance",
@@ -60,7 +60,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-08T21:03:43-04:00"
+      "heartbeat": "2026-09-08T21:33:43-04:00"
     },
     {
       "id": "newsletter",
@@ -75,7 +75,7 @@
       "status": "ok",
       "last_run_at": "2026-09-08T18:12:11Z",
       "queue_depth": 0,
-      "heartbeat": "2026-09-08T21:03:43-04:00"
+      "heartbeat": "2026-09-08T21:33:43-04:00"
     },
     {
       "id": "relo",
@@ -139,7 +139,7 @@
       "status": "stale",
       "last_run_at": "2026-05-26T00:00:00-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-09-08T20:33:09-04:00",
+      "heartbeat": "2026-09-08T21:33:09-04:00",
       "warnings": [
         "No pipeline activity in 105d"
       ]
@@ -162,7 +162,7 @@
       "status": "ok",
       "last_run_at": "2026-09-08T08:05:03-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-09-08T21:03:43-04:00"
+      "heartbeat": "2026-09-08T21:33:43-04:00"
     },
     {
       "id": "witness",
@@ -172,7 +172,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-08T21:03:43-04:00"
+      "heartbeat": "2026-09-08T21:33:43-04:00"
     }
   ],
   "edges": [
@@ -686,49 +686,49 @@
       "id": "integrity:freshness:newsletter.sweep",
       "app": "integrity",
       "priority": 2,
-      "headline": "newsletter code-health sweep (Concerns→code) is out of sync — 10.0d ago",
+      "headline": "newsletter code-health sweep (Concerns→code) is out of sync — 10.1d ago",
       "node": "ops.integrity"
     },
     {
       "id": "integrity:freshness:turph.sweep",
       "app": "integrity",
       "priority": 2,
-      "headline": "turph code-health sweep (Concerns→code) is out of sync — 10.0d ago",
+      "headline": "turph code-health sweep (Concerns→code) is out of sync — 10.1d ago",
       "node": "ops.integrity"
     },
     {
       "id": "integrity:freshness:witness.sweep",
       "app": "integrity",
       "priority": 2,
-      "headline": "witness code-health sweep (Concerns→code) is out of sync — 10.0d ago",
+      "headline": "witness code-health sweep (Concerns→code) is out of sync — 10.1d ago",
       "node": "ops.integrity"
     },
     {
       "id": "integrity:freshness:insurance.sweep",
       "app": "integrity",
       "priority": 2,
-      "headline": "insurance code-health sweep (Concerns→code) is out of sync — 10.0d ago",
+      "headline": "insurance code-health sweep (Concerns→code) is out of sync — 10.1d ago",
       "node": "ops.integrity"
     },
     {
       "id": "integrity:freshness:relo.sweep",
       "app": "integrity",
       "priority": 2,
-      "headline": "relo code-health sweep (Concerns→code) is out of sync — 17.0d ago",
+      "headline": "relo code-health sweep (Concerns→code) is out of sync — 17.1d ago",
       "node": "ops.integrity"
     },
     {
       "id": "integrity:freshness:turphfolio.sweep",
       "app": "integrity",
       "priority": 2,
-      "headline": "turphfolio code-health sweep (Concerns→code) is out of sync — 10.0d ago",
+      "headline": "turphfolio code-health sweep (Concerns→code) is out of sync — 10.1d ago",
       "node": "ops.integrity"
     },
     {
       "id": "integrity:freshness:turphUtilities.sweep",
       "app": "integrity",
       "priority": 2,
-      "headline": "turphUtilities code-health sweep (Concerns→code) is out of sync — 10.0d ago",
+      "headline": "turphUtilities code-health sweep (Concerns→code) is out of sync — 10.1d ago",
       "node": "ops.integrity"
     },
     {
