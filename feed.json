@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-09T19:06:40-04:00",
+  "generated_at": "2026-09-15T09:33:01-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-09T19:03:48-04:00"
+      "heartbeat": "2026-09-15T09:33:01-04:00"
     },
     {
       "id": "insurance",
@@ -60,7 +60,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-09T19:03:48-04:00"
+      "heartbeat": "2026-09-15T09:33:00-04:00"
     },
     {
       "id": "newsletter",
@@ -72,10 +72,13 @@
         "run_completed",
         "run_failed"
       ],
-      "status": "ok",
+      "status": "stale",
       "last_run_at": "2026-09-09T18:07:31Z",
       "queue_depth": 0,
-      "heartbeat": "2026-09-09T19:03:48-04:00"
+      "heartbeat": "2026-09-15T09:33:00-04:00",
+      "warnings": [
+        "No run in 139h — expected twice daily"
+      ]
     },
     {
       "id": "relo",
@@ -139,9 +142,9 @@
       "status": "stale",
       "last_run_at": "2026-05-26T00:00:00-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-09-09T18:33:11-04:00",
+      "heartbeat": "2026-09-15T09:33:00-04:00",
       "warnings": [
-        "No pipeline activity in 106d"
+        "No pipeline activity in 112d"
       ]
     },
     {
@@ -152,17 +155,21 @@
       "status": "ok",
       "last_run_at": "2026-09-01T03:04:27.544377-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-09-09T06:30:00-04:00"
+      "heartbeat": "2026-09-15T09:33:00-04:00"
     },
     {
       "id": "vasospasm",
       "name": "Vasospasm",
       "kind": "pipeline",
       "desc": "Wearable/weather ingestion + correlation research for Tracie's vasospasm case; only pipeline-health metadata surfaces, never the underlying clinical data.",
-      "status": "ok",
+      "status": "stale",
       "last_run_at": "2026-09-09T08:05:05-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-09-09T19:03:48-04:00"
+      "heartbeat": "2026-09-15T09:33:00-04:00",
+      "warnings": [
+        "oura: stale — last ran 2026-09-09T08:00:13-04:00, expected within 36h",
+        "weather: stale — last ran 2026-09-09T08:05:05-04:00, expected within 36h"
+      ]
     },
     {
       "id": "witness",
@@ -668,6 +675,12 @@
     }
   ],
   "attention": [
+    {
+      "id": "newsletter:stale_no_run",
+      "app": "newsletter",
+      "priority": 2,
+      "headline": "Newsletter: No run in 139h — expected twice daily"
+    },
     {
       "id": "integrity:freshness:repo-doctor.laptop",
       "app": "integrity",
