@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-15T09:33:01-04:00",
+  "generated_at": "2026-09-15T09:42:50-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-09T23:05:19Z"
+      "heartbeat": "2026-09-15T13:33:01Z"
     },
     {
       "id": "hiking",
@@ -179,7 +179,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-09T19:03:48-04:00"
+      "heartbeat": "2026-09-15T09:33:01-04:00"
     }
   ],
   "edges": [
@@ -682,66 +682,87 @@
       "headline": "Newsletter: No run in 139h — expected twice daily"
     },
     {
+      "id": "integrity:freshness:navigator",
+      "app": "integrity",
+      "priority": 2,
+      "headline": "Navigator (On-deck) is out of sync — 6.1d ago",
+      "node": "ops.integrity"
+    },
+    {
       "id": "integrity:freshness:repo-doctor.laptop",
       "app": "integrity",
       "priority": 2,
-      "headline": "repo-doctor laptop (Needs-you) is out of sync — 21.2h ago",
+      "headline": "repo-doctor laptop (Needs-you) is out of sync — 6.5d ago",
+      "node": "ops.integrity"
+    },
+    {
+      "id": "integrity:freshness:repo-doctor.mini",
+      "app": "integrity",
+      "priority": 2,
+      "headline": "repo-doctor mini (Needs-you) is out of sync — 5.6d ago",
+      "node": "ops.integrity"
+    },
+    {
+      "id": "integrity:freshness:auth-watch.laptop",
+      "app": "integrity",
+      "priority": 2,
+      "headline": "auth-watch laptop (Systems) is out of sync — 6.1d ago",
       "node": "ops.integrity"
     },
     {
       "id": "integrity:freshness:sweep-pr-watch.laptop",
       "app": "integrity",
       "priority": 2,
-      "headline": "sweep-pr-watch laptop (Systems) is out of sync — 1.4d ago",
+      "headline": "sweep-pr-watch laptop (Systems) is out of sync — 7.0d ago",
       "node": "ops.integrity"
     },
     {
       "id": "integrity:freshness:newsletter.sweep",
       "app": "integrity",
       "priority": 2,
-      "headline": "newsletter code-health sweep (Concerns→code) is out of sync — 11.0d ago",
+      "headline": "newsletter code-health sweep (Concerns→code) is out of sync — 16.6d ago",
       "node": "ops.integrity"
     },
     {
       "id": "integrity:freshness:turph.sweep",
       "app": "integrity",
       "priority": 2,
-      "headline": "turph code-health sweep (Concerns→code) is out of sync — 11.0d ago",
+      "headline": "turph code-health sweep (Concerns→code) is out of sync — 16.6d ago",
       "node": "ops.integrity"
     },
     {
       "id": "integrity:freshness:witness.sweep",
       "app": "integrity",
       "priority": 2,
-      "headline": "witness code-health sweep (Concerns→code) is out of sync — 11.0d ago",
+      "headline": "witness code-health sweep (Concerns→code) is out of sync — 16.6d ago",
       "node": "ops.integrity"
     },
     {
       "id": "integrity:freshness:insurance.sweep",
       "app": "integrity",
       "priority": 2,
-      "headline": "insurance code-health sweep (Concerns→code) is out of sync — 11.0d ago",
+      "headline": "insurance code-health sweep (Concerns→code) is out of sync — 16.6d ago",
       "node": "ops.integrity"
     },
     {
       "id": "integrity:freshness:relo.sweep",
       "app": "integrity",
       "priority": 2,
-      "headline": "relo code-health sweep (Concerns→code) is out of sync — 18.0d ago",
+      "headline": "relo code-health sweep (Concerns→code) is out of sync — 23.6d ago",
       "node": "ops.integrity"
     },
     {
       "id": "integrity:freshness:turphfolio.sweep",
       "app": "integrity",
       "priority": 2,
-      "headline": "turphfolio code-health sweep (Concerns→code) is out of sync — 11.0d ago",
+      "headline": "turphfolio code-health sweep (Concerns→code) is out of sync — 16.6d ago",
       "node": "ops.integrity"
     },
     {
       "id": "integrity:freshness:turphUtilities.sweep",
       "app": "integrity",
       "priority": 2,
-      "headline": "turphUtilities code-health sweep (Concerns→code) is out of sync — 11.0d ago",
+      "headline": "turphUtilities code-health sweep (Concerns→code) is out of sync — 16.6d ago",
       "node": "ops.integrity"
     },
     {
