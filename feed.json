@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-15T10:42:59-04:00",
+  "generated_at": "2026-09-15T11:03:01-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-15T14:32:56Z"
+      "heartbeat": "2026-09-15T15:02:56Z"
     },
     {
       "id": "hiking",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-15T10:32:50-04:00"
+      "heartbeat": "2026-09-15T11:02:50-04:00"
     },
     {
       "id": "insurance",
@@ -60,7 +60,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-15T10:32:50-04:00"
+      "heartbeat": "2026-09-15T11:02:50-04:00"
     },
     {
       "id": "newsletter",
@@ -75,7 +75,7 @@
       "status": "stale",
       "last_run_at": "2026-09-09T18:07:31Z",
       "queue_depth": 0,
-      "heartbeat": "2026-09-15T10:32:50-04:00",
+      "heartbeat": "2026-09-15T11:02:50-04:00",
       "warnings": [
         "No run in 140h — expected twice daily"
       ]
@@ -165,7 +165,7 @@
       "status": "stale",
       "last_run_at": "2026-09-09T08:05:05-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-09-15T10:32:49-04:00",
+      "heartbeat": "2026-09-15T11:02:50-04:00",
       "warnings": [
         "oura: stale — last ran 2026-09-09T08:00:13-04:00, expected within 36h",
         "weather: stale — last ran 2026-09-09T08:05:05-04:00, expected within 36h"
@@ -179,7 +179,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-15T10:32:50-04:00"
+      "heartbeat": "2026-09-15T11:02:50-04:00"
     }
   ],
   "edges": [
@@ -685,14 +685,7 @@
       "id": "integrity:freshness:navigator",
       "app": "integrity",
       "priority": 2,
-      "headline": "Navigator (On-deck) is out of sync — 6.1d ago",
-      "node": "ops.integrity"
-    },
-    {
-      "id": "integrity:freshness:repo-doctor.laptop",
-      "app": "integrity",
-      "priority": 2,
-      "headline": "repo-doctor laptop (Needs-you) is out of sync — 6.5d ago",
+      "headline": "Navigator (On-deck) is out of sync — 6.2d ago",
       "node": "ops.integrity"
     },
     {
@@ -710,13 +703,6 @@
       "node": "ops.integrity"
     },
     {
-      "id": "integrity:freshness:newsletter.sweep",
-      "app": "integrity",
-      "priority": 2,
-      "headline": "newsletter code-health sweep (Concerns→code) is out of sync — 16.6d ago",
-      "node": "ops.integrity"
-    },
-    {
       "id": "integrity:freshness:turph.sweep",
       "app": "integrity",
       "priority": 2,
@@ -731,24 +717,10 @@
       "node": "ops.integrity"
     },
     {
-      "id": "integrity:freshness:relo.sweep",
-      "app": "integrity",
-      "priority": 2,
-      "headline": "relo code-health sweep (Concerns→code) is out of sync — 23.6d ago",
-      "node": "ops.integrity"
-    },
-    {
       "id": "integrity:freshness:turphfolio.sweep",
       "app": "integrity",
       "priority": 2,
       "headline": "turphfolio code-health sweep (Concerns→code) is out of sync — 16.6d ago",
-      "node": "ops.integrity"
-    },
-    {
-      "id": "integrity:freshness:turphUtilities.sweep",
-      "app": "integrity",
-      "priority": 2,
-      "headline": "turphUtilities code-health sweep (Concerns→code) is out of sync — 16.6d ago",
       "node": "ops.integrity"
     },
     {
