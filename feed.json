@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-15T12:33:07-04:00",
+  "generated_at": "2026-09-15T13:03:09-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-15T16:32:57Z"
+      "heartbeat": "2026-09-15T17:02:57Z"
     },
     {
       "id": "hiking",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-15T12:32:50-04:00"
+      "heartbeat": "2026-09-15T13:02:50-04:00"
     },
     {
       "id": "insurance",
@@ -60,7 +60,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-15T12:32:50-04:00"
+      "heartbeat": "2026-09-15T13:02:50-04:00"
     },
     {
       "id": "newsletter",
@@ -75,7 +75,7 @@
       "status": "stale",
       "last_run_at": "2026-09-09T18:07:31Z",
       "queue_depth": 0,
-      "heartbeat": "2026-09-15T12:32:50-04:00",
+      "heartbeat": "2026-09-15T13:02:50-04:00",
       "warnings": [
         "No run in 142h — expected twice daily"
       ]
@@ -165,7 +165,7 @@
       "status": "stale",
       "last_run_at": "2026-09-09T08:05:05-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-09-15T12:32:50-04:00",
+      "heartbeat": "2026-09-15T13:02:50-04:00",
       "warnings": [
         "oura: stale — last ran 2026-09-09T08:00:13-04:00, expected within 36h",
         "weather: stale — last ran 2026-09-09T08:05:05-04:00, expected within 36h"
@@ -179,7 +179,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-15T12:32:50-04:00"
+      "heartbeat": "2026-09-15T13:02:50-04:00"
     }
   ],
   "edges": [
@@ -699,7 +699,7 @@
       "id": "integrity:freshness:sweep-pr-watch.laptop",
       "app": "integrity",
       "priority": 2,
-      "headline": "sweep-pr-watch laptop (Systems) is out of sync — 7.1d ago",
+      "headline": "sweep-pr-watch laptop (Systems) is out of sync — 7.2d ago",
       "node": "ops.integrity"
     },
     {
