@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-15T10:32:56-04:00",
+  "generated_at": "2026-09-15T10:42:59-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-15T14:02:56Z"
+      "heartbeat": "2026-09-15T14:32:56Z"
     },
     {
       "id": "hiking",
@@ -706,7 +706,7 @@
       "id": "integrity:freshness:sweep-pr-watch.laptop",
       "app": "integrity",
       "priority": 2,
-      "headline": "sweep-pr-watch laptop (Systems) is out of sync — 7.0d ago",
+      "headline": "sweep-pr-watch laptop (Systems) is out of sync — 7.1d ago",
       "node": "ops.integrity"
     },
     {
@@ -728,13 +728,6 @@
       "app": "integrity",
       "priority": 2,
       "headline": "witness code-health sweep (Concerns→code) is out of sync — 16.6d ago",
-      "node": "ops.integrity"
-    },
-    {
-      "id": "integrity:freshness:insurance.sweep",
-      "app": "integrity",
-      "priority": 2,
-      "headline": "insurance code-health sweep (Concerns→code) is out of sync — 16.6d ago",
       "node": "ops.integrity"
     },
     {
