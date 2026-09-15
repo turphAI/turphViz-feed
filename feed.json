@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-15T14:23:15-04:00",
+  "generated_at": "2026-09-15T14:33:17-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-15T18:02:57Z"
+      "heartbeat": "2026-09-15T18:32:58Z"
     },
     {
       "id": "hiking",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-15T14:02:50-04:00"
+      "heartbeat": "2026-09-15T14:32:51-04:00"
     },
     {
       "id": "insurance",
@@ -60,7 +60,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-15T14:02:50-04:00"
+      "heartbeat": "2026-09-15T14:32:50-04:00"
     },
     {
       "id": "newsletter",
@@ -75,7 +75,7 @@
       "status": "ok",
       "last_run_at": "2026-09-15T18:18:16Z",
       "queue_depth": 0,
-      "heartbeat": "2026-09-15T14:18:16-04:00"
+      "heartbeat": "2026-09-15T14:32:50-04:00"
     },
     {
       "id": "relo",
@@ -139,7 +139,7 @@
       "status": "stale",
       "last_run_at": "2026-05-26T00:00:00-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-09-15T13:32:50-04:00",
+      "heartbeat": "2026-09-15T14:32:50-04:00",
       "warnings": [
         "No pipeline activity in 112d"
       ]
@@ -162,7 +162,7 @@
       "status": "stale",
       "last_run_at": "2026-09-09T08:05:05-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-09-15T14:02:50-04:00",
+      "heartbeat": "2026-09-15T14:32:50-04:00",
       "warnings": [
         "oura: stale — last ran 2026-09-09T08:00:13-04:00, expected within 36h",
         "weather: stale — last ran 2026-09-09T08:05:05-04:00, expected within 36h"
@@ -176,7 +176,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-15T14:02:50-04:00"
+      "heartbeat": "2026-09-15T14:32:51-04:00"
     }
   ],
   "edges": [
@@ -672,12 +672,6 @@
     }
   ],
   "attention": [
-    {
-      "id": "newsletter:stale_no_run",
-      "app": "newsletter",
-      "priority": 2,
-      "headline": "Newsletter: No run in 143h — expected twice daily"
-    },
     {
       "id": "integrity:freshness:navigator",
       "app": "integrity",
