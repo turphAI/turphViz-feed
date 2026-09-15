@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-15T10:02:52-04:00",
+  "generated_at": "2026-09-15T10:12:54-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-15T13:33:01Z"
+      "heartbeat": "2026-09-15T14:02:56Z"
     },
     {
       "id": "hiking",
@@ -696,17 +696,10 @@
       "node": "ops.integrity"
     },
     {
-      "id": "integrity:freshness:repo-doctor.mini",
-      "app": "integrity",
-      "priority": 2,
-      "headline": "repo-doctor mini (Needs-you) is out of sync — 5.6d ago",
-      "node": "ops.integrity"
-    },
-    {
       "id": "integrity:freshness:auth-watch.laptop",
       "app": "integrity",
       "priority": 2,
-      "headline": "auth-watch laptop (Systems) is out of sync — 6.1d ago",
+      "headline": "auth-watch laptop (Systems) is out of sync — 6.2d ago",
       "node": "ops.integrity"
     },
     {
