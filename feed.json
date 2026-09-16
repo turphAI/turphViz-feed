@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-16T01:03:55-04:00",
+  "generated_at": "2026-09-16T01:33:57-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-16T05:03:02Z"
+      "heartbeat": "2026-09-16T05:33:02Z"
     },
     {
       "id": "hiking",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-16T01:02:53-04:00"
+      "heartbeat": "2026-09-16T01:32:53-04:00"
     },
     {
       "id": "insurance",
@@ -60,7 +60,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-16T01:02:52-04:00"
+      "heartbeat": "2026-09-16T01:32:53-04:00"
     },
     {
       "id": "newsletter",
@@ -75,7 +75,7 @@
       "status": "ok",
       "last_run_at": "2026-09-15T18:18:16Z",
       "queue_depth": 0,
-      "heartbeat": "2026-09-16T01:02:52-04:00"
+      "heartbeat": "2026-09-16T01:32:53-04:00"
     },
     {
       "id": "relo",
@@ -139,7 +139,7 @@
       "status": "stale",
       "last_run_at": "2026-05-26T00:00:00-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-09-16T00:32:51-04:00",
+      "heartbeat": "2026-09-16T01:32:51-04:00",
       "warnings": [
         "No pipeline activity in 113d"
       ]
@@ -162,7 +162,7 @@
       "status": "stale",
       "last_run_at": "2026-09-09T08:05:05-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-09-16T01:02:52-04:00",
+      "heartbeat": "2026-09-16T01:32:53-04:00",
       "warnings": [
         "oura: stale — last ran 2026-09-09T08:00:13-04:00, expected within 36h",
         "weather: stale — last ran 2026-09-09T08:05:05-04:00, expected within 36h"
@@ -176,7 +176,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-16T01:02:53-04:00"
+      "heartbeat": "2026-09-16T01:32:53-04:00"
     }
   ],
   "edges": [
@@ -676,7 +676,7 @@
       "id": "integrity:freshness:navigator",
       "app": "integrity",
       "priority": 2,
-      "headline": "Navigator (On-deck) is out of sync — 6.7d ago",
+      "headline": "Navigator (On-deck) is out of sync — 6.8d ago",
       "node": "ops.integrity"
     },
     {
