@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-16T09:24:25-04:00",
+  "generated_at": "2026-09-16T09:34:27-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-16T13:14:44Z"
+      "heartbeat": "2026-09-16T13:33:06Z"
     },
     {
       "id": "hiking",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-16T09:02:54-04:00"
+      "heartbeat": "2026-09-16T09:32:54-04:00"
     },
     {
       "id": "insurance",
@@ -60,7 +60,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-16T09:02:54-04:00"
+      "heartbeat": "2026-09-16T09:32:54-04:00"
     },
     {
       "id": "newsletter",
@@ -75,7 +75,7 @@
       "status": "ok",
       "last_run_at": "2026-09-16T12:04:03Z",
       "queue_depth": 0,
-      "heartbeat": "2026-09-16T09:02:54-04:00"
+      "heartbeat": "2026-09-16T09:32:54-04:00"
     },
     {
       "id": "relo",
@@ -139,7 +139,7 @@
       "status": "stale",
       "last_run_at": "2026-05-26T00:00:00-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-09-16T08:32:52-04:00",
+      "heartbeat": "2026-09-16T09:32:52-04:00",
       "warnings": [
         "No pipeline activity in 113d"
       ]
@@ -162,7 +162,7 @@
       "status": "ok",
       "last_run_at": "2026-09-16T08:05:03-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-09-16T09:02:54-04:00"
+      "heartbeat": "2026-09-16T09:32:54-04:00"
     },
     {
       "id": "witness",
@@ -172,7 +172,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-16T09:02:54-04:00"
+      "heartbeat": "2026-09-16T09:32:54-04:00"
     }
   ],
   "edges": [
@@ -676,67 +676,25 @@
       "node": "ops.auth"
     },
     {
-      "id": "integrity:freshness:sweep-pr-watch.laptop",
-      "app": "integrity",
-      "priority": 2,
-      "headline": "sweep-pr-watch laptop (Systems) is out of sync — 8.0d ago",
-      "node": "ops.integrity"
-    },
-    {
       "id": "integrity:freshness:turph.sweep",
       "app": "integrity",
       "priority": 2,
-      "headline": "turph code-health sweep (Concerns→code) is out of sync — 17.5d ago",
+      "headline": "turph code-health sweep (Concerns→code) is out of sync — 17.6d ago",
       "node": "ops.integrity"
     },
     {
       "id": "integrity:freshness:witness.sweep",
       "app": "integrity",
       "priority": 2,
-      "headline": "witness code-health sweep (Concerns→code) is out of sync — 17.5d ago",
+      "headline": "witness code-health sweep (Concerns→code) is out of sync — 17.6d ago",
       "node": "ops.integrity"
     },
     {
       "id": "integrity:freshness:turphfolio.sweep",
       "app": "integrity",
       "priority": 2,
-      "headline": "turphfolio code-health sweep (Concerns→code) is out of sync — 17.5d ago",
+      "headline": "turphfolio code-health sweep (Concerns→code) is out of sync — 17.6d ago",
       "node": "ops.integrity"
-    },
-    {
-      "id": "sweep-pr:laptop-newsletter-probe",
-      "app": "sweep-pr",
-      "priority": 2,
-      "headline": "sweep-pr-watch couldn't check newsletter on laptop — probe is blind",
-      "node": "ops.sweep-pr"
-    },
-    {
-      "id": "sweep-pr:laptop-retirement_location-probe",
-      "app": "sweep-pr",
-      "priority": 2,
-      "headline": "sweep-pr-watch couldn't check retirement_location on laptop — probe is blind",
-      "node": "ops.sweep-pr"
-    },
-    {
-      "id": "sweep-pr:laptop-witness-probe",
-      "app": "sweep-pr",
-      "priority": 2,
-      "headline": "sweep-pr-watch couldn't check witness on laptop — probe is blind",
-      "node": "ops.sweep-pr"
-    },
-    {
-      "id": "sweep-pr:laptop-insurance-probe",
-      "app": "sweep-pr",
-      "priority": 2,
-      "headline": "sweep-pr-watch couldn't check insurance on laptop — probe is blind",
-      "node": "ops.sweep-pr"
-    },
-    {
-      "id": "sweep-pr:laptop-turph-probe",
-      "app": "sweep-pr",
-      "priority": 2,
-      "headline": "sweep-pr-watch couldn't check turph on laptop — probe is blind",
-      "node": "ops.sweep-pr"
     }
   ]
 }
