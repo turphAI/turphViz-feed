@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-16T14:04:44-04:00",
+  "generated_at": "2026-09-16T14:14:45-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -73,9 +73,9 @@
         "run_failed"
       ],
       "status": "ok",
-      "last_run_at": "2026-09-16T12:04:03Z",
+      "last_run_at": "2026-09-16T18:09:34Z",
       "queue_depth": 0,
-      "heartbeat": "2026-09-16T14:02:55-04:00"
+      "heartbeat": "2026-09-16T14:09:34-04:00"
     },
     {
       "id": "relo",
@@ -220,6 +220,15 @@
     }
   ],
   "events": [
+    {
+      "id": "digest_published-2026-09-16-afternoon",
+      "at": "2026-09-16T18:09:34Z",
+      "app": "newsletter",
+      "kind": "digest_published",
+      "headline": "Afternoon digest · kept 55/8",
+      "detail_url": "#/news/2026-09-16-afternoon",
+      "magnitude": 0.786
+    },
     {
       "id": "digest_published-2026-09-16-morning",
       "at": "2026-09-16T12:04:03Z",
@@ -656,15 +665,6 @@
       "headline": "Afternoon digest · kept 5/1",
       "detail_url": "#/news/2026-08-15-afternoon",
       "magnitude": 0.25
-    },
-    {
-      "id": "digest_published-2026-08-15-morning",
-      "at": "2026-08-15T12:02:01Z",
-      "app": "newsletter",
-      "kind": "digest_published",
-      "headline": "Morning digest · kept 9/2",
-      "detail_url": "#/news/2026-08-15-morning",
-      "magnitude": 0.375
     }
   ],
   "attention": [
