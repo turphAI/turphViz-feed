@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-17T16:26:36-04:00",
+  "generated_at": "2026-09-17T16:36:37-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-17T20:03:19Z"
+      "heartbeat": "2026-09-17T20:33:19Z"
     },
     {
       "id": "hiking",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-17T16:03:01-04:00"
+      "heartbeat": "2026-09-17T16:33:01-04:00"
     },
     {
       "id": "insurance",
@@ -60,7 +60,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-17T16:03:00-04:00"
+      "heartbeat": "2026-09-17T16:33:00-04:00"
     },
     {
       "id": "newsletter",
@@ -139,7 +139,7 @@
       "status": "stale",
       "last_run_at": "2026-05-26T00:00:00-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-09-17T15:32:55-04:00",
+      "heartbeat": "2026-09-17T16:32:00-04:00",
       "warnings": [
         "No pipeline activity in 114d"
       ]
@@ -152,7 +152,7 @@
       "status": "ok",
       "last_run_at": "2026-09-01T03:04:27.544377-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-09-17T06:30:02-04:00"
+      "heartbeat": "2026-09-17T16:31:59-04:00"
     },
     {
       "id": "vasospasm",
@@ -162,7 +162,7 @@
       "status": "ok",
       "last_run_at": "2026-09-17T08:05:04-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-09-17T16:03:00-04:00"
+      "heartbeat": "2026-09-17T16:33:00-04:00"
     },
     {
       "id": "witness",
