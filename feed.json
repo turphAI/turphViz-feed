@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-17T17:36:47-04:00",
+  "generated_at": "2026-09-17T17:46:49-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -60,7 +60,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-17T17:33:00-04:00"
+      "heartbeat": "2026-09-17T17:39:22-04:00"
     },
     {
       "id": "newsletter",
@@ -75,7 +75,7 @@
       "status": "ok",
       "last_run_at": "2026-09-17T18:03:18Z",
       "queue_depth": 0,
-      "heartbeat": "2026-09-17T17:24:12-04:00"
+      "heartbeat": "2026-09-17T17:39:22-04:00"
     },
     {
       "id": "relo",
@@ -139,7 +139,7 @@
       "status": "stale",
       "last_run_at": "2026-05-26T00:00:00-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-09-17T17:32:00-04:00",
+      "heartbeat": "2026-09-17T17:39:23-04:00",
       "warnings": [
         "No pipeline activity in 114d"
       ]
@@ -152,7 +152,7 @@
       "status": "ok",
       "last_run_at": "2026-09-01T03:04:27.544377-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-09-17T16:31:59-04:00"
+      "heartbeat": "2026-09-17T17:39:23-04:00"
     },
     {
       "id": "vasospasm",
@@ -172,7 +172,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-17T17:10:47-04:00"
+      "heartbeat": "2026-09-17T17:39:23-04:00"
     }
   ],
   "edges": [
