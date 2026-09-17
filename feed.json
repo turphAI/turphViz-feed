@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-17T11:06:03-04:00",
+  "generated_at": "2026-09-17T11:36:05-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-17T15:03:17Z"
+      "heartbeat": "2026-09-17T15:33:17Z"
     },
     {
       "id": "hiking",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-17T11:03:00-04:00"
+      "heartbeat": "2026-09-17T11:33:00-04:00"
     },
     {
       "id": "insurance",
@@ -60,7 +60,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-17T11:02:59-04:00"
+      "heartbeat": "2026-09-17T11:32:59-04:00"
     },
     {
       "id": "newsletter",
@@ -75,7 +75,7 @@
       "status": "ok",
       "last_run_at": "2026-09-17T12:02:50Z",
       "queue_depth": 0,
-      "heartbeat": "2026-09-17T11:02:59-04:00"
+      "heartbeat": "2026-09-17T11:32:59-04:00"
     },
     {
       "id": "relo",
@@ -139,7 +139,7 @@
       "status": "stale",
       "last_run_at": "2026-05-26T00:00:00-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-09-17T10:32:55-04:00",
+      "heartbeat": "2026-09-17T11:32:55-04:00",
       "warnings": [
         "No pipeline activity in 114d"
       ]
@@ -162,7 +162,7 @@
       "status": "ok",
       "last_run_at": "2026-09-17T08:05:04-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-09-17T11:02:59-04:00"
+      "heartbeat": "2026-09-17T11:32:59-04:00"
     },
     {
       "id": "witness",
@@ -172,7 +172,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-17T11:03:00-04:00"
+      "heartbeat": "2026-09-17T11:33:00-04:00"
     }
   ],
   "edges": [
@@ -668,13 +668,6 @@
     }
   ],
   "attention": [
-    {
-      "id": "auth:laptop-claude-subscription",
-      "app": "auth",
-      "priority": 2,
-      "headline": "Claude CLI subscription login (sweep reviewer + digest synthesis) has lapsed on laptop — re-auth; automation that needs it is failing silently",
-      "node": "ops.auth"
-    },
     {
       "id": "integrity:freshness:witness.sweep",
       "app": "integrity",
