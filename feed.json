@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-18T19:19:32-04:00",
+  "generated_at": "2026-09-18T19:39:34-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-18T23:03:32Z"
+      "heartbeat": "2026-09-18T23:33:32Z"
     },
     {
       "id": "hiking",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-18T19:03:06-04:00"
+      "heartbeat": "2026-09-18T19:33:06-04:00"
     },
     {
       "id": "insurance",
@@ -160,9 +160,9 @@
       "kind": "pipeline",
       "desc": "Wearable/weather ingestion + correlation research for Tracie's vasospasm case; only pipeline-health metadata surfaces, never the underlying clinical data.",
       "status": "ok",
-      "last_run_at": "2026-09-18T08:05:07-04:00",
+      "last_run_at": "2026-09-18T19:25:36-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-09-18T19:03:05-04:00"
+      "heartbeat": "2026-09-18T19:33:05-04:00"
     },
     {
       "id": "witness",
@@ -221,6 +221,14 @@
   ],
   "events": [
     {
+      "id": "oura_run-2026-09-18",
+      "at": "2026-09-18T19:25:36-04:00",
+      "app": "vasospasm",
+      "kind": "run_completed",
+      "headline": "Oura ingest completed — 4457 rows across 10 endpoints",
+      "detail_url": null
+    },
+    {
       "id": "digest_published-2026-09-18-afternoon",
       "at": "2026-09-18T18:03:27Z",
       "app": "newsletter",
@@ -244,14 +252,6 @@
       "app": "vasospasm",
       "kind": "run_completed",
       "headline": "Weather ingest completed — 7 weather days, 168 hourly rows",
-      "detail_url": null
-    },
-    {
-      "id": "oura_run-2026-09-18",
-      "at": "2026-09-18T08:00:10-04:00",
-      "app": "vasospasm",
-      "kind": "run_completed",
-      "headline": "Oura ingest completed — 4343 rows across 9 endpoints",
       "detail_url": null
     },
     {
