@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-18T13:48:58-04:00",
+  "generated_at": "2026-09-18T14:08:59-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-18T17:33:29Z"
+      "heartbeat": "2026-09-18T18:03:29Z"
     },
     {
       "id": "hiking",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-18T13:33:05-04:00"
+      "heartbeat": "2026-09-18T14:03:05-04:00"
     },
     {
       "id": "insurance",
@@ -73,9 +73,9 @@
         "run_failed"
       ],
       "status": "ok",
-      "last_run_at": "2026-09-18T12:02:41Z",
+      "last_run_at": "2026-09-18T18:03:27Z",
       "queue_depth": 0,
-      "heartbeat": "2026-09-18T13:44:47-04:00"
+      "heartbeat": "2026-09-18T14:03:27-04:00"
     },
     {
       "id": "relo",
@@ -162,7 +162,7 @@
       "status": "ok",
       "last_run_at": "2026-09-18T08:05:07-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-09-18T13:33:04-04:00"
+      "heartbeat": "2026-09-18T14:03:04-04:00"
     },
     {
       "id": "witness",
@@ -220,6 +220,15 @@
     }
   ],
   "events": [
+    {
+      "id": "digest_published-2026-09-18-afternoon",
+      "at": "2026-09-18T18:03:27Z",
+      "app": "newsletter",
+      "kind": "digest_published",
+      "headline": "Afternoon digest · kept 14/3",
+      "detail_url": "#/news/2026-09-18-afternoon",
+      "magnitude": 0.483
+    },
     {
       "id": "digest_published-2026-09-18-morning",
       "at": "2026-09-18T12:02:41Z",
@@ -656,15 +665,6 @@
       "headline": "Afternoon digest · kept 36/7",
       "detail_url": "#/news/2026-08-17-afternoon",
       "magnitude": 0.706
-    },
-    {
-      "id": "digest_published-2026-08-17-morning",
-      "at": "2026-08-17T12:02:03Z",
-      "app": "newsletter",
-      "kind": "digest_published",
-      "headline": "Morning digest · kept 6/1",
-      "detail_url": "#/news/2026-08-17-morning",
-      "magnitude": 0.286
     }
   ],
   "attention": []
