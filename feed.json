@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-19T07:50:58-04:00",
+  "generated_at": "2026-09-19T08:10:59-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-19T11:33:37Z"
+      "heartbeat": "2026-09-19T12:03:37Z"
     },
     {
       "id": "hiking",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-19T07:33:08-04:00"
+      "heartbeat": "2026-09-19T08:03:08-04:00"
     },
     {
       "id": "insurance",
@@ -73,9 +73,9 @@
         "run_failed"
       ],
       "status": "ok",
-      "last_run_at": "2026-09-18T18:03:27Z",
+      "last_run_at": "2026-09-19T12:03:13Z",
       "queue_depth": 0,
-      "heartbeat": "2026-09-19T07:44:50-04:00"
+      "heartbeat": "2026-09-19T08:03:13-04:00"
     },
     {
       "id": "relo",
@@ -160,9 +160,9 @@
       "kind": "pipeline",
       "desc": "Wearable/weather ingestion + correlation research for Tracie's vasospasm case; only pipeline-health metadata surfaces, never the underlying clinical data.",
       "status": "ok",
-      "last_run_at": "2026-09-18T19:25:36-04:00",
+      "last_run_at": "2026-09-19T08:00:07-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-09-19T07:33:08-04:00"
+      "heartbeat": "2026-09-19T08:03:08-04:00"
     },
     {
       "id": "witness",
@@ -221,11 +221,20 @@
   ],
   "events": [
     {
-      "id": "oura_run-2026-09-18",
-      "at": "2026-09-18T19:25:36-04:00",
+      "id": "digest_published-2026-09-19-morning",
+      "at": "2026-09-19T12:03:13Z",
+      "app": "newsletter",
+      "kind": "digest_published",
+      "headline": "Morning digest · kept 23/2",
+      "detail_url": "#/news/2026-09-19-morning",
+      "magnitude": 0.605
+    },
+    {
+      "id": "oura_run-2026-09-19",
+      "at": "2026-09-19T08:00:07-04:00",
       "app": "vasospasm",
       "kind": "run_completed",
-      "headline": "Oura ingest completed — 4457 rows across 10 endpoints",
+      "headline": "Oura ingest completed — 3546 rows across 10 endpoints",
       "detail_url": null
     },
     {
@@ -656,15 +665,6 @@
       "headline": "Morning digest · kept 21/5",
       "detail_url": "#/news/2026-08-18-morning",
       "magnitude": 0.583
-    },
-    {
-      "id": "digest_published-2026-08-17-afternoon",
-      "at": "2026-08-17T18:06:58Z",
-      "app": "newsletter",
-      "kind": "digest_published",
-      "headline": "Afternoon digest · kept 36/7",
-      "detail_url": "#/news/2026-08-17-afternoon",
-      "magnitude": 0.706
     }
   ],
   "attention": []
