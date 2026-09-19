@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-19T13:51:35-04:00",
+  "generated_at": "2026-09-19T14:11:36-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-19T17:33:40Z"
+      "heartbeat": "2026-09-19T18:03:40Z"
     },
     {
       "id": "hiking",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-19T13:33:09-04:00"
+      "heartbeat": "2026-09-19T14:03:09-04:00"
     },
     {
       "id": "insurance",
@@ -73,9 +73,9 @@
         "run_failed"
       ],
       "status": "ok",
-      "last_run_at": "2026-09-19T12:03:13Z",
+      "last_run_at": "2026-09-19T18:02:43Z",
       "queue_depth": 0,
-      "heartbeat": "2026-09-19T13:44:51-04:00"
+      "heartbeat": "2026-09-19T14:02:43-04:00"
     },
     {
       "id": "relo",
@@ -162,7 +162,7 @@
       "status": "ok",
       "last_run_at": "2026-09-19T08:05:01-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-09-19T13:33:09-04:00"
+      "heartbeat": "2026-09-19T14:03:09-04:00"
     },
     {
       "id": "witness",
@@ -220,6 +220,15 @@
     }
   ],
   "events": [
+    {
+      "id": "digest_published-2026-09-19-afternoon",
+      "at": "2026-09-19T18:02:43Z",
+      "app": "newsletter",
+      "kind": "digest_published",
+      "headline": "Afternoon digest · kept 16/3",
+      "detail_url": "#/news/2026-09-19-afternoon",
+      "magnitude": 0.516
+    },
     {
       "id": "digest_published-2026-09-19-morning",
       "at": "2026-09-19T12:03:13Z",
@@ -656,16 +665,15 @@
       "headline": "Afternoon digest · kept 22/6",
       "detail_url": "#/news/2026-08-18-afternoon",
       "magnitude": 0.595
-    },
-    {
-      "id": "digest_published-2026-08-18-morning",
-      "at": "2026-08-18T12:04:23Z",
-      "app": "newsletter",
-      "kind": "digest_published",
-      "headline": "Morning digest · kept 21/5",
-      "detail_url": "#/news/2026-08-18-morning",
-      "magnitude": 0.583
     }
   ],
-  "attention": []
+  "attention": [
+    {
+      "id": "newsletter:subscription_lapsed",
+      "app": "newsletter",
+      "priority": 2,
+      "headline": "Claude subscription login has lapsed — re-auth the mini before newsletter synthesis bills the API",
+      "detail_url": "#/app/newsletter"
+    }
+  ]
 }
