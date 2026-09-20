@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-20T07:33:28-04:00",
+  "generated_at": "2026-09-20T07:43:29-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-20T11:03:47Z"
+      "heartbeat": "2026-09-20T11:33:47Z"
     },
     {
       "id": "hiking",
@@ -674,13 +674,6 @@
       "priority": 2,
       "headline": "Claude subscription login has lapsed — re-auth the mini before newsletter synthesis bills the API",
       "detail_url": "#/app/newsletter"
-    },
-    {
-      "id": "integrity:freshness:repo-doctor.laptop",
-      "app": "integrity",
-      "priority": 2,
-      "headline": "repo-doctor laptop (Needs-you) is out of sync — 8.8h ago",
-      "node": "ops.integrity"
     }
   ]
 }
