@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-20T08:23:35-04:00",
+  "generated_at": "2026-09-20T08:33:36-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-20T08:03:13-04:00"
+      "heartbeat": "2026-09-20T08:33:13-04:00"
     },
     {
       "id": "insurance",
@@ -160,9 +160,9 @@
       "kind": "pipeline",
       "desc": "Wearable/weather ingestion + correlation research for Tracie's vasospasm case; only pipeline-health metadata surfaces, never the underlying clinical data.",
       "status": "ok",
-      "last_run_at": "2026-09-20T08:00:12-04:00",
+      "last_run_at": "2026-09-20T08:05:02-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-09-20T08:03:14-04:00"
+      "heartbeat": "2026-09-20T08:33:14-04:00"
     },
     {
       "id": "witness",
@@ -230,6 +230,14 @@
       "magnitude": 0.062
     },
     {
+      "id": "weather_run-2026-09-20",
+      "at": "2026-09-20T08:05:02-04:00",
+      "app": "vasospasm",
+      "kind": "run_completed",
+      "headline": "Weather ingest completed — 7 weather days, 168 hourly rows",
+      "detail_url": null
+    },
+    {
       "id": "oura_run-2026-09-20",
       "at": "2026-09-20T08:00:12-04:00",
       "app": "vasospasm",
@@ -254,14 +262,6 @@
       "headline": "Morning digest · kept 23/2",
       "detail_url": "#/news/2026-09-19-morning",
       "magnitude": 0.605
-    },
-    {
-      "id": "weather_run-2026-09-19",
-      "at": "2026-09-19T08:05:01-04:00",
-      "app": "vasospasm",
-      "kind": "run_completed",
-      "headline": "Weather ingest completed — 7 weather days, 168 hourly rows",
-      "detail_url": null
     },
     {
       "id": "digest_published-2026-09-18-afternoon",
