@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-22T06:18:29-04:00",
+  "generated_at": "2026-09-22T06:38:31-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-22T10:08:47Z"
+      "heartbeat": "2026-09-22T10:34:08Z"
     },
     {
       "id": "hiking",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-22T06:03:21-04:00"
+      "heartbeat": "2026-09-22T06:33:21-04:00"
     },
     {
       "id": "insurance",
@@ -152,7 +152,7 @@
       "status": "ok",
       "last_run_at": "2026-09-01T03:04:27.544377-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-09-21T06:30:00-04:00"
+      "heartbeat": "2026-09-22T06:30:04-04:00"
     },
     {
       "id": "vasospasm",
@@ -162,7 +162,7 @@
       "status": "ok",
       "last_run_at": "2026-09-21T08:05:01-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-09-22T06:03:23-04:00"
+      "heartbeat": "2026-09-22T06:33:23-04:00"
     },
     {
       "id": "witness",
