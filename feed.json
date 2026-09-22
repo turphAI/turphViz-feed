@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-22T14:19:24-04:00",
+  "generated_at": "2026-09-22T14:29:25-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -139,7 +139,7 @@
       "status": "stale",
       "last_run_at": "2026-05-26T00:00:00-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-09-22T14:14:56-04:00",
+      "heartbeat": "2026-09-22T14:28:15-04:00",
       "warnings": [
         "No pipeline activity in 119d"
       ]
