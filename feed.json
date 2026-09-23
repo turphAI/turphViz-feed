@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-23T09:02:24-04:00",
+  "generated_at": "2026-09-23T09:12:26-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-23T13:00:03Z"
+      "heartbeat": "2026-09-23T13:04:20Z"
     },
     {
       "id": "hiking",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-23T08:33:26-04:00"
+      "heartbeat": "2026-09-23T09:03:26-04:00"
     },
     {
       "id": "insurance",
@@ -75,7 +75,7 @@
       "status": "ok",
       "last_run_at": "2026-09-23T12:03:19Z",
       "queue_depth": 0,
-      "heartbeat": "2026-09-23T08:37:28-04:00"
+      "heartbeat": "2026-09-23T09:07:29-04:00"
     },
     {
       "id": "relo",
@@ -162,7 +162,7 @@
       "status": "ok",
       "last_run_at": "2026-09-23T08:05:01-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-09-23T08:33:28-04:00"
+      "heartbeat": "2026-09-23T09:03:28-04:00"
     },
     {
       "id": "witness",
@@ -667,13 +667,5 @@
       "magnitude": 0.318
     }
   ],
-  "attention": [
-    {
-      "id": "sweep-pr:witness-119",
-      "app": "sweep-pr",
-      "priority": 2,
-      "headline": "witness sweep PR #119 has sat unmerged 2d — nothing lands until it's reviewed",
-      "node": "ops.sweep-pr"
-    }
-  ]
+  "attention": []
 }
