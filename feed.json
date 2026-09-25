@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-25T07:40:58-04:00",
+  "generated_at": "2026-09-25T08:11:00-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-25T11:38:07Z"
+      "heartbeat": "2026-09-25T12:08:07Z"
     },
     {
       "id": "hiking",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-25T07:37:54-04:00"
+      "heartbeat": "2026-09-25T08:07:54-04:00"
     },
     {
       "id": "insurance",
@@ -60,7 +60,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-25T07:37:54-04:00"
+      "heartbeat": "2026-09-25T08:07:54-04:00"
     },
     {
       "id": "newsletter",
@@ -73,9 +73,9 @@
         "run_failed"
       ],
       "status": "ok",
-      "last_run_at": "2026-09-24T18:05:31Z",
+      "last_run_at": "2026-09-25T12:05:36Z",
       "queue_depth": 0,
-      "heartbeat": "2026-09-25T07:37:54-04:00"
+      "heartbeat": "2026-09-25T08:07:54-04:00"
     },
     {
       "id": "relo",
@@ -160,9 +160,9 @@
       "kind": "pipeline",
       "desc": "Wearable/weather ingestion + correlation research for Tracie's vasospasm case; only pipeline-health metadata surfaces, never the underlying clinical data.",
       "status": "ok",
-      "last_run_at": "2026-09-24T08:05:02-04:00",
+      "last_run_at": "2026-09-25T08:05:01-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-09-25T07:37:54-04:00"
+      "heartbeat": "2026-09-25T08:07:54-04:00"
     },
     {
       "id": "witness",
@@ -172,7 +172,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-25T07:37:54-04:00"
+      "heartbeat": "2026-09-25T08:07:54-04:00"
     }
   ],
   "edges": [
@@ -221,6 +221,31 @@
   ],
   "events": [
     {
+      "id": "digest_published-2026-09-25-morning",
+      "at": "2026-09-25T12:05:36Z",
+      "app": "newsletter",
+      "kind": "digest_published",
+      "headline": "Morning digest · kept 20/5",
+      "detail_url": "#/news/2026-09-25-morning",
+      "magnitude": 0.571
+    },
+    {
+      "id": "weather_run-2026-09-25",
+      "at": "2026-09-25T08:05:01-04:00",
+      "app": "vasospasm",
+      "kind": "run_completed",
+      "headline": "Weather ingest completed — 7 weather days, 168 hourly rows",
+      "detail_url": null
+    },
+    {
+      "id": "oura_run-2026-09-25",
+      "at": "2026-09-25T08:00:11-04:00",
+      "app": "vasospasm",
+      "kind": "run_completed",
+      "headline": "Oura ingest completed — 6009 rows across 10 endpoints",
+      "detail_url": null
+    },
+    {
       "id": "digest_published-2026-09-24-afternoon",
       "at": "2026-09-24T18:05:31Z",
       "app": "newsletter",
@@ -237,22 +262,6 @@
       "headline": "Morning digest · kept 21/6",
       "detail_url": "#/news/2026-09-24-morning",
       "magnitude": 0.583
-    },
-    {
-      "id": "weather_run-2026-09-24",
-      "at": "2026-09-24T08:05:02-04:00",
-      "app": "vasospasm",
-      "kind": "run_completed",
-      "headline": "Weather ingest completed — 7 weather days, 168 hourly rows",
-      "detail_url": null
-    },
-    {
-      "id": "oura_run-2026-09-24",
-      "at": "2026-09-24T08:00:11-04:00",
-      "app": "vasospasm",
-      "kind": "run_completed",
-      "headline": "Oura ingest completed — 6182 rows across 10 endpoints",
-      "detail_url": null
     },
     {
       "id": "digest_published-2026-09-23-afternoon",
@@ -656,24 +665,7 @@
       "headline": "Morning digest · kept 35/6",
       "detail_url": "#/news/2026-08-28-morning",
       "magnitude": 0.7
-    },
-    {
-      "id": "digest_published-2026-08-27-afternoon",
-      "at": "2026-08-27T18:03:56Z",
-      "app": "newsletter",
-      "kind": "digest_published",
-      "headline": "Afternoon digest · kept 24/4",
-      "detail_url": "#/news/2026-08-27-afternoon",
-      "magnitude": 0.615
     }
   ],
-  "attention": [
-    {
-      "id": "integrity:freshness:repo-doctor.laptop",
-      "app": "integrity",
-      "priority": 2,
-      "headline": "repo-doctor laptop (Needs-you) is out of sync — 12.3h ago",
-      "node": "ops.integrity"
-    }
-  ]
+  "attention": []
 }
