@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-29T06:47:08-04:00",
+  "generated_at": "2026-09-29T07:17:10-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-29T10:38:50Z"
+      "heartbeat": "2026-09-29T11:08:50Z"
     },
     {
       "id": "hiking",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-29T06:38:15-04:00"
+      "heartbeat": "2026-09-29T07:08:16-04:00"
     },
     {
       "id": "insurance",
@@ -60,7 +60,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-29T06:38:15-04:00"
+      "heartbeat": "2026-09-29T07:08:16-04:00"
     },
     {
       "id": "newsletter",
@@ -75,7 +75,7 @@
       "status": "ok",
       "last_run_at": "2026-09-28T18:09:02Z",
       "queue_depth": 0,
-      "heartbeat": "2026-09-29T06:38:15-04:00"
+      "heartbeat": "2026-09-29T07:08:16-04:00"
     },
     {
       "id": "relo",
@@ -162,7 +162,7 @@
       "status": "ok",
       "last_run_at": "2026-09-28T08:05:03-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-09-29T06:38:15-04:00"
+      "heartbeat": "2026-09-29T07:08:16-04:00"
     },
     {
       "id": "witness",
@@ -172,7 +172,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-29T06:38:15-04:00"
+      "heartbeat": "2026-09-29T07:08:16-04:00"
     }
   ],
   "edges": [
@@ -672,7 +672,7 @@
       "id": "integrity:freshness:turphfolio.sweep",
       "app": "integrity",
       "priority": 2,
-      "headline": "turphfolio code-health sweep (Concerns→code) is out of sync — 12.4d ago",
+      "headline": "turphfolio code-health sweep (Concerns→code) is out of sync — 12.5d ago",
       "node": "ops.integrity"
     },
     {
