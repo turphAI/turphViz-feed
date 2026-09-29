@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-29T09:07:19-04:00",
+  "generated_at": "2026-09-29T09:17:21-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-29T13:00:04Z"
+      "heartbeat": "2026-09-29T13:08:51Z"
     },
     {
       "id": "hiking",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-29T08:38:16-04:00"
+      "heartbeat": "2026-09-29T09:08:16-04:00"
     },
     {
       "id": "insurance",
@@ -60,7 +60,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-29T08:38:16-04:00"
+      "heartbeat": "2026-09-29T09:08:16-04:00"
     },
     {
       "id": "newsletter",
@@ -75,7 +75,7 @@
       "status": "ok",
       "last_run_at": "2026-09-29T12:02:49Z",
       "queue_depth": 0,
-      "heartbeat": "2026-09-29T08:38:16-04:00"
+      "heartbeat": "2026-09-29T09:08:16-04:00"
     },
     {
       "id": "relo",
@@ -162,7 +162,7 @@
       "status": "ok",
       "last_run_at": "2026-09-29T08:05:01-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-09-29T08:38:16-04:00"
+      "heartbeat": "2026-09-29T09:08:16-04:00"
     },
     {
       "id": "witness",
@@ -172,7 +172,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-29T08:38:16-04:00"
+      "heartbeat": "2026-09-29T09:08:16-04:00"
     }
   ],
   "edges": [
@@ -674,6 +674,20 @@
       "priority": 2,
       "headline": "turphfolio code-health sweep (Concerns→code) is out of sync — 12.5d ago",
       "node": "ops.integrity"
+    },
+    {
+      "id": "sweep-pr:witness-123",
+      "app": "sweep-pr",
+      "priority": 2,
+      "headline": "witness sweep PR #123 has sat unmerged 2d — nothing lands until it's reviewed",
+      "node": "ops.sweep-pr"
+    },
+    {
+      "id": "sweep-pr:turphfolio-87",
+      "app": "sweep-pr",
+      "priority": 2,
+      "headline": "turphfolio sweep PR #87 has sat unmerged 2d — nothing lands until it's reviewed",
+      "node": "ops.sweep-pr"
     },
     {
       "id": "turphfolio:refresh_inputs",
