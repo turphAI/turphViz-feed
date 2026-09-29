@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-29T07:47:11-04:00",
+  "generated_at": "2026-09-29T08:07:13-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -73,9 +73,9 @@
         "run_failed"
       ],
       "status": "ok",
-      "last_run_at": "2026-09-28T18:09:02Z",
+      "last_run_at": "2026-09-29T12:02:49Z",
       "queue_depth": 0,
-      "heartbeat": "2026-09-29T07:38:16-04:00"
+      "heartbeat": "2026-09-29T08:02:49-04:00"
     },
     {
       "id": "relo",
@@ -220,6 +220,15 @@
     }
   ],
   "events": [
+    {
+      "id": "digest_published-2026-09-29-morning",
+      "at": "2026-09-29T12:02:49Z",
+      "app": "newsletter",
+      "kind": "digest_published",
+      "headline": "Morning digest · kept 15/3",
+      "detail_url": "#/news/2026-09-29-morning",
+      "magnitude": 0.5
+    },
     {
       "id": "digest_published-2026-09-28-afternoon",
       "at": "2026-09-28T18:09:02Z",
@@ -656,15 +665,6 @@
       "kind": "run_completed",
       "headline": "Lag analysis completed — 0 tests, 0 candidates",
       "detail_url": null
-    },
-    {
-      "id": "digest_published-2026-08-31-afternoon",
-      "at": "2026-08-31T18:06:34Z",
-      "app": "newsletter",
-      "kind": "digest_published",
-      "headline": "Afternoon digest · kept 32/8",
-      "detail_url": "#/news/2026-08-31-afternoon",
-      "magnitude": 0.681
     }
   ],
   "attention": [
