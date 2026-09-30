@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-29T21:38:15-04:00",
+  "generated_at": "2026-09-29T21:48:17-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-30T01:08:56Z"
+      "heartbeat": "2026-09-30T01:38:56Z"
     },
     {
       "id": "hiking",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-29T21:08:19-04:00"
+      "heartbeat": "2026-09-29T21:38:19-04:00"
     },
     {
       "id": "insurance",
@@ -60,7 +60,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-29T21:08:19-04:00"
+      "heartbeat": "2026-09-29T21:38:19-04:00"
     },
     {
       "id": "newsletter",
@@ -75,7 +75,7 @@
       "status": "ok",
       "last_run_at": "2026-09-29T18:09:02Z",
       "queue_depth": 0,
-      "heartbeat": "2026-09-29T21:08:19-04:00"
+      "heartbeat": "2026-09-29T21:38:19-04:00"
     },
     {
       "id": "relo",
@@ -162,7 +162,7 @@
       "status": "ok",
       "last_run_at": "2026-09-29T08:05:01-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-09-29T21:08:19-04:00"
+      "heartbeat": "2026-09-29T21:38:19-04:00"
     },
     {
       "id": "witness",
@@ -172,7 +172,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-29T21:08:19-04:00"
+      "heartbeat": "2026-09-29T21:38:19-04:00"
     }
   ],
   "edges": [
@@ -673,28 +673,28 @@
       "id": "integrity:freshness:turph.sweep",
       "app": "integrity",
       "priority": 2,
-      "headline": "turph code-health sweep (Concerns→code) is out of sync — 10.0d ago",
+      "headline": "turph code-health sweep (Concerns→code) is out of sync — 10.1d ago",
       "node": "ops.integrity"
     },
     {
       "id": "integrity:freshness:witness.sweep",
       "app": "integrity",
       "priority": 2,
-      "headline": "witness code-health sweep (Concerns→code) is out of sync — 10.0d ago",
+      "headline": "witness code-health sweep (Concerns→code) is out of sync — 10.1d ago",
       "node": "ops.integrity"
     },
     {
       "id": "integrity:freshness:turphfolio.sweep",
       "app": "integrity",
       "priority": 2,
-      "headline": "turphfolio code-health sweep (Concerns→code) is out of sync — 13.0d ago",
+      "headline": "turphfolio code-health sweep (Concerns→code) is out of sync — 13.1d ago",
       "node": "ops.integrity"
     },
     {
       "id": "integrity:freshness:turphUtilities.sweep",
       "app": "integrity",
       "priority": 2,
-      "headline": "turphUtilities code-health sweep (Concerns→code) is out of sync — 10.0d ago",
+      "headline": "turphUtilities code-health sweep (Concerns→code) is out of sync — 10.1d ago",
       "node": "ops.integrity"
     },
     {
