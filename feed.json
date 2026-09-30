@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-30T13:39:38-04:00",
+  "generated_at": "2026-09-30T14:09:40-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-30T17:39:04Z"
+      "heartbeat": "2026-09-30T18:09:04Z"
     },
     {
       "id": "hiking",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-30T13:38:22-04:00"
+      "heartbeat": "2026-09-30T14:08:23-04:00"
     },
     {
       "id": "insurance",
@@ -60,7 +60,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-30T13:38:22-04:00"
+      "heartbeat": "2026-09-30T14:08:23-04:00"
     },
     {
       "id": "newsletter",
@@ -73,9 +73,9 @@
         "run_failed"
       ],
       "status": "ok",
-      "last_run_at": "2026-09-30T12:03:18Z",
+      "last_run_at": "2026-09-30T18:08:37Z",
       "queue_depth": 0,
-      "heartbeat": "2026-09-30T13:38:22-04:00"
+      "heartbeat": "2026-09-30T14:08:37-04:00"
     },
     {
       "id": "relo",
@@ -162,7 +162,7 @@
       "status": "ok",
       "last_run_at": "2026-09-30T08:05:03-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-09-30T13:38:22-04:00"
+      "heartbeat": "2026-09-30T14:08:23-04:00"
     },
     {
       "id": "witness",
@@ -172,7 +172,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-09-30T13:38:22-04:00"
+      "heartbeat": "2026-09-30T14:08:23-04:00"
     }
   ],
   "edges": [
@@ -220,6 +220,15 @@
     }
   ],
   "events": [
+    {
+      "id": "digest_published-2026-09-30-afternoon",
+      "at": "2026-09-30T18:08:37Z",
+      "app": "newsletter",
+      "kind": "digest_published",
+      "headline": "Afternoon digest · kept 36/7",
+      "detail_url": "#/news/2026-09-30-afternoon",
+      "magnitude": 0.706
+    },
     {
       "id": "digest_published-2026-09-30-morning",
       "at": "2026-09-30T12:03:18Z",
@@ -658,44 +667,28 @@
       "headline": "Afternoon digest · kept 30/6",
       "detail_url": "#/news/2026-09-01-afternoon",
       "magnitude": 0.667
-    },
-    {
-      "id": "digest_published-2026-09-01-morning",
-      "at": "2026-09-01T12:06:33Z",
-      "app": "newsletter",
-      "kind": "digest_published",
-      "headline": "Morning digest · kept 39/6",
-      "detail_url": "#/news/2026-09-01-morning",
-      "magnitude": 0.722
     }
   ],
   "attention": [
     {
-      "id": "integrity:freshness:turph.sweep",
-      "app": "integrity",
-      "priority": 2,
-      "headline": "turph code-health sweep (Concerns→code) is out of sync — 10.7d ago",
-      "node": "ops.integrity"
-    },
-    {
       "id": "integrity:freshness:witness.sweep",
       "app": "integrity",
       "priority": 2,
-      "headline": "witness code-health sweep (Concerns→code) is out of sync — 10.7d ago",
+      "headline": "witness code-health sweep (Concerns→code) is out of sync — 10.8d ago",
       "node": "ops.integrity"
     },
     {
       "id": "integrity:freshness:turphfolio.sweep",
       "app": "integrity",
       "priority": 2,
-      "headline": "turphfolio code-health sweep (Concerns→code) is out of sync — 13.7d ago",
+      "headline": "turphfolio code-health sweep (Concerns→code) is out of sync — 13.8d ago",
       "node": "ops.integrity"
     },
     {
       "id": "integrity:freshness:turphUtilities.sweep",
       "app": "integrity",
       "priority": 2,
-      "headline": "turphUtilities code-health sweep (Concerns→code) is out of sync — 10.7d ago",
+      "headline": "turphUtilities code-health sweep (Concerns→code) is out of sync — 10.8d ago",
       "node": "ops.integrity"
     },
     {
