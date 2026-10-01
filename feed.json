@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-01T02:40:26-04:00",
+  "generated_at": "2026-10-01T03:10:28-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-01T06:39:10Z"
+      "heartbeat": "2026-10-01T07:09:10Z"
     },
     {
       "id": "hiking",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-01T02:38:25-04:00"
+      "heartbeat": "2026-10-01T03:08:25-04:00"
     },
     {
       "id": "insurance",
@@ -60,7 +60,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-01T02:38:25-04:00"
+      "heartbeat": "2026-10-01T03:08:25-04:00"
     },
     {
       "id": "newsletter",
@@ -75,7 +75,7 @@
       "status": "ok",
       "last_run_at": "2026-09-30T18:08:37Z",
       "queue_depth": 0,
-      "heartbeat": "2026-10-01T02:38:25-04:00"
+      "heartbeat": "2026-10-01T03:08:26-04:00"
     },
     {
       "id": "relo",
@@ -150,9 +150,9 @@
       "kind": "service",
       "desc": "Conversational Fidelity look-through; only non-sensitive signal surfaces.",
       "status": "ok",
-      "last_run_at": "2026-09-01T03:04:27.544377-04:00",
+      "last_run_at": "2026-10-01T03:01:12.002454-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-09-30T06:30:02-04:00"
+      "heartbeat": "2026-10-01T03:01:12-04:00"
     },
     {
       "id": "vasospasm",
@@ -162,7 +162,7 @@
       "status": "ok",
       "last_run_at": "2026-09-30T08:05:03-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-10-01T02:38:25-04:00"
+      "heartbeat": "2026-10-01T03:08:26-04:00"
     },
     {
       "id": "witness",
@@ -172,7 +172,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-01T02:38:25-04:00"
+      "heartbeat": "2026-10-01T03:08:25-04:00"
     }
   ],
   "edges": [
@@ -669,12 +669,5 @@
       "magnitude": 0.667
     }
   ],
-  "attention": [
-    {
-      "id": "turphfolio:refresh_inputs",
-      "app": "turphfolio",
-      "priority": 1,
-      "headline": "pull fresh Fidelity positions CSVs + monthly statements and re-import"
-    }
-  ]
+  "attention": []
 }
