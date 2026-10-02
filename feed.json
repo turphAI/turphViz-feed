@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-02T13:42:43-04:00",
+  "generated_at": "2026-10-02T14:12:44-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-02T17:39:27Z"
+      "heartbeat": "2026-10-02T18:09:27Z"
     },
     {
       "id": "hiking",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-02T13:38:33-04:00"
+      "heartbeat": "2026-10-02T14:08:33-04:00"
     },
     {
       "id": "insurance",
@@ -60,7 +60,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-02T13:38:33-04:00"
+      "heartbeat": "2026-10-02T14:08:33-04:00"
     },
     {
       "id": "newsletter",
@@ -73,9 +73,9 @@
         "run_failed"
       ],
       "status": "ok",
-      "last_run_at": "2026-10-02T12:08:31Z",
+      "last_run_at": "2026-10-02T18:06:35Z",
       "queue_depth": 0,
-      "heartbeat": "2026-10-02T13:38:33-04:00"
+      "heartbeat": "2026-10-02T14:08:33-04:00"
     },
     {
       "id": "relo",
@@ -162,7 +162,7 @@
       "status": "ok",
       "last_run_at": "2026-10-02T08:05:04-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-10-02T13:38:33-04:00"
+      "heartbeat": "2026-10-02T14:08:33-04:00"
     },
     {
       "id": "witness",
@@ -172,7 +172,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-02T13:38:33-04:00"
+      "heartbeat": "2026-10-02T14:08:33-04:00"
     }
   ],
   "edges": [
@@ -220,6 +220,15 @@
     }
   ],
   "events": [
+    {
+      "id": "digest_published-2026-10-02-afternoon",
+      "at": "2026-10-02T18:06:35Z",
+      "app": "newsletter",
+      "kind": "digest_published",
+      "headline": "Afternoon digest · kept 35/7",
+      "detail_url": "#/news/2026-10-02-afternoon",
+      "magnitude": 0.7
+    },
     {
       "id": "digest_published-2026-10-02-morning",
       "at": "2026-10-02T12:08:31Z",
@@ -656,15 +665,6 @@
       "headline": "Afternoon digest · kept 42/6",
       "detail_url": "#/news/2026-09-04-afternoon",
       "magnitude": 0.737
-    },
-    {
-      "id": "digest_published-2026-09-04-morning",
-      "at": "2026-09-04T12:04:48Z",
-      "app": "newsletter",
-      "kind": "digest_published",
-      "headline": "Morning digest · kept 22/4",
-      "detail_url": "#/news/2026-09-04-morning",
-      "magnitude": 0.595
     }
   ],
   "attention": [
