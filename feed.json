@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-01T22:11:46-04:00",
+  "generated_at": "2026-10-01T22:41:47-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-02T02:09:19Z"
+      "heartbeat": "2026-10-02T02:39:20Z"
     },
     {
       "id": "hiking",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-01T22:08:30-04:00"
+      "heartbeat": "2026-10-01T22:38:30-04:00"
     },
     {
       "id": "insurance",
@@ -60,7 +60,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-01T22:08:30-04:00"
+      "heartbeat": "2026-10-01T22:38:30-04:00"
     },
     {
       "id": "newsletter",
@@ -75,7 +75,7 @@
       "status": "ok",
       "last_run_at": "2026-10-01T18:07:19Z",
       "queue_depth": 0,
-      "heartbeat": "2026-10-01T22:08:30-04:00"
+      "heartbeat": "2026-10-01T22:38:30-04:00"
     },
     {
       "id": "relo",
@@ -139,7 +139,7 @@
       "status": "stale",
       "last_run_at": "2026-05-26T00:00:00-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-10-01T21:38:09-04:00",
+      "heartbeat": "2026-10-01T22:38:09-04:00",
       "warnings": [
         "No pipeline activity in 128d"
       ]
@@ -162,7 +162,7 @@
       "status": "ok",
       "last_run_at": "2026-10-01T08:10:08-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-10-01T22:08:30-04:00"
+      "heartbeat": "2026-10-01T22:38:30-04:00"
     },
     {
       "id": "witness",
@@ -172,7 +172,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-01T22:08:30-04:00"
+      "heartbeat": "2026-10-01T22:38:30-04:00"
     }
   ],
   "edges": [
@@ -672,7 +672,7 @@
       "id": "integrity:freshness:repo-doctor.laptop",
       "app": "integrity",
       "priority": 2,
-      "headline": "repo-doctor laptop (Needs-you) is out of sync — 9.9h ago",
+      "headline": "repo-doctor laptop (Needs-you) is out of sync — 10.4h ago",
       "node": "ops.integrity"
     }
   ]
