@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-05T15:27:27-04:00",
+  "generated_at": "2026-10-05T15:37:29-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-05T19:22:11Z"
+      "heartbeat": "2026-10-05T19:33:50Z"
     },
     {
       "id": "hiking",
@@ -683,17 +683,10 @@
       "node": "ops.integrity"
     },
     {
-      "id": "integrity:records-agree:relo",
-      "app": "integrity",
-      "priority": 2,
-      "headline": "relo findings vs Issues is out of sync — 3 resolved findings whose Issue isn't settled (sweep-today-naive-local-date, scan-file-unicode-decode-error-uncaught, cost-usd-unguarded-float-conversion)",
-      "node": "ops.integrity"
-    },
-    {
       "id": "integrity:records-agree:turph",
       "app": "integrity",
       "priority": 2,
-      "headline": "turph findings vs Issues is out of sync — 3 resolved findings whose Issue isn't settled (mortgage-burndown-nulldate-sort, rate-zero-usage-unmetered-fallback, ideation-cache-unsynchronized-clear); 1 open finding whose Issue is settled (status-doc-stale); 1 open finding with no Issue (app-detail-issue-stores-not-shared)",
+      "headline": "turph findings vs Issues is out of sync — 1 open finding whose Issue is settled (status-doc-stale); 1 open finding with no Issue (app-detail-issue-stores-not-shared)",
       "node": "ops.integrity"
     },
     {
@@ -707,7 +700,7 @@
       "id": "integrity:records-agree:turphDocs",
       "app": "integrity",
       "priority": 2,
-      "headline": "turphDocs findings vs Issues is out of sync — 2 resolved findings whose Issue isn't settled (receipts-load-valueerror-wipes-history, receipts-load-attributeerror-crashes-service); 1 open finding with no Issue (statement-periods-unbounded-fetch)",
+      "headline": "turphDocs findings vs Issues is out of sync — 1 open finding with no Issue (statement-periods-unbounded-fetch)",
       "node": "ops.integrity"
     },
     {
