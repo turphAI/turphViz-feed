@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-05T15:17:26-04:00",
+  "generated_at": "2026-10-05T15:27:27-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-05T19:10:03Z"
+      "heartbeat": "2026-10-05T19:22:11Z"
     },
     {
       "id": "hiking",
@@ -667,5 +667,62 @@
       "magnitude": 0.0
     }
   ],
-  "attention": []
+  "attention": [
+    {
+      "id": "integrity:freshness:hiking.sweep",
+      "app": "integrity",
+      "priority": 2,
+      "headline": "hiking code-health sweep (Concerns→code) is out of sync — never stamped: no last_reviewed in hiking/ops/findings.json — not in deploy/sweep-all.sh REPOS? add it, or exclude it on purpose",
+      "node": "ops.integrity"
+    },
+    {
+      "id": "integrity:freshness:turphAssistant.sweep",
+      "app": "integrity",
+      "priority": 2,
+      "headline": "turphAssistant code-health sweep (Concerns→code) is out of sync — 15.8d ago",
+      "node": "ops.integrity"
+    },
+    {
+      "id": "integrity:records-agree:relo",
+      "app": "integrity",
+      "priority": 2,
+      "headline": "relo findings vs Issues is out of sync — 3 resolved findings whose Issue isn't settled (sweep-today-naive-local-date, scan-file-unicode-decode-error-uncaught, cost-usd-unguarded-float-conversion)",
+      "node": "ops.integrity"
+    },
+    {
+      "id": "integrity:records-agree:turph",
+      "app": "integrity",
+      "priority": 2,
+      "headline": "turph findings vs Issues is out of sync — 3 resolved findings whose Issue isn't settled (mortgage-burndown-nulldate-sort, rate-zero-usage-unmetered-fallback, ideation-cache-unsynchronized-clear); 1 open finding whose Issue is settled (status-doc-stale); 1 open finding with no Issue (app-detail-issue-stores-not-shared)",
+      "node": "ops.integrity"
+    },
+    {
+      "id": "integrity:records-agree:turphComms",
+      "app": "integrity",
+      "priority": 2,
+      "headline": "turphComms findings vs Issues is out of sync — 1 open finding whose Issue is settled (status-doc-stale); 3 open findings with no Issue (rethread-unbatched-parsed-fetchall, intake-write-health-fixed-tmp-path, bridge-imap-init-conn-leak)",
+      "node": "ops.integrity"
+    },
+    {
+      "id": "integrity:records-agree:turphDocs",
+      "app": "integrity",
+      "priority": 2,
+      "headline": "turphDocs findings vs Issues is out of sync — 2 resolved findings whose Issue isn't settled (receipts-load-valueerror-wipes-history, receipts-load-attributeerror-crashes-service); 1 open finding with no Issue (statement-periods-unbounded-fetch)",
+      "node": "ops.integrity"
+    },
+    {
+      "id": "integrity:records-agree:turphfolio",
+      "app": "integrity",
+      "priority": 2,
+      "headline": "turphfolio findings vs Issues is out of sync — 4 open findings with no Issue (status-doc-stale, dep-npm-devalue, cli-parent-lookup-indeterminate, +1 more)",
+      "node": "ops.integrity"
+    },
+    {
+      "id": "integrity:records-agree:witness",
+      "app": "integrity",
+      "priority": 2,
+      "headline": "witness findings vs Issues is out of sync — 4 open findings with no Issue (dep-npm-brace-expansion, transcript-format-key-error, brief-full-table-scan-no-date-filter, +1 more)",
+      "node": "ops.integrity"
+    }
+  ]
 }
