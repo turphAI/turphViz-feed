@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-06T07:08:59-04:00",
+  "generated_at": "2026-10-06T07:19:00-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-06T10:43:36Z"
+      "heartbeat": "2026-10-06T11:13:37Z"
     },
     {
       "id": "hiking",
@@ -681,7 +681,7 @@
       "id": "integrity:freshness:repo-doctor.laptop",
       "app": "integrity",
       "priority": 2,
-      "headline": "repo-doctor laptop (Needs-you) is out of sync — 10.0h ago",
+      "headline": "repo-doctor laptop (Needs-you) is out of sync — 10.5h ago",
       "node": "ops.integrity"
     },
     {
@@ -695,7 +695,7 @@
       "id": "integrity:freshness:turphAssistant.sweep",
       "app": "integrity",
       "priority": 2,
-      "headline": "turphAssistant code-health sweep (Concerns→code) is out of sync — 16.4d ago",
+      "headline": "turphAssistant code-health sweep (Concerns→code) is out of sync — 16.5d ago",
       "node": "ops.integrity"
     },
     {
