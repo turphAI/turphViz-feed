@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-06T01:58:27-04:00",
+  "generated_at": "2026-10-06T02:18:31-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-06T05:43:33Z"
+      "heartbeat": "2026-10-06T06:13:33Z"
     },
     {
       "id": "hiking",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-06T01:38:53-04:00"
+      "heartbeat": "2026-10-06T02:08:53-04:00"
     },
     {
       "id": "insurance",
@@ -60,7 +60,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-06T01:38:53-04:00"
+      "heartbeat": "2026-10-06T02:08:53-04:00"
     },
     {
       "id": "newsletter",
@@ -72,10 +72,13 @@
         "run_completed",
         "run_failed"
       ],
-      "status": "ok",
+      "status": "stale",
       "last_run_at": "2026-10-05T12:02:44Z",
       "queue_depth": 0,
-      "heartbeat": "2026-10-06T01:38:53-04:00"
+      "heartbeat": "2026-10-06T02:08:53-04:00",
+      "warnings": [
+        "No run in 18h — expected twice daily"
+      ]
     },
     {
       "id": "relo",
@@ -162,7 +165,7 @@
       "status": "ok",
       "last_run_at": "2026-10-05T08:05:02-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-10-06T01:38:53-04:00"
+      "heartbeat": "2026-10-06T02:08:53-04:00"
     },
     {
       "id": "witness",
@@ -172,7 +175,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-06T01:38:53-04:00"
+      "heartbeat": "2026-10-06T02:08:53-04:00"
     }
   ],
   "edges": [
@@ -669,6 +672,12 @@
   ],
   "attention": [
     {
+      "id": "newsletter:stale_no_run",
+      "app": "newsletter",
+      "priority": 2,
+      "headline": "Newsletter: No run in 18h — expected twice daily"
+    },
+    {
       "id": "integrity:freshness:hiking.sweep",
       "app": "integrity",
       "priority": 2,
@@ -679,7 +688,7 @@
       "id": "integrity:freshness:turphAssistant.sweep",
       "app": "integrity",
       "priority": 2,
-      "headline": "turphAssistant code-health sweep (Concerns→code) is out of sync — 16.2d ago",
+      "headline": "turphAssistant code-health sweep (Concerns→code) is out of sync — 16.3d ago",
       "node": "ops.integrity"
     },
     {
