@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-07T11:01:37-04:00",
+  "generated_at": "2026-10-07T11:11:39-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-07T14:32:05Z"
+      "heartbeat": "2026-10-07T15:02:05Z"
     },
     {
       "id": "hiking",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-07T10:39:00-04:00"
+      "heartbeat": "2026-10-07T11:09:01-04:00"
     },
     {
       "id": "insurance",
@@ -60,7 +60,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-07T10:39:00-04:00"
+      "heartbeat": "2026-10-07T11:09:00-04:00"
     },
     {
       "id": "newsletter",
@@ -75,9 +75,9 @@
       "status": "stale",
       "last_run_at": "2026-10-05T12:02:44Z",
       "queue_depth": 0,
-      "heartbeat": "2026-10-07T10:39:00-04:00",
+      "heartbeat": "2026-10-07T11:09:01-04:00",
       "warnings": [
-        "No run in 50h — expected twice daily"
+        "No run in 51h — expected twice daily"
       ]
     },
     {
@@ -165,7 +165,7 @@
       "status": "ok",
       "last_run_at": "2026-10-07T08:05:01-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-10-07T10:39:00-04:00"
+      "heartbeat": "2026-10-07T11:09:00-04:00"
     },
     {
       "id": "witness",
@@ -175,7 +175,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-07T10:39:00-04:00"
+      "heartbeat": "2026-10-07T11:09:00-04:00"
     }
   ],
   "edges": [
@@ -675,7 +675,7 @@
       "id": "newsletter:stale_no_run",
       "app": "newsletter",
       "priority": 2,
-      "headline": "Newsletter: No run in 50h — expected twice daily"
+      "headline": "Newsletter: No run in 51h — expected twice daily"
     },
     {
       "id": "integrity:freshness:hiking.sweep",
