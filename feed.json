@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-07T08:01:22-04:00",
+  "generated_at": "2026-10-07T08:11:23-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-07T11:32:02Z"
+      "heartbeat": "2026-10-07T12:02:03Z"
     },
     {
       "id": "hiking",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-07T07:38:59-04:00"
+      "heartbeat": "2026-10-07T08:08:59-04:00"
     },
     {
       "id": "insurance",
@@ -60,7 +60,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-07T07:38:59-04:00"
+      "heartbeat": "2026-10-07T08:08:59-04:00"
     },
     {
       "id": "newsletter",
@@ -75,9 +75,9 @@
       "status": "stale",
       "last_run_at": "2026-10-05T12:02:44Z",
       "queue_depth": 0,
-      "heartbeat": "2026-10-07T07:38:59-04:00",
+      "heartbeat": "2026-10-07T08:09:00-04:00",
       "warnings": [
-        "No run in 47h — expected twice daily"
+        "No run in 48h — expected twice daily"
       ]
     },
     {
@@ -163,9 +163,9 @@
       "kind": "pipeline",
       "desc": "Wearable/weather ingestion + correlation research for Tracie's vasospasm case; only pipeline-health metadata surfaces, never the underlying clinical data.",
       "status": "ok",
-      "last_run_at": "2026-10-06T08:05:01-04:00",
+      "last_run_at": "2026-10-07T08:05:01-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-10-07T07:38:59-04:00"
+      "heartbeat": "2026-10-07T08:09:00-04:00"
     },
     {
       "id": "witness",
@@ -175,7 +175,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-07T07:38:59-04:00"
+      "heartbeat": "2026-10-07T08:09:00-04:00"
     }
   ],
   "edges": [
@@ -224,19 +224,19 @@
   ],
   "events": [
     {
-      "id": "weather_run-2026-10-06",
-      "at": "2026-10-06T08:05:01-04:00",
+      "id": "weather_run-2026-10-07",
+      "at": "2026-10-07T08:05:01-04:00",
       "app": "vasospasm",
       "kind": "run_completed",
       "headline": "Weather ingest completed — 7 weather days, 168 hourly rows",
       "detail_url": null
     },
     {
-      "id": "oura_run-2026-10-06",
-      "at": "2026-10-06T08:00:12-04:00",
+      "id": "oura_run-2026-10-07",
+      "at": "2026-10-07T08:00:11-04:00",
       "app": "vasospasm",
       "kind": "run_completed",
-      "headline": "Oura ingest completed — 6845 rows across 10 endpoints",
+      "headline": "Oura ingest completed — 6349 rows across 10 endpoints",
       "detail_url": null
     },
     {
@@ -675,13 +675,13 @@
       "id": "newsletter:stale_no_run",
       "app": "newsletter",
       "priority": 2,
-      "headline": "Newsletter: No run in 47h — expected twice daily"
+      "headline": "Newsletter: No run in 48h — expected twice daily"
     },
     {
       "id": "integrity:freshness:repo-doctor.laptop",
       "app": "integrity",
       "priority": 2,
-      "headline": "repo-doctor laptop (Needs-you) is out of sync — 9.4h ago",
+      "headline": "repo-doctor laptop (Needs-you) is out of sync — 9.9h ago",
       "node": "ops.integrity"
     },
     {
@@ -723,14 +723,14 @@
       "id": "integrity:records-agree:turphfolio",
       "app": "integrity",
       "priority": 2,
-      "headline": "turphfolio findings vs Issues is out of sync — 4 open findings with no Issue (status-doc-stale, dep-npm-devalue, cli-parent-lookup-indeterminate, +1 more)",
+      "headline": "turphfolio findings vs Issues is out of sync — 3 open findings with no Issue (status-doc-stale, cli-parent-lookup-indeterminate, extraction-transfers-not-persisted)",
       "node": "ops.integrity"
     },
     {
       "id": "integrity:records-agree:witness",
       "app": "integrity",
       "priority": 2,
-      "headline": "witness findings vs Issues is out of sync — 4 open findings with no Issue (dep-npm-brace-expansion, transcript-format-key-error, brief-full-table-scan-no-date-filter, +1 more)",
+      "headline": "witness findings vs Issues is out of sync — 3 open findings with no Issue (transcript-format-key-error, brief-full-table-scan-no-date-filter, proposals-concurrent-accept-duplicate-event)",
       "node": "ops.integrity"
     }
   ]
