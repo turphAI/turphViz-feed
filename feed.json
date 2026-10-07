@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-07T14:11:54-04:00",
+  "generated_at": "2026-10-07T14:31:56-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -72,13 +72,10 @@
         "run_completed",
         "run_failed"
       ],
-      "status": "stale",
-      "last_run_at": "2026-10-05T12:02:44Z",
+      "status": "ok",
+      "last_run_at": "2026-10-07T18:24:44Z",
       "queue_depth": 0,
-      "heartbeat": "2026-10-07T14:09:01-04:00",
-      "warnings": [
-        "No run in 54h — expected twice daily"
-      ]
+      "heartbeat": "2026-10-07T14:24:44-04:00"
     },
     {
       "id": "relo",
@@ -223,6 +220,15 @@
     }
   ],
   "events": [
+    {
+      "id": "digest_published-2026-10-07-afternoon",
+      "at": "2026-10-07T18:24:44Z",
+      "app": "newsletter",
+      "kind": "digest_published",
+      "headline": "Afternoon digest · kept 105/22",
+      "detail_url": "#/news/2026-10-07-afternoon",
+      "magnitude": 0.875
+    },
     {
       "id": "weather_run-2026-10-07",
       "at": "2026-10-07T08:05:01-04:00",
@@ -659,15 +665,6 @@
       "headline": "Afternoon digest · kept 54/8",
       "detail_url": "#/news/2026-09-07-afternoon",
       "magnitude": 0.783
-    },
-    {
-      "id": "digest_published-2026-09-07-morning",
-      "at": "2026-09-07T12:00:03Z",
-      "app": "newsletter",
-      "kind": "digest_published",
-      "headline": "Morning digest · kept 0/0",
-      "detail_url": "#/news/2026-09-07-morning",
-      "magnitude": 0.0
     }
   ],
   "attention": [
