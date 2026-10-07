@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-07T06:31:14-04:00",
+  "generated_at": "2026-10-07T06:41:16-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-07T10:16:05Z"
+      "heartbeat": "2026-10-07T10:32:02Z"
     },
     {
       "id": "hiking",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-07T06:08:59-04:00"
+      "heartbeat": "2026-10-07T06:38:59-04:00"
     },
     {
       "id": "insurance",
@@ -60,7 +60,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-07T06:08:59-04:00"
+      "heartbeat": "2026-10-07T06:38:59-04:00"
     },
     {
       "id": "newsletter",
@@ -75,7 +75,7 @@
       "status": "stale",
       "last_run_at": "2026-10-05T12:02:44Z",
       "queue_depth": 0,
-      "heartbeat": "2026-10-07T06:08:59-04:00",
+      "heartbeat": "2026-10-07T06:38:59-04:00",
       "warnings": [
         "No run in 46h — expected twice daily"
       ]
@@ -165,7 +165,7 @@
       "status": "ok",
       "last_run_at": "2026-10-06T08:05:01-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-10-07T06:08:59-04:00"
+      "heartbeat": "2026-10-07T06:38:59-04:00"
     },
     {
       "id": "witness",
@@ -175,7 +175,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-07T06:08:59-04:00"
+      "heartbeat": "2026-10-07T06:38:59-04:00"
     }
   ],
   "edges": [
@@ -676,6 +676,13 @@
       "app": "newsletter",
       "priority": 2,
       "headline": "Newsletter: No run in 46h — expected twice daily"
+    },
+    {
+      "id": "integrity:freshness:repo-doctor.laptop",
+      "app": "integrity",
+      "priority": 2,
+      "headline": "repo-doctor laptop (Needs-you) is out of sync — 8.4h ago",
+      "node": "ops.integrity"
     },
     {
       "id": "integrity:freshness:hiking.sweep",
