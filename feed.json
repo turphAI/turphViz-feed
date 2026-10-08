@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-07T21:12:34-04:00",
+  "generated_at": "2026-10-07T21:32:36-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-08T01:02:11Z"
+      "heartbeat": "2026-10-08T01:32:12Z"
     },
     {
       "id": "hiking",
@@ -679,7 +679,7 @@
       "id": "integrity:freshness:turphAssistant.sweep",
       "app": "integrity",
       "priority": 2,
-      "headline": "turphAssistant code-health sweep (Concerns→code) is out of sync — 18.0d ago",
+      "headline": "turphAssistant code-health sweep (Concerns→code) is out of sync — 18.1d ago",
       "node": "ops.integrity"
     },
     {
