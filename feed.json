@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-08T06:13:29-04:00",
+  "generated_at": "2026-10-08T06:33:31-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-08T10:02:18Z"
+      "heartbeat": "2026-10-08T10:32:18Z"
     },
     {
       "id": "hiking",
@@ -152,7 +152,7 @@
       "status": "ok",
       "last_run_at": "2026-10-01T03:01:12.002454-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-10-07T06:30:03-04:00"
+      "heartbeat": "2026-10-08T06:30:01-04:00"
     },
     {
       "id": "vasospasm",
