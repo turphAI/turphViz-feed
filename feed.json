@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-09T01:32:43-04:00",
+  "generated_at": "2026-10-09T01:52:45-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-09T05:22:42Z"
+      "heartbeat": "2026-10-09T05:52:42Z"
     },
     {
       "id": "hiking",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-09T01:22:41-04:00"
+      "heartbeat": "2026-10-09T01:52:41-04:00"
     },
     {
       "id": "insurance",
@@ -60,7 +60,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-09T01:22:41-04:00"
+      "heartbeat": "2026-10-09T01:52:41-04:00"
     },
     {
       "id": "newsletter",
@@ -75,7 +75,7 @@
       "status": "ok",
       "last_run_at": "2026-10-08T18:05:42Z",
       "queue_depth": 0,
-      "heartbeat": "2026-10-09T01:22:41-04:00"
+      "heartbeat": "2026-10-09T01:52:41-04:00"
     },
     {
       "id": "relo",
@@ -162,7 +162,7 @@
       "status": "ok",
       "last_run_at": "2026-10-08T08:05:04-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-10-09T01:22:41-04:00"
+      "heartbeat": "2026-10-09T01:52:41-04:00"
     },
     {
       "id": "witness",
@@ -172,7 +172,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-09T01:22:41-04:00"
+      "heartbeat": "2026-10-09T01:52:41-04:00"
     }
   ],
   "edges": [
@@ -680,13 +680,6 @@
       "app": "integrity",
       "priority": 2,
       "headline": "turphAssistant code-health sweep (Concerns→code) is out of sync — 19.2d ago",
-      "node": "ops.integrity"
-    },
-    {
-      "id": "integrity:liveness:api",
-      "app": "integrity",
-      "priority": 2,
-      "headline": "turph /api/today is out of sync — unreachable or HTTP None",
       "node": "ops.integrity"
     },
     {
