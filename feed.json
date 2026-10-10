@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-10T08:14:43-04:00",
+  "generated_at": "2026-10-10T08:24:44-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-10T11:44:53Z"
+      "heartbeat": "2026-10-10T12:14:54Z"
     },
     {
       "id": "hiking",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-10T07:52:48-04:00"
+      "heartbeat": "2026-10-10T08:22:48-04:00"
     },
     {
       "id": "insurance",
@@ -60,7 +60,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-10T07:52:48-04:00"
+      "heartbeat": "2026-10-10T08:22:48-04:00"
     },
     {
       "id": "newsletter",
@@ -75,7 +75,7 @@
       "status": "ok",
       "last_run_at": "2026-10-10T12:04:57Z",
       "queue_depth": 0,
-      "heartbeat": "2026-10-10T08:04:57-04:00"
+      "heartbeat": "2026-10-10T08:22:48-04:00"
     },
     {
       "id": "relo",
@@ -139,7 +139,7 @@
       "status": "stale",
       "last_run_at": "2026-05-26T00:00:00-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-10-10T07:22:45-04:00",
+      "heartbeat": "2026-10-10T08:22:45-04:00",
       "warnings": [
         "No pipeline activity in 137d"
       ]
@@ -160,9 +160,9 @@
       "kind": "pipeline",
       "desc": "Wearable/weather ingestion + correlation research for Tracie's vasospasm case; only pipeline-health metadata surfaces, never the underlying clinical data.",
       "status": "ok",
-      "last_run_at": "2026-10-09T08:05:01-04:00",
+      "last_run_at": "2026-10-10T08:05:02-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-10-10T07:52:48-04:00"
+      "heartbeat": "2026-10-10T08:22:48-04:00"
     },
     {
       "id": "witness",
@@ -172,7 +172,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-10T07:52:48-04:00"
+      "heartbeat": "2026-10-10T08:22:48-04:00"
     }
   ],
   "edges": [
@@ -230,6 +230,22 @@
       "magnitude": 0.615
     },
     {
+      "id": "weather_run-2026-10-10",
+      "at": "2026-10-10T08:05:02-04:00",
+      "app": "vasospasm",
+      "kind": "run_completed",
+      "headline": "Weather ingest completed — 7 weather days, 168 hourly rows",
+      "detail_url": null
+    },
+    {
+      "id": "oura_run-2026-10-10",
+      "at": "2026-10-10T08:00:10-04:00",
+      "app": "vasospasm",
+      "kind": "run_completed",
+      "headline": "Oura ingest completed — 1397 rows across 10 endpoints",
+      "detail_url": null
+    },
+    {
       "id": "digest_published-2026-10-09-afternoon",
       "at": "2026-10-09T18:01:21Z",
       "app": "newsletter",
@@ -246,22 +262,6 @@
       "headline": "Morning digest · kept 21/3",
       "detail_url": "#/news/2026-10-09-morning",
       "magnitude": 0.583
-    },
-    {
-      "id": "weather_run-2026-10-09",
-      "at": "2026-10-09T08:05:01-04:00",
-      "app": "vasospasm",
-      "kind": "run_completed",
-      "headline": "Weather ingest completed — 7 weather days, 168 hourly rows",
-      "detail_url": null
-    },
-    {
-      "id": "oura_run-2026-10-09",
-      "at": "2026-10-09T08:00:12-04:00",
-      "app": "vasospasm",
-      "kind": "run_completed",
-      "headline": "Oura ingest completed — 3525 rows across 10 endpoints",
-      "detail_url": null
     },
     {
       "id": "digest_published-2026-10-08-afternoon",
@@ -716,6 +716,12 @@
       "priority": 2,
       "headline": "witness findings vs Issues is out of sync — 3 open findings with no Issue (transcript-format-key-error, brief-full-table-scan-no-date-filter, proposals-concurrent-accept-duplicate-event)",
       "node": "ops.integrity"
+    },
+    {
+      "id": "repo:laptop:newsletter",
+      "app": "newsletter",
+      "priority": 0,
+      "headline": "newsletter (laptop): on branch 'vault-out-of-documents', not main"
     }
   ]
 }
