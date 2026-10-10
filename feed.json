@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-10T09:54:52-04:00",
+  "generated_at": "2026-10-10T10:04:53-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -718,10 +718,10 @@
       "node": "ops.integrity"
     },
     {
-      "id": "repo:laptop:newsletter",
-      "app": "newsletter",
+      "id": "repo:laptop:turph",
+      "app": "turph",
       "priority": 0,
-      "headline": "newsletter (laptop): on branch 'vault-out-of-documents', not main"
+      "headline": "turph (laptop): on branch 'feat/let-it-go-button', not main"
     }
   ]
 }
