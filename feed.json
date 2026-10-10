@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-10T10:04:53-04:00",
+  "generated_at": "2026-10-10T10:14:54-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-10T13:40:23Z"
+      "heartbeat": "2026-10-10T14:10:23Z"
     },
     {
       "id": "hiking",
@@ -681,47 +681,6 @@
       "priority": 2,
       "headline": "turphAssistant code-health sweep (Concerns→code) is out of sync — 20.6d ago",
       "node": "ops.integrity"
-    },
-    {
-      "id": "integrity:records-agree:turph",
-      "app": "integrity",
-      "priority": 2,
-      "headline": "turph findings vs Issues is out of sync — 1 open finding whose Issue is settled (status-doc-stale); 1 open finding with no Issue (app-detail-issue-stores-not-shared)",
-      "node": "ops.integrity"
-    },
-    {
-      "id": "integrity:records-agree:turphComms",
-      "app": "integrity",
-      "priority": 2,
-      "headline": "turphComms findings vs Issues is out of sync — 1 open finding whose Issue is settled (status-doc-stale); 3 open findings with no Issue (rethread-unbatched-parsed-fetchall, intake-write-health-fixed-tmp-path, bridge-imap-init-conn-leak)",
-      "node": "ops.integrity"
-    },
-    {
-      "id": "integrity:records-agree:turphDocs",
-      "app": "integrity",
-      "priority": 2,
-      "headline": "turphDocs findings vs Issues is out of sync — 1 open finding with no Issue (statement-periods-unbounded-fetch)",
-      "node": "ops.integrity"
-    },
-    {
-      "id": "integrity:records-agree:turphfolio",
-      "app": "integrity",
-      "priority": 2,
-      "headline": "turphfolio findings vs Issues is out of sync — 3 open findings with no Issue (status-doc-stale, cli-parent-lookup-indeterminate, extraction-transfers-not-persisted)",
-      "node": "ops.integrity"
-    },
-    {
-      "id": "integrity:records-agree:witness",
-      "app": "integrity",
-      "priority": 2,
-      "headline": "witness findings vs Issues is out of sync — 3 open findings with no Issue (transcript-format-key-error, brief-full-table-scan-no-date-filter, proposals-concurrent-accept-duplicate-event)",
-      "node": "ops.integrity"
-    },
-    {
-      "id": "repo:laptop:turph",
-      "app": "turph",
-      "priority": 0,
-      "headline": "turph (laptop): on branch 'feat/let-it-go-button', not main"
     }
   ]
 }
