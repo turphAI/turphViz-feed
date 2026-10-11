@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-11T08:46:14-04:00",
+  "generated_at": "2026-10-11T08:56:16-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -680,6 +680,12 @@
       "priority": 2,
       "headline": "insurance findings vs Issues is out of sync — 1 resolved finding whose Issue isn't settled (sweep-run-review-uncaught-oserror)",
       "node": "ops.integrity"
+    },
+    {
+      "id": "repo:mini:hiking",
+      "app": "hiking",
+      "priority": 0,
+      "headline": "hiking (mini): 1 untracked file(s) — gitignore or commit?"
     }
   ]
 }
