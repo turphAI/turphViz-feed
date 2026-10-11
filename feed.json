@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-11T19:07:24-04:00",
+  "generated_at": "2026-10-11T19:17:26-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-11T22:40:47Z"
+      "heartbeat": "2026-10-11T23:10:47Z"
     },
     {
       "id": "hiking",
@@ -668,13 +668,6 @@
     }
   ],
   "attention": [
-    {
-      "id": "integrity:records-agree:insurance",
-      "app": "integrity",
-      "priority": 2,
-      "headline": "insurance findings vs Issues is out of sync — 1 resolved finding whose Issue isn't settled (sweep-run-review-uncaught-oserror)",
-      "node": "ops.integrity"
-    },
     {
       "id": "repo:mini:hiking",
       "app": "hiking",
