@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-11T12:16:29-04:00",
+  "generated_at": "2026-10-11T12:26:30-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -60,7 +60,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-11T12:06:57-04:00"
+      "heartbeat": "2026-10-11T12:19:45-04:00"
     },
     {
       "id": "newsletter",
@@ -680,6 +680,36 @@
       "priority": 2,
       "headline": "insurance findings vs Issues is out of sync — 1 resolved finding whose Issue isn't settled (sweep-run-review-uncaught-oserror)",
       "node": "ops.integrity"
+    },
+    {
+      "id": "repo:laptop:hiking",
+      "app": "hiking",
+      "priority": 1,
+      "headline": "hiking (laptop): on branch 'fix/scan-unignored-from-disk', not main; uncommitted changes (2 tracked path(s))"
+    },
+    {
+      "id": "repo:laptop:insurance",
+      "app": "insurance",
+      "priority": 1,
+      "headline": "insurance (laptop): on branch 'fix/scan-unignored-from-disk', not main; uncommitted changes (2 tracked path(s))"
+    },
+    {
+      "id": "repo:laptop:turph",
+      "app": "turph",
+      "priority": 1,
+      "headline": "turph (laptop): on branch 'fix/scan-unignored-from-disk', not main; uncommitted changes (2 tracked path(s))"
+    },
+    {
+      "id": "repo:laptop:turphfolio",
+      "app": "turphfolio",
+      "priority": 1,
+      "headline": "turphfolio (laptop): on branch 'fix/scan-unignored-from-disk', not main; uncommitted changes (2 tracked path(s))"
+    },
+    {
+      "id": "repo:laptop:witness",
+      "app": "witness",
+      "priority": 1,
+      "headline": "witness (laptop): on branch 'fix/scan-unignored-from-disk', not main; uncommitted changes (2 tracked path(s))"
     },
     {
       "id": "repo:mini:hiking",
