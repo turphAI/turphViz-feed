@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-11T19:17:26-04:00",
+  "generated_at": "2026-10-11T19:27:28-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -60,7 +60,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-11T18:49:47-04:00"
+      "heartbeat": "2026-10-11T19:19:47-04:00"
     },
     {
       "id": "newsletter",
@@ -669,10 +669,10 @@
   ],
   "attention": [
     {
-      "id": "repo:mini:hiking",
-      "app": "hiking",
-      "priority": 0,
-      "headline": "hiking (mini): 1 untracked file(s) — gitignore or commit?"
+      "id": "repo:laptop:turph",
+      "app": "turph",
+      "priority": 1,
+      "headline": "turph (laptop): on branch 'journal/066-worldview', not main; uncommitted changes (1 tracked path(s)); 1 untracked file(s) — gitignore or commit?"
     }
   ]
 }
