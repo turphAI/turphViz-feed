@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-11T14:06:41-04:00",
+  "generated_at": "2026-10-11T14:16:43-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-11T17:40:43Z"
+      "heartbeat": "2026-10-11T18:10:44Z"
     },
     {
       "id": "hiking",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-11T13:36:57-04:00"
+      "heartbeat": "2026-10-11T14:06:57-04:00"
     },
     {
       "id": "insurance",
@@ -75,7 +75,7 @@
       "status": "ok",
       "last_run_at": "2026-10-11T18:03:06Z",
       "queue_depth": 0,
-      "heartbeat": "2026-10-11T14:03:06-04:00"
+      "heartbeat": "2026-10-11T14:06:57-04:00"
     },
     {
       "id": "relo",
@@ -162,7 +162,7 @@
       "status": "ok",
       "last_run_at": "2026-10-11T08:05:06-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-10-11T13:36:57-04:00"
+      "heartbeat": "2026-10-11T14:06:57-04:00"
     },
     {
       "id": "witness",
@@ -172,7 +172,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-11T13:36:57-04:00"
+      "heartbeat": "2026-10-11T14:06:57-04:00"
     }
   ],
   "edges": [
@@ -668,12 +668,6 @@
     }
   ],
   "attention": [
-    {
-      "id": "newsletter:digest_contract",
-      "app": "newsletter",
-      "priority": 2,
-      "headline": "Latest digest violates the digest-file contract — News may be missing or degraded"
-    },
     {
       "id": "integrity:records-agree:insurance",
       "app": "integrity",
