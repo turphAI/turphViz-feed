@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-11T19:37:30-04:00",
+  "generated_at": "2026-10-11T19:47:32-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-11T23:10:47Z"
+      "heartbeat": "2026-10-11T23:40:47Z"
     },
     {
       "id": "hiking",
@@ -667,12 +667,5 @@
       "magnitude": 0.483
     }
   ],
-  "attention": [
-    {
-      "id": "repo:laptop:turph",
-      "app": "turph",
-      "priority": 1,
-      "headline": "turph (laptop): on branch 'journal/066-worldview', not main; uncommitted changes (1 tracked path(s)); 1 untracked file(s) — gitignore or commit?"
-    }
-  ]
+  "attention": []
 }
