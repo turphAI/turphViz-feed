@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-12T13:50:07-04:00",
+  "generated_at": "2026-10-12T14:10:08-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-12T13:37:03-04:00"
+      "heartbeat": "2026-10-12T14:07:03-04:00"
     },
     {
       "id": "insurance",
@@ -73,9 +73,9 @@
         "run_failed"
       ],
       "status": "ok",
-      "last_run_at": "2026-10-12T12:04:53Z",
+      "last_run_at": "2026-10-12T18:08:23Z",
       "queue_depth": 0,
-      "heartbeat": "2026-10-12T13:37:03-04:00"
+      "heartbeat": "2026-10-12T14:08:23-04:00"
     },
     {
       "id": "relo",
@@ -162,7 +162,7 @@
       "status": "ok",
       "last_run_at": "2026-10-12T08:05:02-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-10-12T13:37:03-04:00"
+      "heartbeat": "2026-10-12T14:07:03-04:00"
     },
     {
       "id": "witness",
@@ -172,7 +172,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-12T13:37:02-04:00"
+      "heartbeat": "2026-10-12T14:07:02-04:00"
     }
   ],
   "edges": [
@@ -220,6 +220,15 @@
     }
   ],
   "events": [
+    {
+      "id": "digest_published-2026-10-12-afternoon",
+      "at": "2026-10-12T18:08:23Z",
+      "app": "newsletter",
+      "kind": "digest_published",
+      "headline": "Afternoon digest · kept 34/9",
+      "detail_url": "#/news/2026-10-12-afternoon",
+      "magnitude": 0.694
+    },
     {
       "id": "digest_published-2026-10-12-morning",
       "at": "2026-10-12T12:04:53Z",
@@ -656,15 +665,6 @@
       "headline": "Morning digest · kept 11/3",
       "detail_url": "#/news/2026-09-18-morning",
       "magnitude": 0.423
-    },
-    {
-      "id": "digest_published-2026-09-17-afternoon",
-      "at": "2026-09-17T18:03:18Z",
-      "app": "newsletter",
-      "kind": "digest_published",
-      "headline": "Afternoon digest · kept 20/3",
-      "detail_url": "#/news/2026-09-17-afternoon",
-      "magnitude": 0.571
     }
   ],
   "attention": [
