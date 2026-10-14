@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-14T07:55:26-04:00",
+  "generated_at": "2026-10-14T08:15:28-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-14T11:41:32Z"
+      "heartbeat": "2026-10-14T12:11:33Z"
     },
     {
       "id": "hiking",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-14T07:37:12-04:00"
+      "heartbeat": "2026-10-14T08:07:12-04:00"
     },
     {
       "id": "insurance",
@@ -73,9 +73,9 @@
         "run_failed"
       ],
       "status": "ok",
-      "last_run_at": "2026-10-13T18:06:15Z",
+      "last_run_at": "2026-10-14T12:06:02Z",
       "queue_depth": 0,
-      "heartbeat": "2026-10-14T07:37:12-04:00"
+      "heartbeat": "2026-10-14T08:07:12-04:00"
     },
     {
       "id": "relo",
@@ -160,9 +160,9 @@
       "kind": "pipeline",
       "desc": "Wearable/weather ingestion + correlation research for Tracie's vasospasm case; only pipeline-health metadata surfaces, never the underlying clinical data.",
       "status": "ok",
-      "last_run_at": "2026-10-13T08:05:02-04:00",
+      "last_run_at": "2026-10-14T08:05:02-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-10-14T07:37:12-04:00"
+      "heartbeat": "2026-10-14T08:07:12-04:00"
     },
     {
       "id": "witness",
@@ -172,7 +172,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-14T07:37:10-04:00"
+      "heartbeat": "2026-10-14T08:07:10-04:00"
     }
   ],
   "edges": [
@@ -221,6 +221,31 @@
   ],
   "events": [
     {
+      "id": "digest_published-2026-10-14-morning",
+      "at": "2026-10-14T12:06:02Z",
+      "app": "newsletter",
+      "kind": "digest_published",
+      "headline": "Morning digest · kept 42/5",
+      "detail_url": "#/news/2026-10-14-morning",
+      "magnitude": 0.737
+    },
+    {
+      "id": "weather_run-2026-10-14",
+      "at": "2026-10-14T08:05:02-04:00",
+      "app": "vasospasm",
+      "kind": "run_completed",
+      "headline": "Weather ingest completed — 7 weather days, 168 hourly rows",
+      "detail_url": null
+    },
+    {
+      "id": "oura_run-2026-10-14",
+      "at": "2026-10-14T08:00:09-04:00",
+      "app": "vasospasm",
+      "kind": "run_completed",
+      "headline": "Oura ingest completed — 1228 rows across 10 endpoints",
+      "detail_url": null
+    },
+    {
       "id": "digest_published-2026-10-13-afternoon",
       "at": "2026-10-13T18:06:15Z",
       "app": "newsletter",
@@ -237,22 +262,6 @@
       "headline": "Morning digest · kept 26/7",
       "detail_url": "#/news/2026-10-13-morning",
       "magnitude": 0.634
-    },
-    {
-      "id": "weather_run-2026-10-13",
-      "at": "2026-10-13T08:05:02-04:00",
-      "app": "vasospasm",
-      "kind": "run_completed",
-      "headline": "Weather ingest completed — 7 weather days, 168 hourly rows",
-      "detail_url": null
-    },
-    {
-      "id": "oura_run-2026-10-13",
-      "at": "2026-10-13T08:00:10-04:00",
-      "app": "vasospasm",
-      "kind": "run_completed",
-      "headline": "Oura ingest completed — 1344 rows across 10 endpoints",
-      "detail_url": null
     },
     {
       "id": "digest_published-2026-10-12-afternoon",
@@ -656,15 +665,6 @@
       "headline": "Afternoon digest · kept 16/3",
       "detail_url": "#/news/2026-09-19-afternoon",
       "magnitude": 0.516
-    },
-    {
-      "id": "digest_published-2026-09-19-morning",
-      "at": "2026-09-19T12:03:13Z",
-      "app": "newsletter",
-      "kind": "digest_published",
-      "headline": "Morning digest · kept 23/2",
-      "detail_url": "#/news/2026-09-19-morning",
-      "magnitude": 0.605
     }
   ],
   "attention": [
@@ -676,24 +676,24 @@
       "node": "ops.auth"
     },
     {
-      "id": "integrity:freshness:worldView.health",
+      "id": "integrity:freshness:worldView.sweep",
       "app": "integrity",
       "priority": 2,
-      "headline": "worldview health (Concerns→machines) is out of sync — artifact missing (worldView/_ops/health.json) — auto-restart could not be issued",
+      "headline": "worldView code-health sweep (Concerns→code) is out of sync — never stamped: no last_reviewed in worldView/ops/findings.json — not in deploy/sweep-all.sh REPOS? add it, or exclude it on purpose",
       "node": "ops.integrity"
     },
     {
-      "id": "integrity:records-agree:witness",
+      "id": "integrity:records-agree:turph",
       "app": "integrity",
       "priority": 2,
-      "headline": "witness findings vs Issues is out of sync — 1 resolved finding with no re-check receipt, so never confirmed (proposal-accept-drops-frequency); 2 open findings with no Issue (peak-moment-clear-ignored, flask-dev-server-single-threaded)",
+      "headline": "turph findings vs Issues is out of sync — 1 resolved finding with no re-check receipt, so never confirmed (relo-impression-unlocked-read-modify-write); 7 open findings with no Issue (relo-feedback-delete-destroys-impression, relo-impression-upsert-lost-update-race, producer-file-read-unicode-crash, +4 more)",
       "node": "ops.integrity"
     },
     {
-      "id": "repo:mini:newsletter",
-      "app": "newsletter",
+      "id": "repo:mini:turph",
+      "app": "turph",
       "priority": 1,
-      "headline": "newsletter (mini): uncommitted changes (1 tracked path(s))"
+      "headline": "turph (mini): uncommitted changes (1 tracked path(s))"
     }
   ]
 }
