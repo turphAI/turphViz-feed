@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-14T08:25:29-04:00",
+  "generated_at": "2026-10-14T08:45:31-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-14T12:11:33Z"
+      "heartbeat": "2026-10-14T12:41:33Z"
     },
     {
       "id": "hiking",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-14T08:07:12-04:00"
+      "heartbeat": "2026-10-14T08:37:12-04:00"
     },
     {
       "id": "insurance",
@@ -75,7 +75,7 @@
       "status": "ok",
       "last_run_at": "2026-10-14T12:06:02Z",
       "queue_depth": 0,
-      "heartbeat": "2026-10-14T08:07:12-04:00"
+      "heartbeat": "2026-10-14T08:37:12-04:00"
     },
     {
       "id": "relo",
@@ -139,7 +139,7 @@
       "status": "stale",
       "last_run_at": "2026-05-26T00:00:00-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-10-14T07:37:02-04:00",
+      "heartbeat": "2026-10-14T08:37:02-04:00",
       "warnings": [
         "No pipeline activity in 141d"
       ]
@@ -162,7 +162,7 @@
       "status": "ok",
       "last_run_at": "2026-10-14T08:05:02-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-10-14T08:07:12-04:00"
+      "heartbeat": "2026-10-14T08:37:12-04:00"
     },
     {
       "id": "witness",
@@ -172,7 +172,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-14T08:07:10-04:00"
+      "heartbeat": "2026-10-14T08:37:10-04:00"
     }
   ],
   "edges": [
@@ -681,19 +681,6 @@
       "priority": 2,
       "headline": "worldView code-health sweep (Concerns→code) is out of sync — never stamped: no last_reviewed in worldView/ops/findings.json — not in deploy/sweep-all.sh REPOS? add it, or exclude it on purpose",
       "node": "ops.integrity"
-    },
-    {
-      "id": "integrity:records-agree:turph",
-      "app": "integrity",
-      "priority": 2,
-      "headline": "turph findings vs Issues is out of sync — 1 resolved finding with no re-check receipt, so never confirmed (relo-impression-unlocked-read-modify-write); 7 open findings with no Issue (relo-feedback-delete-destroys-impression, relo-impression-upsert-lost-update-race, producer-file-read-unicode-crash, +4 more)",
-      "node": "ops.integrity"
-    },
-    {
-      "id": "repo:mini:turphfolio",
-      "app": "turphfolio",
-      "priority": 1,
-      "headline": "turphfolio (mini): uncommitted changes (1 tracked path(s))"
     }
   ]
 }
