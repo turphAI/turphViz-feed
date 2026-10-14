@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-14T09:05:34-04:00",
+  "generated_at": "2026-10-14T09:15:35-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-14T13:00:04Z"
+      "heartbeat": "2026-10-14T13:11:34Z"
     },
     {
       "id": "hiking",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-14T08:37:12-04:00"
+      "heartbeat": "2026-10-14T09:07:12-04:00"
     },
     {
       "id": "insurance",
@@ -75,7 +75,7 @@
       "status": "ok",
       "last_run_at": "2026-10-14T12:06:02Z",
       "queue_depth": 0,
-      "heartbeat": "2026-10-14T08:37:12-04:00"
+      "heartbeat": "2026-10-14T09:07:12-04:00"
     },
     {
       "id": "relo",
@@ -162,7 +162,7 @@
       "status": "ok",
       "last_run_at": "2026-10-14T08:05:02-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-10-14T08:37:12-04:00"
+      "heartbeat": "2026-10-14T09:07:12-04:00"
     },
     {
       "id": "witness",
@@ -172,7 +172,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-14T08:37:10-04:00"
+      "heartbeat": "2026-10-14T09:07:10-04:00"
     }
   ],
   "edges": [
@@ -674,13 +674,6 @@
       "priority": 2,
       "headline": "Claude CLI subscription login (sweep reviewer + digest synthesis) has lapsed on laptop — re-auth; automation that needs it is failing silently",
       "node": "ops.auth"
-    },
-    {
-      "id": "integrity:freshness:worldView.sweep",
-      "app": "integrity",
-      "priority": 2,
-      "headline": "worldView code-health sweep (Concerns→code) is out of sync — never stamped: no last_reviewed in worldView/ops/findings.json — not in deploy/sweep-all.sh REPOS? add it, or exclude it on purpose",
-      "node": "ops.integrity"
     }
   ]
 }
