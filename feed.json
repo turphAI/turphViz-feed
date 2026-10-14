@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-14T08:15:28-04:00",
+  "generated_at": "2026-10-14T08:25:29-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -60,7 +60,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-14T07:49:59-04:00"
+      "heartbeat": "2026-10-14T08:19:59-04:00"
     },
     {
       "id": "newsletter",
@@ -690,10 +690,10 @@
       "node": "ops.integrity"
     },
     {
-      "id": "repo:mini:turph",
-      "app": "turph",
+      "id": "repo:mini:turphfolio",
+      "app": "turphfolio",
       "priority": 1,
-      "headline": "turph (mini): uncommitted changes (1 tracked path(s))"
+      "headline": "turphfolio (mini): uncommitted changes (1 tracked path(s))"
     }
   ]
 }
