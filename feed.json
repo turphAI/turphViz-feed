@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-14T06:55:20-04:00",
+  "generated_at": "2026-10-14T07:15:22-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-14T10:41:31Z"
+      "heartbeat": "2026-10-14T11:11:32Z"
     },
     {
       "id": "hiking",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-14T06:37:12-04:00"
+      "heartbeat": "2026-10-14T07:07:12-04:00"
     },
     {
       "id": "insurance",
@@ -75,7 +75,7 @@
       "status": "ok",
       "last_run_at": "2026-10-13T18:06:15Z",
       "queue_depth": 0,
-      "heartbeat": "2026-10-14T06:37:12-04:00"
+      "heartbeat": "2026-10-14T07:07:12-04:00"
     },
     {
       "id": "relo",
@@ -162,7 +162,7 @@
       "status": "ok",
       "last_run_at": "2026-10-13T08:05:02-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-10-14T06:37:12-04:00"
+      "heartbeat": "2026-10-14T07:07:12-04:00"
     },
     {
       "id": "witness",
@@ -172,7 +172,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-14T06:37:10-04:00"
+      "heartbeat": "2026-10-14T07:07:10-04:00"
     }
   ],
   "edges": [
@@ -681,6 +681,19 @@
       "priority": 2,
       "headline": "worldview health (Concerns→machines) is out of sync — artifact missing (worldView/_ops/health.json) — auto-restart could not be issued",
       "node": "ops.integrity"
+    },
+    {
+      "id": "integrity:records-agree:newsletter",
+      "app": "integrity",
+      "priority": 2,
+      "headline": "newsletter findings vs Issues is out of sync — 5 resolved findings with no re-check receipt, so never confirmed (secret-generic-api-key-digests/2026-07-09-morning.md, secret-generic-api-key-digests/2026-09-08-morning.md, secret-generic-api-key-digests/2026-09-08-morning.json, +2 more); 6 open findings whose Issue is settled (status-doc-stale, creds-write-missing-dir-fsync, run-log-nonatomic-readwrite, +3 more); 2 open findings with no Issue (sweep-review-no-model-pin, gmail-query-outage-permanent-loss)",
+      "node": "ops.integrity"
+    },
+    {
+      "id": "repo:mini:newsletter",
+      "app": "newsletter",
+      "priority": 1,
+      "headline": "newsletter (mini): uncommitted changes (1 tracked path(s))"
     }
   ]
 }
