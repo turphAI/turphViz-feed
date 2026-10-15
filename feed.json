@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-15T08:09:31-04:00",
+  "generated_at": "2026-10-15T08:19:32-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-15T11:41:54Z"
+      "heartbeat": "2026-10-15T12:11:54Z"
     },
     {
       "id": "hiking",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-15T07:44:25-04:00"
+      "heartbeat": "2026-10-15T08:14:25-04:00"
     },
     {
       "id": "insurance",
@@ -72,13 +72,10 @@
         "run_completed",
         "run_failed"
       ],
-      "status": "stale",
-      "last_run_at": "2026-10-14T18:04:53Z",
+      "status": "ok",
+      "last_run_at": "2026-10-15T12:10:03Z",
       "queue_depth": 0,
-      "heartbeat": "2026-10-15T08:07:17-04:00",
-      "warnings": [
-        "No run in 18h — expected twice daily"
-      ]
+      "heartbeat": "2026-10-15T08:10:03-04:00"
     },
     {
       "id": "relo",
@@ -223,6 +220,15 @@
     }
   ],
   "events": [
+    {
+      "id": "digest_published-2026-10-15-morning",
+      "at": "2026-10-15T12:10:03Z",
+      "app": "newsletter",
+      "kind": "digest_published",
+      "headline": "Morning digest · kept 38/7",
+      "detail_url": "#/news/2026-10-15-morning",
+      "magnitude": 0.717
+    },
     {
       "id": "weather_run-2026-10-15",
       "at": "2026-10-15T08:05:02-04:00",
@@ -659,15 +665,6 @@
       "headline": "Afternoon digest · kept 28/5",
       "detail_url": "#/news/2026-09-20-afternoon",
       "magnitude": 0.651
-    },
-    {
-      "id": "digest_published-2026-09-20-morning",
-      "at": "2026-09-20T12:00:35Z",
-      "app": "newsletter",
-      "kind": "digest_published",
-      "headline": "Morning digest · kept 1/1",
-      "detail_url": "#/news/2026-09-20-morning",
-      "magnitude": 0.062
     }
   ],
   "attention": [
