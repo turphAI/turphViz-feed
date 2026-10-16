@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-16T17:54:12-04:00",
+  "generated_at": "2026-10-16T18:14:14-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-16T21:42:22Z"
+      "heartbeat": "2026-10-16T22:12:22Z"
     },
     {
       "id": "hiking",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-16T17:44:07-04:00"
+      "heartbeat": "2026-10-16T18:14:07-04:00"
     },
     {
       "id": "insurance",
@@ -75,7 +75,7 @@
       "status": "ok",
       "last_run_at": "2026-10-16T18:04:57Z",
       "queue_depth": 0,
-      "heartbeat": "2026-10-16T17:37:24-04:00"
+      "heartbeat": "2026-10-16T18:07:25-04:00"
     },
     {
       "id": "relo",
@@ -162,7 +162,7 @@
       "status": "ok",
       "last_run_at": "2026-10-16T08:05:03-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-10-16T17:37:24-04:00"
+      "heartbeat": "2026-10-16T18:07:24-04:00"
     },
     {
       "id": "witness",
@@ -172,7 +172,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-16T17:37:22-04:00"
+      "heartbeat": "2026-10-16T18:07:22-04:00"
     }
   ],
   "edges": [
@@ -674,12 +674,6 @@
       "priority": 2,
       "headline": "Claude CLI subscription login (sweep reviewer + digest synthesis) has lapsed on laptop — re-auth; automation that needs it is failing silently",
       "node": "ops.auth"
-    },
-    {
-      "id": "repo:laptop:hiking",
-      "app": "hiking",
-      "priority": 1,
-      "headline": "hiking (laptop): main 1 behind origin/main"
     }
   ]
 }
