@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-16T13:53:41-04:00",
+  "generated_at": "2026-10-16T14:13:42-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-16T17:42:19Z"
+      "heartbeat": "2026-10-16T18:12:19Z"
     },
     {
       "id": "hiking",
@@ -73,9 +73,9 @@
         "run_failed"
       ],
       "status": "ok",
-      "last_run_at": "2026-10-16T12:02:51Z",
+      "last_run_at": "2026-10-16T18:04:57Z",
       "queue_depth": 0,
-      "heartbeat": "2026-10-16T13:37:23-04:00"
+      "heartbeat": "2026-10-16T14:07:24-04:00"
     },
     {
       "id": "relo",
@@ -162,7 +162,7 @@
       "status": "ok",
       "last_run_at": "2026-10-16T08:05:03-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-10-16T13:37:23-04:00"
+      "heartbeat": "2026-10-16T14:07:23-04:00"
     },
     {
       "id": "witness",
@@ -172,7 +172,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-16T13:37:21-04:00"
+      "heartbeat": "2026-10-16T14:07:21-04:00"
     }
   ],
   "edges": [
@@ -220,6 +220,15 @@
     }
   ],
   "events": [
+    {
+      "id": "digest_published-2026-10-16-afternoon",
+      "at": "2026-10-16T18:04:57Z",
+      "app": "newsletter",
+      "kind": "digest_published",
+      "headline": "Afternoon digest · kept 21/5",
+      "detail_url": "#/news/2026-10-16-afternoon",
+      "magnitude": 0.583
+    },
     {
       "id": "digest_published-2026-10-16-morning",
       "at": "2026-10-16T12:02:51Z",
@@ -656,15 +665,6 @@
       "headline": "Morning digest · kept 33/6",
       "detail_url": "#/news/2026-09-22-morning",
       "magnitude": 0.688
-    },
-    {
-      "id": "digest_published-2026-09-21-afternoon",
-      "at": "2026-09-21T18:06:32Z",
-      "app": "newsletter",
-      "kind": "digest_published",
-      "headline": "Afternoon digest · kept 26/7",
-      "detail_url": "#/news/2026-09-21-afternoon",
-      "magnitude": 0.634
     }
   ],
   "attention": [
