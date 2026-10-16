@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-16T08:02:56-04:00",
+  "generated_at": "2026-10-16T08:12:58-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-16T11:42:15Z"
+      "heartbeat": "2026-10-16T12:12:15Z"
     },
     {
       "id": "hiking",
@@ -75,7 +75,7 @@
       "status": "ok",
       "last_run_at": "2026-10-16T12:02:51Z",
       "queue_depth": 0,
-      "heartbeat": "2026-10-16T08:02:51-04:00"
+      "heartbeat": "2026-10-16T08:07:22-04:00"
     },
     {
       "id": "relo",
@@ -160,9 +160,9 @@
       "kind": "pipeline",
       "desc": "Wearable/weather ingestion + correlation research for Tracie's vasospasm case; only pipeline-health metadata surfaces, never the underlying clinical data.",
       "status": "ok",
-      "last_run_at": "2026-10-15T08:05:02-04:00",
+      "last_run_at": "2026-10-16T08:05:03-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-10-16T07:37:22-04:00"
+      "heartbeat": "2026-10-16T08:07:22-04:00"
     },
     {
       "id": "witness",
@@ -172,7 +172,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-16T07:37:20-04:00"
+      "heartbeat": "2026-10-16T08:07:20-04:00"
     }
   ],
   "edges": [
@@ -230,6 +230,22 @@
       "magnitude": 0.559
     },
     {
+      "id": "weather_run-2026-10-16",
+      "at": "2026-10-16T08:05:03-04:00",
+      "app": "vasospasm",
+      "kind": "run_completed",
+      "headline": "Weather ingest completed — 7 weather days, 168 hourly rows",
+      "detail_url": null
+    },
+    {
+      "id": "oura_run-2026-10-16",
+      "at": "2026-10-16T08:00:13-04:00",
+      "app": "vasospasm",
+      "kind": "run_completed",
+      "headline": "Oura ingest completed — 5687 rows across 10 endpoints",
+      "detail_url": null
+    },
+    {
       "id": "digest_published-2026-10-15-afternoon",
       "at": "2026-10-15T18:10:29Z",
       "app": "newsletter",
@@ -246,22 +262,6 @@
       "headline": "Morning digest · kept 38/7",
       "detail_url": "#/news/2026-10-15-morning",
       "magnitude": 0.717
-    },
-    {
-      "id": "weather_run-2026-10-15",
-      "at": "2026-10-15T08:05:02-04:00",
-      "app": "vasospasm",
-      "kind": "run_completed",
-      "headline": "Weather ingest completed — 7 weather days, 168 hourly rows",
-      "detail_url": null
-    },
-    {
-      "id": "oura_run-2026-10-15",
-      "at": "2026-10-15T08:00:09-04:00",
-      "app": "vasospasm",
-      "kind": "run_completed",
-      "headline": "Oura ingest completed — 1089 rows across 10 endpoints",
-      "detail_url": null
     },
     {
       "id": "digest_published-2026-10-14-afternoon",
