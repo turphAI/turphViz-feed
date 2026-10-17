@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-17T03:55:23-04:00",
+  "generated_at": "2026-10-17T04:15:24-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-17T07:42:29Z"
+      "heartbeat": "2026-10-17T08:12:29Z"
     },
     {
       "id": "hiking",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-17T03:44:10-04:00"
+      "heartbeat": "2026-10-17T04:14:10-04:00"
     },
     {
       "id": "insurance",
@@ -75,7 +75,7 @@
       "status": "ok",
       "last_run_at": "2026-10-16T18:04:57Z",
       "queue_depth": 0,
-      "heartbeat": "2026-10-17T03:37:27-04:00"
+      "heartbeat": "2026-10-17T04:07:27-04:00"
     },
     {
       "id": "relo",
@@ -162,7 +162,7 @@
       "status": "ok",
       "last_run_at": "2026-10-16T08:05:03-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-10-17T03:37:26-04:00"
+      "heartbeat": "2026-10-17T04:07:26-04:00"
     },
     {
       "id": "witness",
@@ -172,7 +172,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-17T03:37:24-04:00"
+      "heartbeat": "2026-10-17T04:07:24-04:00"
     }
   ],
   "edges": [
@@ -674,6 +674,13 @@
       "priority": 2,
       "headline": "Claude CLI subscription login (sweep reviewer + digest synthesis) has lapsed on laptop — re-auth; automation that needs it is failing silently",
       "node": "ops.auth"
+    },
+    {
+      "id": "integrity:freshness:repo-doctor.laptop",
+      "app": "integrity",
+      "priority": 2,
+      "headline": "repo-doctor laptop (Needs-you) is out of sync — 8.4h ago",
+      "node": "ops.integrity"
     }
   ]
 }
