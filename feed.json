@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-18T08:18:45-04:00",
+  "generated_at": "2026-10-18T08:28:46-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -60,7 +60,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-18T07:50:19-04:00"
+      "heartbeat": "2026-10-18T08:20:19-04:00"
     },
     {
       "id": "newsletter",
@@ -674,12 +674,6 @@
       "priority": 2,
       "headline": "Claude CLI subscription login (sweep reviewer + digest synthesis) has lapsed on laptop — re-auth; automation that needs it is failing silently",
       "node": "ops.auth"
-    },
-    {
-      "id": "repo:mini:witness",
-      "app": "witness",
-      "priority": 1,
-      "headline": "witness (mini): uncommitted changes (1 tracked path(s))"
     }
   ]
 }
