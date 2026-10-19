@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-18T23:40:56-04:00",
+  "generated_at": "2026-10-18T23:50:57-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-19T03:13:01Z"
+      "heartbeat": "2026-10-19T03:43:01Z"
     },
     {
       "id": "hiking",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-18T23:14:19-04:00"
+      "heartbeat": "2026-10-18T23:44:20-04:00"
     },
     {
       "id": "insurance",
@@ -60,7 +60,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-18T23:20:23-04:00"
+      "heartbeat": "2026-10-18T23:50:23-04:00"
     },
     {
       "id": "newsletter",
@@ -667,12 +667,5 @@
       "magnitude": 0.583
     }
   ],
-  "attention": [
-    {
-      "id": "repo:mini:turph",
-      "app": "turph",
-      "priority": 1,
-      "headline": "turph (mini): uncommitted changes (1 tracked path(s))"
-    }
-  ]
+  "attention": []
 }
