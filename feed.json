@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-18T22:10:46-04:00",
+  "generated_at": "2026-10-18T22:20:48-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-19T01:58:17Z"
+      "heartbeat": "2026-10-19T02:13:00Z"
     },
     {
       "id": "hiking",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-18T21:44:19-04:00"
+      "heartbeat": "2026-10-18T22:14:19-04:00"
     },
     {
       "id": "insurance",
@@ -60,7 +60,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-18T21:50:22-04:00"
+      "heartbeat": "2026-10-18T22:20:22-04:00"
     },
     {
       "id": "newsletter",
@@ -667,12 +667,5 @@
       "magnitude": 0.583
     }
   ],
-  "attention": [
-    {
-      "id": "repo:laptop:hiking",
-      "app": "hiking",
-      "priority": 0,
-      "headline": "hiking (laptop): on branch 'ci/add-backend-tests-workflow', not main"
-    }
-  ]
+  "attention": []
 }
