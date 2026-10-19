@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-19T15:22:42-04:00",
+  "generated_at": "2026-10-19T15:42:44-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -75,7 +75,7 @@
       "status": "ok",
       "last_run_at": "2026-10-19T18:06:16Z",
       "queue_depth": 0,
-      "heartbeat": "2026-10-19T15:07:44-04:00"
+      "heartbeat": "2026-10-19T15:37:44-04:00"
     },
     {
       "id": "relo",
@@ -139,7 +139,7 @@
       "status": "stale",
       "last_run_at": "2026-05-26T00:00:00-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-10-19T14:37:18-04:00",
+      "heartbeat": "2026-10-19T15:37:18-04:00",
       "warnings": [
         "No pipeline activity in 146d"
       ]
@@ -162,7 +162,7 @@
       "status": "ok",
       "last_run_at": "2026-10-19T08:05:02-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-10-19T15:07:38-04:00"
+      "heartbeat": "2026-10-19T15:37:38-04:00"
     },
     {
       "id": "witness",
@@ -172,7 +172,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-19T15:07:38-04:00"
+      "heartbeat": "2026-10-19T15:37:38-04:00"
     }
   ],
   "edges": [
