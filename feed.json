@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-18T21:50:44-04:00",
+  "generated_at": "2026-10-18T22:00:45-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-19T01:43:00Z"
+      "heartbeat": "2026-10-19T01:58:17Z"
     },
     {
       "id": "hiking",
@@ -667,5 +667,12 @@
       "magnitude": 0.583
     }
   ],
-  "attention": []
+  "attention": [
+    {
+      "id": "repo:laptop:hiking",
+      "app": "hiking",
+      "priority": 0,
+      "headline": "hiking (laptop): on branch 'ci/add-backend-tests-workflow', not main"
+    }
+  ]
 }
