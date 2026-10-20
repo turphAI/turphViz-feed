@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-19T22:53:33-04:00",
+  "generated_at": "2026-10-19T23:13:35-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-20T02:43:18Z"
+      "heartbeat": "2026-10-20T03:13:18Z"
     },
     {
       "id": "hiking",
@@ -75,7 +75,7 @@
       "status": "ok",
       "last_run_at": "2026-10-19T18:06:16Z",
       "queue_depth": 0,
-      "heartbeat": "2026-10-19T22:37:46-04:00"
+      "heartbeat": "2026-10-19T23:07:47-04:00"
     },
     {
       "id": "relo",
@@ -160,9 +160,9 @@
       "kind": "pipeline",
       "desc": "Wearable/weather ingestion + correlation research for Tracie's vasospasm case; only pipeline-health metadata surfaces, never the underlying clinical data.",
       "status": "ok",
-      "last_run_at": "2026-10-19T08:05:02-04:00",
+      "last_run_at": "2026-10-19T22:57:27-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-10-19T22:37:40-04:00"
+      "heartbeat": "2026-10-19T23:07:40-04:00"
     },
     {
       "id": "witness",
@@ -172,7 +172,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-19T22:37:39-04:00"
+      "heartbeat": "2026-10-19T23:07:39-04:00"
     }
   ],
   "edges": [
@@ -220,6 +220,22 @@
     }
   ],
   "events": [
+    {
+      "id": "lag_analysis_run-2026-10-19",
+      "at": "2026-10-19T22:57:27-04:00",
+      "app": "vasospasm",
+      "kind": "run_completed",
+      "headline": "Lag analysis completed — 9 tests, 5 candidates",
+      "detail_url": null
+    },
+    {
+      "id": "analysis_run-2026-10-19",
+      "at": "2026-10-19T22:57:25-04:00",
+      "app": "vasospasm",
+      "kind": "run_completed",
+      "headline": "Monthly analysis completed — 5 tests, 0 candidates",
+      "detail_url": null
+    },
     {
       "id": "digest_published-2026-10-19-afternoon",
       "at": "2026-10-19T18:06:16Z",
@@ -541,22 +557,6 @@
       "headline": "Morning digest · kept 37/6",
       "detail_url": "#/news/2026-10-01-morning",
       "magnitude": 0.712
-    },
-    {
-      "id": "lag_analysis_run-2026-10-01",
-      "at": "2026-10-01T08:10:08-04:00",
-      "app": "vasospasm",
-      "kind": "run_completed",
-      "headline": "Lag analysis completed — 0 tests, 0 candidates",
-      "detail_url": null
-    },
-    {
-      "id": "analysis_run-2026-10-01",
-      "at": "2026-10-01T08:10:06-04:00",
-      "app": "vasospasm",
-      "kind": "run_completed",
-      "headline": "Monthly analysis completed — 0 tests, 0 candidates",
-      "detail_url": null
     },
     {
       "id": "digest_published-2026-09-30-afternoon",
