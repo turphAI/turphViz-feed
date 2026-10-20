@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-20T13:55:16-04:00",
+  "generated_at": "2026-10-20T14:15:18-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-20T17:43:30Z"
+      "heartbeat": "2026-10-20T18:13:30Z"
     },
     {
       "id": "hiking",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-20T13:44:28-04:00"
+      "heartbeat": "2026-10-20T14:14:28-04:00"
     },
     {
       "id": "insurance",
@@ -73,9 +73,9 @@
         "run_failed"
       ],
       "status": "ok",
-      "last_run_at": "2026-10-20T12:01:15Z",
+      "last_run_at": "2026-10-20T18:07:34Z",
       "queue_depth": 0,
-      "heartbeat": "2026-10-20T13:37:51-04:00"
+      "heartbeat": "2026-10-20T14:07:51-04:00"
     },
     {
       "id": "relo",
@@ -162,7 +162,7 @@
       "status": "ok",
       "last_run_at": "2026-10-20T08:05:01-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-10-20T13:37:43-04:00"
+      "heartbeat": "2026-10-20T14:07:43-04:00"
     },
     {
       "id": "witness",
@@ -172,7 +172,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-20T13:37:43-04:00"
+      "heartbeat": "2026-10-20T14:07:43-04:00"
     }
   ],
   "edges": [
@@ -220,6 +220,15 @@
     }
   ],
   "events": [
+    {
+      "id": "digest_published-2026-10-20-afternoon",
+      "at": "2026-10-20T18:07:34Z",
+      "app": "newsletter",
+      "kind": "digest_published",
+      "headline": "Afternoon digest · kept 34/9",
+      "detail_url": "#/news/2026-10-20-afternoon",
+      "magnitude": 0.694
+    },
     {
       "id": "digest_published-2026-10-20-morning",
       "at": "2026-10-20T12:01:15Z",
@@ -656,15 +665,6 @@
       "headline": "Morning digest · kept 21/4",
       "detail_url": "#/news/2026-09-26-morning",
       "magnitude": 0.583
-    },
-    {
-      "id": "digest_published-2026-09-25-afternoon",
-      "at": "2026-09-25T18:08:10Z",
-      "app": "newsletter",
-      "kind": "digest_published",
-      "headline": "Afternoon digest · kept 24/4",
-      "detail_url": "#/news/2026-09-25-afternoon",
-      "magnitude": 0.615
     }
   ],
   "attention": [
@@ -672,7 +672,7 @@
       "id": "integrity:freshness:repo-doctor.laptop",
       "app": "integrity",
       "priority": 2,
-      "headline": "repo-doctor laptop (Needs-you) is out of sync — 13.5h ago",
+      "headline": "repo-doctor laptop (Needs-you) is out of sync — 14.0h ago",
       "node": "ops.integrity"
     },
     {
