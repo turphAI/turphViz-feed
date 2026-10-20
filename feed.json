@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-20T13:25:13-04:00",
+  "generated_at": "2026-10-20T13:45:15-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-20T17:13:30Z"
+      "heartbeat": "2026-10-20T17:43:30Z"
     },
     {
       "id": "hiking",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-20T13:14:28-04:00"
+      "heartbeat": "2026-10-20T13:44:28-04:00"
     },
     {
       "id": "insurance",
@@ -75,7 +75,7 @@
       "status": "ok",
       "last_run_at": "2026-10-20T12:01:15Z",
       "queue_depth": 0,
-      "heartbeat": "2026-10-20T13:07:51-04:00"
+      "heartbeat": "2026-10-20T13:37:51-04:00"
     },
     {
       "id": "relo",
@@ -139,7 +139,7 @@
       "status": "stale",
       "last_run_at": "2026-05-26T00:00:00-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-10-20T12:37:21-04:00",
+      "heartbeat": "2026-10-20T13:37:22-04:00",
       "warnings": [
         "No pipeline activity in 147d"
       ]
@@ -162,7 +162,7 @@
       "status": "ok",
       "last_run_at": "2026-10-20T08:05:01-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-10-20T13:07:43-04:00"
+      "heartbeat": "2026-10-20T13:37:43-04:00"
     },
     {
       "id": "witness",
@@ -172,7 +172,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-20T13:07:43-04:00"
+      "heartbeat": "2026-10-20T13:37:43-04:00"
     }
   ],
   "edges": [
@@ -672,7 +672,7 @@
       "id": "integrity:freshness:repo-doctor.laptop",
       "app": "integrity",
       "priority": 2,
-      "headline": "repo-doctor laptop (Needs-you) is out of sync — 13.0h ago",
+      "headline": "repo-doctor laptop (Needs-you) is out of sync — 13.5h ago",
       "node": "ops.integrity"
     },
     {
@@ -681,6 +681,48 @@
       "priority": 2,
       "headline": "auth-watch laptop (Systems) is out of sync — 1.3d ago",
       "node": "ops.integrity"
+    },
+    {
+      "id": "sweep-pr:laptop-newsletter-probe",
+      "app": "sweep-pr",
+      "priority": 2,
+      "headline": "sweep-pr-watch couldn't check newsletter on laptop — probe is blind",
+      "node": "ops.sweep-pr"
+    },
+    {
+      "id": "sweep-pr:laptop-retirement_location-probe",
+      "app": "sweep-pr",
+      "priority": 2,
+      "headline": "sweep-pr-watch couldn't check retirement_location on laptop — probe is blind",
+      "node": "ops.sweep-pr"
+    },
+    {
+      "id": "sweep-pr:laptop-witness-probe",
+      "app": "sweep-pr",
+      "priority": 2,
+      "headline": "sweep-pr-watch couldn't check witness on laptop — probe is blind",
+      "node": "ops.sweep-pr"
+    },
+    {
+      "id": "sweep-pr:laptop-insurance-probe",
+      "app": "sweep-pr",
+      "priority": 2,
+      "headline": "sweep-pr-watch couldn't check insurance on laptop — probe is blind",
+      "node": "ops.sweep-pr"
+    },
+    {
+      "id": "sweep-pr:laptop-turph-probe",
+      "app": "sweep-pr",
+      "priority": 2,
+      "headline": "sweep-pr-watch couldn't check turph on laptop — probe is blind",
+      "node": "ops.sweep-pr"
+    },
+    {
+      "id": "sweep-pr:laptop-turphfolio-probe",
+      "app": "sweep-pr",
+      "priority": 2,
+      "headline": "sweep-pr-watch couldn't check turphfolio on laptop — probe is blind",
+      "node": "ops.sweep-pr"
     }
   ]
 }
