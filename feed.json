@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-20T11:55:03-04:00",
+  "generated_at": "2026-10-20T12:15:04-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-20T15:43:29Z"
+      "heartbeat": "2026-10-20T16:13:29Z"
     },
     {
       "id": "hiking",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-20T11:44:28-04:00"
+      "heartbeat": "2026-10-20T12:14:28-04:00"
     },
     {
       "id": "insurance",
@@ -75,7 +75,7 @@
       "status": "ok",
       "last_run_at": "2026-10-20T12:01:15Z",
       "queue_depth": 0,
-      "heartbeat": "2026-10-20T11:37:50-04:00"
+      "heartbeat": "2026-10-20T12:07:51-04:00"
     },
     {
       "id": "relo",
@@ -162,7 +162,7 @@
       "status": "ok",
       "last_run_at": "2026-10-20T08:05:01-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-10-20T11:37:43-04:00"
+      "heartbeat": "2026-10-20T12:07:43-04:00"
     },
     {
       "id": "witness",
@@ -172,7 +172,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-20T11:37:42-04:00"
+      "heartbeat": "2026-10-20T12:07:42-04:00"
     }
   ],
   "edges": [
@@ -672,7 +672,14 @@
       "id": "integrity:freshness:repo-doctor.laptop",
       "app": "integrity",
       "priority": 2,
-      "headline": "repo-doctor laptop (Needs-you) is out of sync — 11.5h ago",
+      "headline": "repo-doctor laptop (Needs-you) is out of sync — 12.0h ago",
+      "node": "ops.integrity"
+    },
+    {
+      "id": "integrity:freshness:auth-watch.laptop",
+      "app": "integrity",
+      "priority": 2,
+      "headline": "auth-watch laptop (Systems) is out of sync — 1.3d ago",
       "node": "ops.integrity"
     }
   ]
