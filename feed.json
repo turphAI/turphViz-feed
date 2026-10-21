@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-21T19:09:00-04:00",
+  "generated_at": "2026-10-21T19:19:02-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-21T22:43:52Z"
+      "heartbeat": "2026-10-21T23:11:27Z"
     },
     {
       "id": "hiking",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-21T18:44:35-04:00"
+      "heartbeat": "2026-10-21T19:14:35-04:00"
     },
     {
       "id": "insurance",
@@ -667,55 +667,5 @@
       "magnitude": 0.286
     }
   ],
-  "attention": [
-    {
-      "id": "integrity:freshness:sweep-pr-watch.laptop",
-      "app": "integrity",
-      "priority": 2,
-      "headline": "sweep-pr-watch laptop (Systems) is out of sync — 1.4d ago",
-      "node": "ops.integrity"
-    },
-    {
-      "id": "sweep-pr:laptop-newsletter-probe",
-      "app": "sweep-pr",
-      "priority": 2,
-      "headline": "sweep-pr-watch couldn't check newsletter on laptop — probe is blind",
-      "node": "ops.sweep-pr"
-    },
-    {
-      "id": "sweep-pr:laptop-retirement_location-probe",
-      "app": "sweep-pr",
-      "priority": 2,
-      "headline": "sweep-pr-watch couldn't check retirement_location on laptop — probe is blind",
-      "node": "ops.sweep-pr"
-    },
-    {
-      "id": "sweep-pr:laptop-witness-probe",
-      "app": "sweep-pr",
-      "priority": 2,
-      "headline": "sweep-pr-watch couldn't check witness on laptop — probe is blind",
-      "node": "ops.sweep-pr"
-    },
-    {
-      "id": "sweep-pr:laptop-insurance-probe",
-      "app": "sweep-pr",
-      "priority": 2,
-      "headline": "sweep-pr-watch couldn't check insurance on laptop — probe is blind",
-      "node": "ops.sweep-pr"
-    },
-    {
-      "id": "sweep-pr:laptop-turph-probe",
-      "app": "sweep-pr",
-      "priority": 2,
-      "headline": "sweep-pr-watch couldn't check turph on laptop — probe is blind",
-      "node": "ops.sweep-pr"
-    },
-    {
-      "id": "sweep-pr:laptop-turphfolio-probe",
-      "app": "sweep-pr",
-      "priority": 2,
-      "headline": "sweep-pr-watch couldn't check turphfolio on laptop — probe is blind",
-      "node": "ops.sweep-pr"
-    }
-  ]
+  "attention": []
 }
