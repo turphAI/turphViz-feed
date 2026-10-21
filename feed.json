@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-21T15:08:22-04:00",
+  "generated_at": "2026-10-21T15:18:24-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-21T18:43:49Z"
+      "heartbeat": "2026-10-21T19:13:50Z"
     },
     {
       "id": "hiking",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-21T14:44:34-04:00"
+      "heartbeat": "2026-10-21T15:14:34-04:00"
     },
     {
       "id": "insurance",
@@ -668,6 +668,13 @@
     }
   ],
   "attention": [
+    {
+      "id": "integrity:freshness:sweep-pr-watch.laptop",
+      "app": "integrity",
+      "priority": 2,
+      "headline": "sweep-pr-watch laptop (Systems) is out of sync — 1.3d ago",
+      "node": "ops.integrity"
+    },
     {
       "id": "sweep-pr:laptop-newsletter-probe",
       "app": "sweep-pr",
