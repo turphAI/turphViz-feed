@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-22T14:02:00-04:00",
+  "generated_at": "2026-10-22T14:12:02-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-22T17:41:41Z"
+      "heartbeat": "2026-10-22T18:11:41Z"
     },
     {
       "id": "hiking",
@@ -73,9 +73,9 @@
         "run_failed"
       ],
       "status": "ok",
-      "last_run_at": "2026-10-22T12:02:50Z",
+      "last_run_at": "2026-10-22T18:09:31Z",
       "queue_depth": 0,
-      "heartbeat": "2026-10-22T13:56:02-04:00"
+      "heartbeat": "2026-10-22T14:09:31-04:00"
     },
     {
       "id": "relo",
@@ -162,7 +162,7 @@
       "status": "ok",
       "last_run_at": "2026-10-22T08:05:06-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-10-22T13:37:53-04:00"
+      "heartbeat": "2026-10-22T14:07:53-04:00"
     },
     {
       "id": "witness",
@@ -220,6 +220,15 @@
     }
   ],
   "events": [
+    {
+      "id": "digest_published-2026-10-22-afternoon",
+      "at": "2026-10-22T18:09:31Z",
+      "app": "newsletter",
+      "kind": "digest_published",
+      "headline": "Afternoon digest · kept 30/9",
+      "detail_url": "#/news/2026-10-22-afternoon",
+      "magnitude": 0.667
+    },
     {
       "id": "digest_published-2026-10-22-morning",
       "at": "2026-10-22T12:02:50Z",
@@ -656,15 +665,6 @@
       "headline": "Morning digest · kept 13/3",
       "detail_url": "#/news/2026-09-28-morning",
       "magnitude": 0.464
-    },
-    {
-      "id": "digest_published-2026-09-27-afternoon",
-      "at": "2026-09-27T18:02:51Z",
-      "app": "newsletter",
-      "kind": "digest_published",
-      "headline": "Afternoon digest · kept 14/4",
-      "detail_url": "#/news/2026-09-27-afternoon",
-      "magnitude": 0.483
     }
   ],
   "attention": []
