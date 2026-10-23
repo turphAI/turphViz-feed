@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-23T08:04:52-04:00",
+  "generated_at": "2026-10-23T08:14:54-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-23T11:41:55Z"
+      "heartbeat": "2026-10-23T12:11:55Z"
     },
     {
       "id": "hiking",
@@ -160,9 +160,9 @@
       "kind": "pipeline",
       "desc": "Wearable/weather ingestion + correlation research for Tracie's vasospasm case; only pipeline-health metadata surfaces, never the underlying clinical data.",
       "status": "ok",
-      "last_run_at": "2026-10-22T08:05:06-04:00",
+      "last_run_at": "2026-10-23T08:05:01-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-10-23T07:37:56-04:00"
+      "heartbeat": "2026-10-23T08:07:57-04:00"
     },
     {
       "id": "witness",
@@ -230,6 +230,22 @@
       "magnitude": 0.516
     },
     {
+      "id": "weather_run-2026-10-23",
+      "at": "2026-10-23T08:05:01-04:00",
+      "app": "vasospasm",
+      "kind": "run_completed",
+      "headline": "Weather ingest completed — 7 weather days, 168 hourly rows",
+      "detail_url": null
+    },
+    {
+      "id": "oura_run-2026-10-23",
+      "at": "2026-10-23T08:00:10-04:00",
+      "app": "vasospasm",
+      "kind": "run_completed",
+      "headline": "Oura ingest completed — 6443 rows across 10 endpoints",
+      "detail_url": null
+    },
+    {
       "id": "digest_published-2026-10-22-afternoon",
       "at": "2026-10-22T18:09:31Z",
       "app": "newsletter",
@@ -246,22 +262,6 @@
       "headline": "Morning digest · kept 11/4",
       "detail_url": "#/news/2026-10-22-morning",
       "magnitude": 0.423
-    },
-    {
-      "id": "weather_run-2026-10-22",
-      "at": "2026-10-22T08:05:06-04:00",
-      "app": "vasospasm",
-      "kind": "run_completed",
-      "headline": "Weather ingest completed — 7 weather days, 168 hourly rows",
-      "detail_url": null
-    },
-    {
-      "id": "oura_run-2026-10-22",
-      "at": "2026-10-22T08:00:09-04:00",
-      "app": "vasospasm",
-      "kind": "run_completed",
-      "headline": "Oura ingest completed — 7177 rows across 10 endpoints",
-      "detail_url": null
     },
     {
       "id": "digest_published-2026-10-21-afternoon",
