@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-23T02:34:01-04:00",
+  "generated_at": "2026-10-23T02:44:03-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-23T06:11:50Z"
+      "heartbeat": "2026-10-23T06:41:50Z"
     },
     {
       "id": "hiking",
@@ -139,7 +139,7 @@
       "status": "stale",
       "last_run_at": "2026-05-26T00:00:00-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-10-23T01:37:30-04:00",
+      "heartbeat": "2026-10-23T02:37:30-04:00",
       "warnings": [
         "No pipeline activity in 150d"
       ]
@@ -162,7 +162,7 @@
       "status": "ok",
       "last_run_at": "2026-10-22T08:05:06-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-10-23T02:07:55-04:00"
+      "heartbeat": "2026-10-23T02:37:55-04:00"
     },
     {
       "id": "witness",
