@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-23T13:55:48-04:00",
+  "generated_at": "2026-10-23T14:05:50-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-23T13:26:07-04:00"
+      "heartbeat": "2026-10-23T13:56:07-04:00"
     },
     {
       "id": "insurance",
@@ -75,7 +75,7 @@
       "status": "ok",
       "last_run_at": "2026-10-23T12:02:49Z",
       "queue_depth": 0,
-      "heartbeat": "2026-10-23T13:26:09-04:00"
+      "heartbeat": "2026-10-23T13:56:10-04:00"
     },
     {
       "id": "relo",
@@ -172,7 +172,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-23T13:26:07-04:00"
+      "heartbeat": "2026-10-23T13:56:07-04:00"
     }
   ],
   "edges": [
