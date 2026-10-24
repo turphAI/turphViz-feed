@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-24T06:37:41-04:00",
+  "generated_at": "2026-10-24T06:47:42-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-24T10:12:12Z"
+      "heartbeat": "2026-10-24T10:42:12Z"
     },
     {
       "id": "hiking",
@@ -162,7 +162,7 @@
       "status": "ok",
       "last_run_at": "2026-10-23T08:05:01-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-10-24T06:08:01-04:00"
+      "heartbeat": "2026-10-24T06:38:01-04:00"
     },
     {
       "id": "witness",
@@ -667,12 +667,5 @@
       "magnitude": 0.5
     }
   ],
-  "attention": [
-    {
-      "id": "repo:mini:turph",
-      "app": "turph",
-      "priority": 1,
-      "headline": "turph (mini): main 1 behind origin/main"
-    }
-  ]
+  "attention": []
 }
