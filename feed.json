@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-24T06:27:40-04:00",
+  "generated_at": "2026-10-24T06:37:41-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -139,7 +139,7 @@
       "status": "stale",
       "last_run_at": "2026-05-26T00:00:00-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-10-24T05:37:34-04:00",
+      "heartbeat": "2026-10-24T06:37:34-04:00",
       "warnings": [
         "No pipeline activity in 151d"
       ]
@@ -152,7 +152,7 @@
       "status": "ok",
       "last_run_at": "2026-10-01T03:01:12.002454-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-10-23T06:30:03-04:00"
+      "heartbeat": "2026-10-24T06:30:00-04:00"
     },
     {
       "id": "vasospasm",
