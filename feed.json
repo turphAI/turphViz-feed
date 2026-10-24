@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-24T06:07:37-04:00",
+  "generated_at": "2026-10-24T06:17:38-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-24T10:00:05Z"
+      "heartbeat": "2026-10-24T10:12:12Z"
     },
     {
       "id": "hiking",
@@ -162,7 +162,7 @@
       "status": "ok",
       "last_run_at": "2026-10-23T08:05:01-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-10-24T05:38:01-04:00"
+      "heartbeat": "2026-10-24T06:08:01-04:00"
     },
     {
       "id": "witness",
@@ -668,13 +668,6 @@
     }
   ],
   "attention": [
-    {
-      "id": "integrity:freshness:repo-doctor.laptop",
-      "app": "integrity",
-      "priority": 2,
-      "headline": "repo-doctor laptop (Needs-you) is out of sync — 8.2h ago",
-      "node": "ops.integrity"
-    },
     {
       "id": "repo:mini:turph",
       "app": "turph",
