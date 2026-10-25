@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-25T07:41:22-04:00",
+  "generated_at": "2026-10-25T07:51:23-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-25T11:12:31Z"
+      "heartbeat": "2026-10-25T11:42:31Z"
     },
     {
       "id": "hiking",
@@ -60,7 +60,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-25T07:20:57-04:00"
+      "heartbeat": "2026-10-25T07:50:57-04:00"
     },
     {
       "id": "newsletter",
@@ -667,5 +667,13 @@
       "magnitude": 0.595
     }
   ],
-  "attention": []
+  "attention": [
+    {
+      "id": "integrity:records-agree:turphDocs",
+      "app": "integrity",
+      "priority": 2,
+      "headline": "turphDocs findings vs Issues is out of sync — 4 resolved findings with no re-check receipt, so never confirmed (statement-periods-unbounded-fetch, flask-dev-server-single-threaded, providers-json-malformed-shape-crashes, +1 more); 2 open findings with no Issue (utility-bill-crash-orphan-copy, single-threaded-upload-blocks-requests)",
+      "node": "ops.integrity"
+    }
+  ]
 }
