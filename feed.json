@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-25T16:32:45-04:00",
+  "generated_at": "2026-10-25T16:42:46-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-25T20:12:38Z"
+      "heartbeat": "2026-10-25T20:42:38Z"
     },
     {
       "id": "hiking",
@@ -139,7 +139,7 @@
       "status": "stale",
       "last_run_at": "2026-05-26T00:00:00-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-10-25T15:37:39-04:00",
+      "heartbeat": "2026-10-25T16:37:39-04:00",
       "warnings": [
         "No pipeline activity in 152d"
       ]
@@ -162,7 +162,7 @@
       "status": "ok",
       "last_run_at": "2026-10-25T08:05:04-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-10-25T16:08:08-04:00"
+      "heartbeat": "2026-10-25T16:38:08-04:00"
     },
     {
       "id": "witness",
@@ -672,7 +672,7 @@
       "id": "integrity:freshness:repo-doctor.laptop",
       "app": "integrity",
       "priority": 2,
-      "headline": "repo-doctor laptop (Needs-you) is out of sync — 10.9h ago",
+      "headline": "repo-doctor laptop (Needs-you) is out of sync — 11.4h ago",
       "node": "ops.integrity"
     },
     {
