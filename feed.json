@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-25T15:12:32-04:00",
+  "generated_at": "2026-10-25T15:22:33-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-25T18:42:37Z"
+      "heartbeat": "2026-10-25T19:12:37Z"
     },
     {
       "id": "hiking",
@@ -60,7 +60,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-25T14:50:58-04:00"
+      "heartbeat": "2026-10-25T15:20:58-04:00"
     },
     {
       "id": "newsletter",
@@ -672,7 +672,7 @@
       "id": "integrity:freshness:repo-doctor.laptop",
       "app": "integrity",
       "priority": 2,
-      "headline": "repo-doctor laptop (Needs-you) is out of sync — 9.4h ago",
+      "headline": "repo-doctor laptop (Needs-you) is out of sync — 9.9h ago",
       "node": "ops.integrity"
     },
     {
