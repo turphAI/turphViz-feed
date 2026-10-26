@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-26T06:24:59-04:00",
+  "generated_at": "2026-10-26T06:35:00-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-26T05:56:23-04:00"
+      "heartbeat": "2026-10-26T06:26:23-04:00"
     },
     {
       "id": "insurance",
@@ -75,7 +75,7 @@
       "status": "ok",
       "last_run_at": "2026-10-25T18:06:29Z",
       "queue_depth": 0,
-      "heartbeat": "2026-10-26T05:56:29-04:00"
+      "heartbeat": "2026-10-26T06:26:29-04:00"
     },
     {
       "id": "relo",
@@ -152,7 +152,7 @@
       "status": "ok",
       "last_run_at": "2026-10-01T03:01:12.002454-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-10-25T06:30:01-04:00"
+      "heartbeat": "2026-10-26T06:30:02-04:00"
     },
     {
       "id": "vasospasm",
@@ -172,7 +172,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-26T05:56:23-04:00"
+      "heartbeat": "2026-10-26T06:26:23-04:00"
     }
   ],
   "edges": [
