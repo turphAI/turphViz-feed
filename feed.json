@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-27T09:28:45-04:00",
+  "generated_at": "2026-10-27T09:38:46-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -139,7 +139,7 @@
       "status": "stale",
       "last_run_at": "2026-05-26T00:00:00-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-10-27T08:37:45-04:00",
+      "heartbeat": "2026-10-27T09:37:45-04:00",
       "warnings": [
         "No pipeline activity in 154d"
       ]
@@ -162,7 +162,7 @@
       "status": "ok",
       "last_run_at": "2026-10-27T08:05:02-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-10-27T09:08:17-04:00"
+      "heartbeat": "2026-10-27T09:38:17-04:00"
     },
     {
       "id": "witness",
@@ -687,6 +687,13 @@
       "app": "sweep-pr",
       "priority": 2,
       "headline": "sweep-pr-watch couldn't check newsletter on laptop — probe is blind",
+      "node": "ops.sweep-pr"
+    },
+    {
+      "id": "sweep-pr:laptop-retirement_location-probe",
+      "app": "sweep-pr",
+      "priority": 2,
+      "headline": "sweep-pr-watch couldn't check retirement_location on laptop — probe is blind",
       "node": "ops.sweep-pr"
     }
   ]
