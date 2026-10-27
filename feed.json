@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-27T17:09:58-04:00",
+  "generated_at": "2026-10-27T17:19:59-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-27T20:43:17Z"
+      "heartbeat": "2026-10-27T21:13:17Z"
     },
     {
       "id": "hiking",
@@ -672,7 +672,14 @@
       "id": "integrity:freshness:auth-watch.laptop",
       "app": "integrity",
       "priority": 2,
-      "headline": "auth-watch laptop (Systems) is out of sync — 1.4d ago",
+      "headline": "auth-watch laptop (Systems) is out of sync — 1.5d ago",
+      "node": "ops.integrity"
+    },
+    {
+      "id": "integrity:freshness:defender-watch",
+      "app": "integrity",
+      "priority": 2,
+      "headline": "defender watch (Needs-you) is out of sync — artifact missing (_ops/defender.json)",
       "node": "ops.integrity"
     },
     {
