@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-28T10:41:17-04:00",
+  "generated_at": "2026-10-28T10:51:19-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-28T14:13:32Z"
+      "heartbeat": "2026-10-28T14:43:32Z"
     },
     {
       "id": "hiking",
@@ -60,7 +60,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-28T10:21:14-04:00"
+      "heartbeat": "2026-10-28T10:51:14-04:00"
     },
     {
       "id": "newsletter",
@@ -667,13 +667,5 @@
       "magnitude": 0.583
     }
   ],
-  "attention": [
-    {
-      "id": "integrity:freshness:defender-watch",
-      "app": "integrity",
-      "priority": 2,
-      "headline": "defender watch (Needs-you) is out of sync — artifact missing (_ops/defender.json)",
-      "node": "ops.integrity"
-    }
-  ]
+  "attention": []
 }
