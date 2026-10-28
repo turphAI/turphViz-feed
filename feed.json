@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-28T08:42:30-04:00",
+  "generated_at": "2026-10-28T08:52:31-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-28T12:13:30Z"
+      "heartbeat": "2026-10-28T12:43:30Z"
     },
     {
       "id": "hiking",
@@ -60,7 +60,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-28T08:21:13-04:00"
+      "heartbeat": "2026-10-28T08:51:14-04:00"
     },
     {
       "id": "newsletter",
@@ -673,13 +673,6 @@
       "app": "integrity",
       "priority": 2,
       "headline": "defender watch (Needs-you) is out of sync — artifact missing (_ops/defender.json)",
-      "node": "ops.integrity"
-    },
-    {
-      "id": "integrity:records-agree:worldView",
-      "app": "integrity",
-      "priority": 2,
-      "headline": "worldView findings vs Issues is out of sync — 7 resolved findings with no re-check receipt, so never confirmed (analyst-full-text-fetch-no-host-restriction, analyst-full-text-fetch-unbounded-response, signals-null-url-duplicate-on-rerun, +4 more); 9 open findings with no Issue (ssrf-via-feed-article-fetch, signal-duplicates-without-url, redundant-facts-lookup-per-story-card, +6 more)",
       "node": "ops.integrity"
     },
     {
