@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-28T10:29:35-04:00",
+  "generated_at": "2026-10-28T10:30:18-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -158,11 +158,11 @@
       "id": "vasospasm",
       "name": "Vasospasm",
       "kind": "pipeline",
-      "desc": "Wearable/weather ingestion + correlation research for Tracie's vasospasm case; only pipeline-health metadata surfaces, never the underlying clinical data.",
+      "desc": "Wearable/weather ingestion + correlation research for a coronary vasospasm case; only pipeline-health metadata surfaces, never the underlying clinical data.",
       "status": "ok",
       "last_run_at": "2026-10-28T08:05:01-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-10-28T10:08:22-04:00"
+      "heartbeat": "2026-10-28T10:30:13-04:00"
     },
     {
       "id": "witness",
