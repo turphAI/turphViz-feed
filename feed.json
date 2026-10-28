@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-28T09:12:34-04:00",
+  "generated_at": "2026-10-28T09:22:36-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-28T13:04:35Z"
+      "heartbeat": "2026-10-28T13:13:31Z"
     },
     {
       "id": "hiking",
@@ -60,7 +60,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-28T08:51:14-04:00"
+      "heartbeat": "2026-10-28T09:21:14-04:00"
     },
     {
       "id": "newsletter",
@@ -674,20 +674,6 @@
       "priority": 2,
       "headline": "defender watch (Needs-you) is out of sync — artifact missing (_ops/defender.json)",
       "node": "ops.integrity"
-    },
-    {
-      "id": "sweep-pr:laptop-newsletter-probe",
-      "app": "sweep-pr",
-      "priority": 2,
-      "headline": "sweep-pr-watch couldn't check newsletter on laptop — probe is blind",
-      "node": "ops.sweep-pr"
-    },
-    {
-      "id": "sweep-pr:laptop-retirement_location-probe",
-      "app": "sweep-pr",
-      "priority": 2,
-      "headline": "sweep-pr-watch couldn't check retirement_location on laptop — probe is blind",
-      "node": "ops.sweep-pr"
     }
   ]
 }
