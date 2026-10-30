@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-30T08:28:03-04:00",
+  "generated_at": "2026-10-30T08:38:05-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -139,7 +139,7 @@
       "status": "stale",
       "last_run_at": "2026-05-26T00:00:00-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-10-30T07:37:55-04:00",
+      "heartbeat": "2026-10-30T08:37:55-04:00",
       "warnings": [
         "No pipeline activity in 157d"
       ]
@@ -160,9 +160,9 @@
       "kind": "pipeline",
       "desc": "Wearable/weather ingestion + correlation research for a coronary vasospasm case; only pipeline-health metadata surfaces, never the underlying clinical data.",
       "status": "ok",
-      "last_run_at": "2026-10-30T08:00:14-04:00",
+      "last_run_at": "2026-10-30T08:05:02-04:00",
       "queue_depth": 0,
-      "heartbeat": "2026-10-30T08:00:22-04:00"
+      "heartbeat": "2026-10-30T08:30:22-04:00"
     },
     {
       "id": "witness",
@@ -230,6 +230,14 @@
       "magnitude": 0.5
     },
     {
+      "id": "weather_run-2026-10-30",
+      "at": "2026-10-30T08:05:02-04:00",
+      "app": "vasospasm",
+      "kind": "run_completed",
+      "headline": "Weather ingest completed — 7 weather days, 168 hourly rows",
+      "detail_url": null
+    },
+    {
       "id": "oura_run-2026-10-30",
       "at": "2026-10-30T08:00:14-04:00",
       "app": "vasospasm",
@@ -254,14 +262,6 @@
       "headline": "Morning digest · kept 22/4",
       "detail_url": "#/news/2026-10-29-morning",
       "magnitude": 0.595
-    },
-    {
-      "id": "weather_run-2026-10-29",
-      "at": "2026-10-29T08:05:04-04:00",
-      "app": "vasospasm",
-      "kind": "run_completed",
-      "headline": "Weather ingest completed — 7 weather days, 168 hourly rows",
-      "detail_url": null
     },
     {
       "id": "digest_published-2026-10-28-afternoon",
