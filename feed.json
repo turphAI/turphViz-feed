@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-31T07:41:31-04:00",
+  "generated_at": "2026-10-31T07:51:32-04:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-31T11:14:26Z"
+      "heartbeat": "2026-10-31T11:44:27Z"
     },
     {
       "id": "hiking",
@@ -60,7 +60,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-10-31T07:21:30-04:00"
+      "heartbeat": "2026-10-31T07:51:30-04:00"
     },
     {
       "id": "newsletter",
@@ -674,13 +674,6 @@
       "priority": 2,
       "headline": "Claude CLI subscription login (sweep reviewer + digest synthesis) has lapsed on laptop — re-auth; automation that needs it is failing silently",
       "node": "ops.auth"
-    },
-    {
-      "id": "integrity:freshness:repo-doctor.laptop",
-      "app": "integrity",
-      "priority": 2,
-      "headline": "repo-doctor laptop (Needs-you) is out of sync — 8.9h ago",
-      "node": "ops.integrity"
     },
     {
       "id": "turphfolio:refresh_inputs",
