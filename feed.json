@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-01T07:04:42-05:00",
+  "generated_at": "2026-11-01T07:24:44-05:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-01T11:44:46Z"
+      "heartbeat": "2026-11-01T12:14:46Z"
     },
     {
       "id": "hiking",
@@ -60,7 +60,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-01T06:51:35-05:00"
+      "heartbeat": "2026-11-01T07:21:35-05:00"
     },
     {
       "id": "newsletter",
@@ -679,8 +679,14 @@
       "id": "integrity:freshness:repo-doctor.laptop",
       "app": "integrity",
       "priority": 2,
-      "headline": "repo-doctor laptop (Needs-you) is out of sync — 10.1h ago",
+      "headline": "repo-doctor laptop (Needs-you) is out of sync — 10.6h ago",
       "node": "ops.integrity"
+    },
+    {
+      "id": "repo:mini:newsletter",
+      "app": "newsletter",
+      "priority": 1,
+      "headline": "newsletter (mini): uncommitted changes (1 tracked path(s))"
     }
   ]
 }
