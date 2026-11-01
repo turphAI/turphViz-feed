@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-01T07:44:47-05:00",
+  "generated_at": "2026-11-01T07:54:48-05:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-01T12:14:46Z"
+      "heartbeat": "2026-11-01T12:44:47Z"
     },
     {
       "id": "hiking",
@@ -60,7 +60,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-01T07:21:35-05:00"
+      "heartbeat": "2026-11-01T07:51:35-05:00"
     },
     {
       "id": "newsletter",
@@ -672,6 +672,12 @@
   ],
   "attention": [
     {
+      "id": "newsletter:stale_no_run",
+      "app": "newsletter",
+      "priority": 2,
+      "headline": "Newsletter: No run in 18h — expected twice daily"
+    },
+    {
       "id": "auth:laptop-claude-subscription",
       "app": "auth",
       "priority": 2,
@@ -682,7 +688,14 @@
       "id": "integrity:freshness:repo-doctor.laptop",
       "app": "integrity",
       "priority": 2,
-      "headline": "repo-doctor laptop (Needs-you) is out of sync — 10.6h ago",
+      "headline": "repo-doctor laptop (Needs-you) is out of sync — 11.1h ago",
+      "node": "ops.integrity"
+    },
+    {
+      "id": "integrity:records-agree:turphAssistant",
+      "app": "integrity",
+      "priority": 2,
+      "headline": "turphAssistant findings vs Issues is out of sync — 8 resolved findings with no re-check receipt, so never confirmed (flask-dev-server-unthreaded, reply-subject-header-injection, notify-tag-path-traversal, +5 more); 5 open findings with no Issue (bridge-ask-blocks-reply-reader-duplicate-pushes, calendar-proposal-headline-not-echoed-in-code, smtp-reply-errors-treated-as-delivery-unknown, +2 more)",
       "node": "ops.integrity"
     },
     {
