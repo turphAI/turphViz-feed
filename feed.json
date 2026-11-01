@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-01T14:35:54-05:00",
+  "generated_at": "2026-11-01T14:45:55-05:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-01T19:14:52Z"
+      "heartbeat": "2026-11-01T19:44:52Z"
     },
     {
       "id": "hiking",
@@ -139,7 +139,7 @@
       "status": "stale",
       "last_run_at": "2026-05-26T00:00:00-05:00",
       "queue_depth": 0,
-      "heartbeat": "2026-11-01T13:38:03-05:00",
+      "heartbeat": "2026-11-01T14:38:03-05:00",
       "warnings": [
         "No pipeline activity in 159d"
       ]
@@ -674,13 +674,6 @@
       "priority": 2,
       "headline": "Claude CLI subscription login (sweep reviewer + digest synthesis) has lapsed on laptop — re-auth; automation that needs it is failing silently",
       "node": "ops.auth"
-    },
-    {
-      "id": "integrity:records-agree:witness",
-      "app": "integrity",
-      "priority": 2,
-      "headline": "witness findings vs Issues is out of sync — 22 resolved findings with no re-check receipt, so never confirmed (divergent-drug-normalizers, uploads-unbounded-phi, llm-extraction-failure-not-surfaced, +19 more); 2 open findings with no Issue (wiki-refresh-reports-success-when-generation-fails, proposal-accept-unvalidated-dosage-reason-types)",
-      "node": "ops.integrity"
     },
     {
       "id": "integrity:missed-run:dispatcher",
