@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-01T08:04:49-05:00",
+  "generated_at": "2026-11-01T08:14:51-05:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-01T12:44:47Z"
+      "heartbeat": "2026-11-01T13:14:47Z"
     },
     {
       "id": "hiking",
@@ -669,37 +669,11 @@
   ],
   "attention": [
     {
-      "id": "newsletter:stale_no_run",
-      "app": "newsletter",
-      "priority": 2,
-      "headline": "Newsletter: No run in 18h — expected twice daily"
-    },
-    {
       "id": "auth:laptop-claude-subscription",
       "app": "auth",
       "priority": 2,
       "headline": "Claude CLI subscription login (sweep reviewer + digest synthesis) has lapsed on laptop — re-auth; automation that needs it is failing silently",
       "node": "ops.auth"
-    },
-    {
-      "id": "integrity:freshness:repo-doctor.laptop",
-      "app": "integrity",
-      "priority": 2,
-      "headline": "repo-doctor laptop (Needs-you) is out of sync — 11.1h ago",
-      "node": "ops.integrity"
-    },
-    {
-      "id": "integrity:records-agree:turphAssistant",
-      "app": "integrity",
-      "priority": 2,
-      "headline": "turphAssistant findings vs Issues is out of sync — 8 resolved findings with no re-check receipt, so never confirmed (flask-dev-server-unthreaded, reply-subject-header-injection, notify-tag-path-traversal, +5 more); 5 open findings with no Issue (bridge-ask-blocks-reply-reader-duplicate-pushes, calendar-proposal-headline-not-echoed-in-code, smtp-reply-errors-treated-as-delivery-unknown, +2 more)",
-      "node": "ops.integrity"
-    },
-    {
-      "id": "repo:mini:newsletter",
-      "app": "newsletter",
-      "priority": 1,
-      "headline": "newsletter (mini): uncommitted changes (1 tracked path(s))"
     }
   ]
 }
