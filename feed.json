@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-02T04:38:07-05:00",
+  "generated_at": "2026-11-02T04:48:09-05:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-02T09:15:03Z"
+      "heartbeat": "2026-11-02T09:45:04Z"
     },
     {
       "id": "hiking",
@@ -679,7 +679,7 @@
       "id": "integrity:freshness:repo-doctor.laptop",
       "app": "integrity",
       "priority": 2,
-      "headline": "repo-doctor laptop (Needs-you) is out of sync — 9.3h ago",
+      "headline": "repo-doctor laptop (Needs-you) is out of sync — 9.8h ago",
       "node": "ops.integrity"
     },
     {
