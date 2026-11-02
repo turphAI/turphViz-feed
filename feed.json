@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-02T08:28:43-05:00",
+  "generated_at": "2026-11-02T08:38:45-05:00",
   "nodes": [
     {
       "id": "turph",
@@ -139,7 +139,7 @@
       "status": "stale",
       "last_run_at": "2026-05-26T00:00:00-05:00",
       "queue_depth": 0,
-      "heartbeat": "2026-11-02T07:38:06-05:00",
+      "heartbeat": "2026-11-02T08:38:06-05:00",
       "warnings": [
         "No pipeline activity in 160d"
       ]
@@ -159,10 +159,13 @@
       "name": "Vasospasm",
       "kind": "pipeline",
       "desc": "Wearable/weather ingestion + correlation research for a coronary vasospasm case; only pipeline-health metadata surfaces, never the underlying clinical data.",
-      "status": "ok",
-      "last_run_at": "2026-11-02T08:00:12-05:00",
+      "status": "failed",
+      "last_run_at": "2026-11-02T08:05:00-05:00",
       "queue_depth": 0,
-      "heartbeat": "2026-11-02T08:00:37-05:00"
+      "heartbeat": "2026-11-02T08:30:37-05:00",
+      "warnings": [
+        "weather: last run failed — GET https://archive-api.open-meteo.com/v1/archive failed: 503 {\"error\":true,\"reason\":\"The service is overloaded\"}"
+      ]
     },
     {
       "id": "witness",
@@ -230,6 +233,14 @@
       "magnitude": 0.559
     },
     {
+      "id": "weather_run-2026-11-02",
+      "at": "2026-11-02T08:05:00-05:00",
+      "app": "vasospasm",
+      "kind": "run_failed",
+      "headline": "weather run failed: GET https://archive-api.open-meteo.com/v1/archive failed: 503 {\"error\":true,\"reason\":\"The service is overloaded\"}",
+      "detail_url": null
+    },
+    {
       "id": "oura_run-2026-11-02",
       "at": "2026-11-02T08:00:12-05:00",
       "app": "vasospasm",
@@ -269,14 +280,6 @@
       "app": "vasospasm",
       "kind": "run_completed",
       "headline": "Monthly analysis completed — 6 tests, 0 candidates",
-      "detail_url": null
-    },
-    {
-      "id": "weather_run-2026-11-01",
-      "at": "2026-11-01T08:05:02-05:00",
-      "app": "vasospasm",
-      "kind": "run_completed",
-      "headline": "Weather ingest completed — 7 weather days, 168 hourly rows",
       "detail_url": null
     },
     {
