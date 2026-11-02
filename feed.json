@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-02T03:07:53-05:00",
+  "generated_at": "2026-11-02T03:17:55-05:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-02T07:45:02Z"
+      "heartbeat": "2026-11-02T08:15:02Z"
     },
     {
       "id": "hiking",
@@ -674,6 +674,13 @@
       "priority": 2,
       "headline": "Claude CLI subscription login (sweep reviewer + digest synthesis) has lapsed on laptop — re-auth; automation that needs it is failing silently",
       "node": "ops.auth"
+    },
+    {
+      "id": "integrity:freshness:repo-doctor.laptop",
+      "app": "integrity",
+      "priority": 2,
+      "headline": "repo-doctor laptop (Needs-you) is out of sync — 8.3h ago",
+      "node": "ops.integrity"
     },
     {
       "id": "integrity:missed-run:dispatcher",
