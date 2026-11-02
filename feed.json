@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-02T13:59:35-05:00",
+  "generated_at": "2026-11-02T14:09:37-05:00",
   "nodes": [
     {
       "id": "turph",
@@ -73,9 +73,9 @@
         "run_failed"
       ],
       "status": "ok",
-      "last_run_at": "2026-11-02T13:03:43Z",
+      "last_run_at": "2026-11-02T19:07:49Z",
       "queue_depth": 0,
-      "heartbeat": "2026-11-02T13:57:24-05:00"
+      "heartbeat": "2026-11-02T14:07:49-05:00"
     },
     {
       "id": "relo",
@@ -162,7 +162,7 @@
       "status": "failed",
       "last_run_at": "2026-11-02T08:05:00-05:00",
       "queue_depth": 0,
-      "heartbeat": "2026-11-02T13:30:38-05:00",
+      "heartbeat": "2026-11-02T14:00:39-05:00",
       "warnings": [
         "weather: last run failed — GET https://archive-api.open-meteo.com/v1/archive failed: 503 {\"error\":true,\"reason\":\"The service is overloaded\"}"
       ]
@@ -223,6 +223,15 @@
     }
   ],
   "events": [
+    {
+      "id": "digest_published-2026-11-02-afternoon",
+      "at": "2026-11-02T19:07:49Z",
+      "app": "newsletter",
+      "kind": "digest_published",
+      "headline": "Afternoon digest · kept 44/9",
+      "detail_url": "#/news/2026-11-02-afternoon",
+      "magnitude": 0.746
+    },
     {
       "id": "digest_published-2026-11-02-morning",
       "at": "2026-11-02T13:03:43Z",
@@ -659,15 +668,6 @@
       "headline": "Morning digest · kept 9/2",
       "detail_url": "#/news/2026-10-11-morning",
       "magnitude": 0.375
-    },
-    {
-      "id": "digest_published-2026-10-10-afternoon",
-      "at": "2026-10-10T18:02:31Z",
-      "app": "newsletter",
-      "kind": "digest_published",
-      "headline": "Afternoon digest · kept 10/3",
-      "detail_url": "#/news/2026-10-10-afternoon",
-      "magnitude": 0.4
     }
   ],
   "attention": []
