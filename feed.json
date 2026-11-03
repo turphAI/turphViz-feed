@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-03T08:22:24-05:00",
+  "generated_at": "2026-11-03T08:32:25-05:00",
   "nodes": [
     {
       "id": "turph",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-03T07:57:12-05:00"
+      "heartbeat": "2026-11-03T08:27:12-05:00"
     },
     {
       "id": "insurance",
@@ -75,7 +75,7 @@
       "status": "ok",
       "last_run_at": "2026-11-03T13:06:06Z",
       "queue_depth": 0,
-      "heartbeat": "2026-11-03T08:06:06-05:00"
+      "heartbeat": "2026-11-03T08:27:30-05:00"
     },
     {
       "id": "relo",
@@ -159,13 +159,10 @@
       "name": "Vasospasm",
       "kind": "pipeline",
       "desc": "Wearable/weather ingestion + correlation research for a coronary vasospasm case; only pipeline-health metadata surfaces, never the underlying clinical data.",
-      "status": "failed",
-      "last_run_at": "2026-11-03T08:00:15-05:00",
+      "status": "ok",
+      "last_run_at": "2026-11-03T08:05:02-05:00",
       "queue_depth": 0,
-      "heartbeat": "2026-11-03T08:00:43-05:00",
-      "warnings": [
-        "weather: last run failed — GET https://archive-api.open-meteo.com/v1/archive failed: 503 {\"error\":true,\"reason\":\"The service is overloaded\"}"
-      ]
+      "heartbeat": "2026-11-03T08:30:43-05:00"
     },
     {
       "id": "witness",
@@ -175,7 +172,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-03T07:57:12-05:00"
+      "heartbeat": "2026-11-03T08:27:12-05:00"
     }
   ],
   "edges": [
@@ -233,6 +230,14 @@
       "magnitude": 0.615
     },
     {
+      "id": "weather_run-2026-11-03",
+      "at": "2026-11-03T08:05:02-05:00",
+      "app": "vasospasm",
+      "kind": "run_completed",
+      "headline": "Weather ingest completed — 7 weather days, 168 hourly rows",
+      "detail_url": null
+    },
+    {
       "id": "oura_run-2026-11-03",
       "at": "2026-11-03T08:00:15-05:00",
       "app": "vasospasm",
@@ -257,14 +262,6 @@
       "headline": "Morning digest · kept 19/5",
       "detail_url": "#/news/2026-11-02-morning",
       "magnitude": 0.559
-    },
-    {
-      "id": "weather_run-2026-11-02",
-      "at": "2026-11-02T08:05:00-05:00",
-      "app": "vasospasm",
-      "kind": "run_failed",
-      "headline": "weather run failed: GET https://archive-api.open-meteo.com/v1/archive failed: 503 {\"error\":true,\"reason\":\"The service is overloaded\"}",
-      "detail_url": null
     },
     {
       "id": "digest_published-2026-11-01-afternoon",
