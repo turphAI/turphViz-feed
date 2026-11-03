@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-02T21:20:53-05:00",
+  "generated_at": "2026-11-02T21:30:54-05:00",
   "nodes": [
     {
       "id": "turph",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-02T20:57:09-05:00"
+      "heartbeat": "2026-11-02T21:27:09-05:00"
     },
     {
       "id": "insurance",
@@ -60,7 +60,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-02T20:51:44-05:00"
+      "heartbeat": "2026-11-02T21:21:44-05:00"
     },
     {
       "id": "newsletter",
@@ -75,7 +75,7 @@
       "status": "ok",
       "last_run_at": "2026-11-02T19:07:49Z",
       "queue_depth": 0,
-      "heartbeat": "2026-11-02T20:57:26-05:00"
+      "heartbeat": "2026-11-02T21:27:27-05:00"
     },
     {
       "id": "relo",
@@ -162,7 +162,7 @@
       "status": "failed",
       "last_run_at": "2026-11-02T08:05:00-05:00",
       "queue_depth": 0,
-      "heartbeat": "2026-11-02T21:00:40-05:00",
+      "heartbeat": "2026-11-02T21:30:40-05:00",
       "warnings": [
         "weather: last run failed — GET https://archive-api.open-meteo.com/v1/archive failed: 503 {\"error\":true,\"reason\":\"The service is overloaded\"}"
       ]
@@ -175,7 +175,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-02T20:57:09-05:00"
+      "heartbeat": "2026-11-02T21:27:09-05:00"
     }
   ],
   "edges": [
