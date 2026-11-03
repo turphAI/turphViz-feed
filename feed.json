@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-03T07:52:19-05:00",
+  "generated_at": "2026-11-03T08:02:21-05:00",
   "nodes": [
     {
       "id": "turph",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-03T07:27:12-05:00"
+      "heartbeat": "2026-11-03T07:57:12-05:00"
     },
     {
       "id": "insurance",
@@ -75,7 +75,7 @@
       "status": "ok",
       "last_run_at": "2026-11-02T19:07:49Z",
       "queue_depth": 0,
-      "heartbeat": "2026-11-03T07:27:30-05:00"
+      "heartbeat": "2026-11-03T07:57:30-05:00"
     },
     {
       "id": "relo",
@@ -160,9 +160,9 @@
       "kind": "pipeline",
       "desc": "Wearable/weather ingestion + correlation research for a coronary vasospasm case; only pipeline-health metadata surfaces, never the underlying clinical data.",
       "status": "failed",
-      "last_run_at": "2026-11-02T08:05:00-05:00",
+      "last_run_at": "2026-11-03T08:00:15-05:00",
       "queue_depth": 0,
-      "heartbeat": "2026-11-03T07:30:42-05:00",
+      "heartbeat": "2026-11-03T08:00:43-05:00",
       "warnings": [
         "weather: last run failed — GET https://archive-api.open-meteo.com/v1/archive failed: 503 {\"error\":true,\"reason\":\"The service is overloaded\"}"
       ]
@@ -175,7 +175,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-03T07:27:12-05:00"
+      "heartbeat": "2026-11-03T07:57:12-05:00"
     }
   ],
   "edges": [
@@ -224,6 +224,14 @@
   ],
   "events": [
     {
+      "id": "oura_run-2026-11-03",
+      "at": "2026-11-03T08:00:15-05:00",
+      "app": "vasospasm",
+      "kind": "run_completed",
+      "headline": "Oura ingest completed — 11663 rows across 10 endpoints",
+      "detail_url": null
+    },
+    {
       "id": "digest_published-2026-11-02-afternoon",
       "at": "2026-11-02T19:07:49Z",
       "app": "newsletter",
@@ -247,14 +255,6 @@
       "app": "vasospasm",
       "kind": "run_failed",
       "headline": "weather run failed: GET https://archive-api.open-meteo.com/v1/archive failed: 503 {\"error\":true,\"reason\":\"The service is overloaded\"}",
-      "detail_url": null
-    },
-    {
-      "id": "oura_run-2026-11-02",
-      "at": "2026-11-02T08:00:12-05:00",
-      "app": "vasospasm",
-      "kind": "run_completed",
-      "headline": "Oura ingest completed — 7102 rows across 10 endpoints",
       "detail_url": null
     },
     {
