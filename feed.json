@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-05T14:42:20-05:00",
+  "generated_at": "2026-11-05T14:52:22-05:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-05T19:16:13Z"
+      "heartbeat": "2026-11-05T19:46:14Z"
     },
     {
       "id": "hiking",
@@ -60,7 +60,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-05T14:21:59-05:00"
+      "heartbeat": "2026-11-05T14:51:59-05:00"
     },
     {
       "id": "newsletter",
@@ -672,7 +672,7 @@
       "id": "integrity:freshness:auth-watch.laptop",
       "app": "integrity",
       "priority": 2,
-      "headline": "auth-watch laptop (Systems) is out of sync — 1.3d ago",
+      "headline": "auth-watch laptop (Systems) is out of sync — 1.4d ago",
       "node": "ops.integrity"
     }
   ]
