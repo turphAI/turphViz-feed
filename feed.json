@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-08T14:01:11-05:00",
+  "generated_at": "2026-11-08T14:11:12-05:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-08T18:31:13Z"
+      "heartbeat": "2026-11-08T19:01:14Z"
     },
     {
       "id": "hiking",
@@ -60,7 +60,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-08T13:31:13-05:00"
+      "heartbeat": "2026-11-08T14:01:13-05:00"
     },
     {
       "id": "newsletter",
@@ -73,9 +73,9 @@
         "run_failed"
       ],
       "status": "ok",
-      "last_run_at": "2026-11-08T13:01:20Z",
+      "last_run_at": "2026-11-08T19:03:02Z",
       "queue_depth": 0,
-      "heartbeat": "2026-11-08T14:01:05-05:00"
+      "heartbeat": "2026-11-08T14:03:02-05:00"
     },
     {
       "id": "relo",
@@ -139,7 +139,7 @@
       "status": "stale",
       "last_run_at": "2026-05-26T00:00:00-05:00",
       "queue_depth": 0,
-      "heartbeat": "2026-11-08T13:01:13-05:00",
+      "heartbeat": "2026-11-08T14:01:13-05:00",
       "warnings": [
         "No pipeline activity in 166d"
       ]
@@ -220,6 +220,15 @@
     }
   ],
   "events": [
+    {
+      "id": "digest_published-2026-11-08-afternoon",
+      "at": "2026-11-08T19:03:02Z",
+      "app": "newsletter",
+      "kind": "digest_published",
+      "headline": "Afternoon digest · kept 14/4",
+      "detail_url": "#/news/2026-11-08-afternoon",
+      "magnitude": 0.483
+    },
     {
       "id": "digest_published-2026-11-08-morning",
       "at": "2026-11-08T13:01:20Z",
@@ -656,15 +665,6 @@
       "headline": "Morning digest · kept 17/3",
       "detail_url": "#/news/2026-10-17-morning",
       "magnitude": 0.531
-    },
-    {
-      "id": "digest_published-2026-10-16-afternoon",
-      "at": "2026-10-16T18:04:57Z",
-      "app": "newsletter",
-      "kind": "digest_published",
-      "headline": "Afternoon digest · kept 21/5",
-      "detail_url": "#/news/2026-10-16-afternoon",
-      "magnitude": 0.583
     }
   ],
   "attention": [
@@ -673,13 +673,6 @@
       "app": "integrity",
       "priority": 2,
       "headline": "auth-watch laptop (Systems) is out of sync — 1.3d ago",
-      "node": "ops.integrity"
-    },
-    {
-      "id": "integrity:freshness:backup",
-      "app": "integrity",
-      "priority": 2,
-      "headline": "backup-to-laptop (Systems) is out of sync — 2.3d ago",
       "node": "ops.integrity"
     }
   ]
