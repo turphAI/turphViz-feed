@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-09T13:00:31-05:00",
+  "generated_at": "2026-11-09T13:10:34-05:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-09T16:40:48Z"
+      "heartbeat": "2026-11-09T18:00:32Z"
     },
     {
       "id": "hiking",
@@ -75,7 +75,7 @@
       "status": "ok",
       "last_run_at": "2026-11-09T13:04:47Z",
       "queue_depth": 0,
-      "heartbeat": "2026-11-09T13:00:31-05:00"
+      "heartbeat": "2026-11-09T13:00:32-05:00"
     },
     {
       "id": "relo",
@@ -672,14 +672,21 @@
       "id": "integrity:freshness:repo-doctor.laptop",
       "app": "integrity",
       "priority": 2,
-      "headline": "repo-doctor laptop (Needs-you) is out of sync — 22.6h ago",
+      "headline": "repo-doctor laptop (Needs-you) is out of sync — 23.9h ago",
       "node": "ops.integrity"
     },
     {
       "id": "integrity:freshness:auth-watch.laptop",
       "app": "integrity",
       "priority": 2,
-      "headline": "auth-watch laptop (Systems) is out of sync — 2.2d ago",
+      "headline": "auth-watch laptop (Systems) is out of sync — 2.3d ago",
+      "node": "ops.integrity"
+    },
+    {
+      "id": "integrity:liveness:api",
+      "app": "integrity",
+      "priority": 2,
+      "headline": "turph /api/today is out of sync — unreachable or HTTP None",
       "node": "ops.integrity"
     }
   ]
