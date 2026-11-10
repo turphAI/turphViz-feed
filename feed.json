@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-10T04:10:45-05:00",
+  "generated_at": "2026-11-10T04:20:47-05:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-10T09:00:44Z"
+      "heartbeat": "2026-11-10T09:10:46Z"
     },
     {
       "id": "hiking",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-10T04:00:35-05:00"
+      "heartbeat": "2026-11-10T04:10:45-05:00"
     },
     {
       "id": "insurance",
@@ -60,7 +60,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-10T04:00:34-05:00"
+      "heartbeat": "2026-11-10T04:10:45-05:00"
     },
     {
       "id": "newsletter",
@@ -75,7 +75,7 @@
       "status": "ok",
       "last_run_at": "2026-11-09T19:04:42Z",
       "queue_depth": 0,
-      "heartbeat": "2026-11-10T04:00:36-05:00"
+      "heartbeat": "2026-11-10T04:10:46-05:00"
     },
     {
       "id": "relo",
@@ -152,7 +152,7 @@
       "status": "ok",
       "last_run_at": "2026-11-01T03:04:45.825941-05:00",
       "queue_depth": 0,
-      "heartbeat": "2026-11-09T13:00:31-05:00"
+      "heartbeat": "2026-11-10T04:10:46-05:00"
     },
     {
       "id": "vasospasm",
@@ -162,7 +162,7 @@
       "status": "ok",
       "last_run_at": "2026-11-09T08:05:04-05:00",
       "queue_depth": 0,
-      "heartbeat": "2026-11-10T04:00:34-05:00"
+      "heartbeat": "2026-11-10T04:10:46-05:00"
     },
     {
       "id": "witness",
@@ -669,6 +669,13 @@
   ],
   "attention": [
     {
+      "id": "integrity:freshness:repo-doctor.laptop",
+      "app": "integrity",
+      "priority": 2,
+      "headline": "repo-doctor laptop (Needs-you) is out of sync — 8.1h ago",
+      "node": "ops.integrity"
+    },
+    {
       "id": "integrity:freshness:auth-watch.laptop",
       "app": "integrity",
       "priority": 2,
@@ -680,6 +687,13 @@
       "app": "integrity",
       "priority": 2,
       "headline": "sweep-pr-watch laptop (Systems) is out of sync — 1.8d ago",
+      "node": "ops.integrity"
+    },
+    {
+      "id": "integrity:liveness:api",
+      "app": "integrity",
+      "priority": 2,
+      "headline": "turph /api/today is out of sync — unreachable or HTTP None",
       "node": "ops.integrity"
     }
   ]
