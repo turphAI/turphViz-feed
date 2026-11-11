@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-11T12:11:16-05:00",
+  "generated_at": "2026-11-11T12:41:18-05:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-11T17:10:52Z"
+      "heartbeat": "2026-11-11T17:40:52Z"
     },
     {
       "id": "hiking",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-11T12:10:47-05:00"
+      "heartbeat": "2026-11-11T12:40:47-05:00"
     },
     {
       "id": "insurance",
@@ -60,7 +60,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-11T12:10:46-05:00"
+      "heartbeat": "2026-11-11T12:40:46-05:00"
     },
     {
       "id": "newsletter",
@@ -75,7 +75,7 @@
       "status": "ok",
       "last_run_at": "2026-11-11T13:07:07Z",
       "queue_depth": 0,
-      "heartbeat": "2026-11-11T12:10:47-05:00"
+      "heartbeat": "2026-11-11T12:40:47-05:00"
     },
     {
       "id": "relo",
@@ -162,7 +162,7 @@
       "status": "ok",
       "last_run_at": "2026-11-11T08:05:05-05:00",
       "queue_depth": 0,
-      "heartbeat": "2026-11-11T12:10:46-05:00"
+      "heartbeat": "2026-11-11T12:40:46-05:00"
     },
     {
       "id": "witness",
@@ -172,7 +172,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-11T12:10:46-05:00"
+      "heartbeat": "2026-11-11T12:40:47-05:00"
     }
   ],
   "edges": [
@@ -672,7 +672,7 @@
       "id": "integrity:freshness:repo-doctor.laptop",
       "app": "integrity",
       "priority": 2,
-      "headline": "repo-doctor laptop (Needs-you) is out of sync — 13.7h ago",
+      "headline": "repo-doctor laptop (Needs-you) is out of sync — 14.2h ago",
       "node": "ops.integrity"
     },
     {
