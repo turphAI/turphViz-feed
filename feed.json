@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-11T06:40:56-05:00",
+  "generated_at": "2026-11-11T07:10:57-05:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-11T11:40:48Z"
+      "heartbeat": "2026-11-11T12:10:48Z"
     },
     {
       "id": "hiking",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-11T06:40:46-05:00"
+      "heartbeat": "2026-11-11T07:10:46-05:00"
     },
     {
       "id": "insurance",
@@ -60,7 +60,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-11T06:40:45-05:00"
+      "heartbeat": "2026-11-11T07:10:45-05:00"
     },
     {
       "id": "newsletter",
@@ -75,7 +75,7 @@
       "status": "ok",
       "last_run_at": "2026-11-10T19:05:59Z",
       "queue_depth": 0,
-      "heartbeat": "2026-11-11T06:40:45-05:00"
+      "heartbeat": "2026-11-11T07:10:45-05:00"
     },
     {
       "id": "relo",
@@ -139,7 +139,7 @@
       "status": "stale",
       "last_run_at": "2026-05-26T00:00:00-05:00",
       "queue_depth": 0,
-      "heartbeat": "2026-11-11T06:10:45-05:00",
+      "heartbeat": "2026-11-11T07:10:45-05:00",
       "warnings": [
         "No pipeline activity in 169d"
       ]
@@ -162,7 +162,7 @@
       "status": "ok",
       "last_run_at": "2026-11-10T08:05:05-05:00",
       "queue_depth": 0,
-      "heartbeat": "2026-11-11T06:40:45-05:00"
+      "heartbeat": "2026-11-11T07:10:45-05:00"
     },
     {
       "id": "witness",
@@ -172,7 +172,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-11T06:40:45-05:00"
+      "heartbeat": "2026-11-11T07:10:45-05:00"
     }
   ],
   "edges": [
@@ -672,7 +672,14 @@
       "id": "integrity:freshness:repo-doctor.laptop",
       "app": "integrity",
       "priority": 2,
-      "headline": "repo-doctor laptop (Needs-you) is out of sync — 8.2h ago",
+      "headline": "repo-doctor laptop (Needs-you) is out of sync — 8.7h ago",
+      "node": "ops.integrity"
+    },
+    {
+      "id": "integrity:records-agree:turphAssistant",
+      "app": "integrity",
+      "priority": 2,
+      "headline": "turphAssistant findings vs Issues is out of sync — 13 resolved findings with no re-check receipt, so never confirmed (reply-subject-header-injection, notify-tag-path-traversal, updates-json-concurrent-write-race, +10 more); 1 open finding with no Issue (loopback-notify-route-reachable-over-tailnet)",
       "node": "ops.integrity"
     }
   ]
