@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-11T07:40:59-05:00",
+  "generated_at": "2026-11-11T08:11:01-05:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-11T12:40:48Z"
+      "heartbeat": "2026-11-11T13:10:49Z"
     },
     {
       "id": "hiking",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-11T07:40:46-05:00"
+      "heartbeat": "2026-11-11T08:10:46-05:00"
     },
     {
       "id": "insurance",
@@ -60,7 +60,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-11T07:40:45-05:00"
+      "heartbeat": "2026-11-11T08:10:45-05:00"
     },
     {
       "id": "newsletter",
@@ -73,9 +73,9 @@
         "run_failed"
       ],
       "status": "ok",
-      "last_run_at": "2026-11-10T19:05:59Z",
+      "last_run_at": "2026-11-11T13:07:07Z",
       "queue_depth": 0,
-      "heartbeat": "2026-11-11T07:40:46-05:00"
+      "heartbeat": "2026-11-11T08:10:46-05:00"
     },
     {
       "id": "relo",
@@ -139,7 +139,7 @@
       "status": "stale",
       "last_run_at": "2026-05-26T00:00:00-05:00",
       "queue_depth": 0,
-      "heartbeat": "2026-11-11T07:10:45-05:00",
+      "heartbeat": "2026-11-11T08:10:45-05:00",
       "warnings": [
         "No pipeline activity in 169d"
       ]
@@ -160,9 +160,9 @@
       "kind": "pipeline",
       "desc": "Wearable/weather ingestion + correlation research for a coronary vasospasm case; only pipeline-health metadata surfaces, never the underlying clinical data.",
       "status": "ok",
-      "last_run_at": "2026-11-10T08:05:05-05:00",
+      "last_run_at": "2026-11-11T08:05:05-05:00",
       "queue_depth": 0,
-      "heartbeat": "2026-11-11T07:40:45-05:00"
+      "heartbeat": "2026-11-11T08:10:45-05:00"
     },
     {
       "id": "witness",
@@ -172,7 +172,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-11T07:40:45-05:00"
+      "heartbeat": "2026-11-11T08:10:46-05:00"
     }
   ],
   "edges": [
@@ -221,6 +221,31 @@
   ],
   "events": [
     {
+      "id": "digest_published-2026-11-11-morning",
+      "at": "2026-11-11T13:07:07Z",
+      "app": "newsletter",
+      "kind": "digest_published",
+      "headline": "Morning digest · kept 39/8",
+      "detail_url": "#/news/2026-11-11-morning",
+      "magnitude": 0.722
+    },
+    {
+      "id": "weather_run-2026-11-11",
+      "at": "2026-11-11T08:05:05-05:00",
+      "app": "vasospasm",
+      "kind": "run_completed",
+      "headline": "Weather ingest completed — 7 weather days, 168 hourly rows",
+      "detail_url": null
+    },
+    {
+      "id": "oura_run-2026-11-11",
+      "at": "2026-11-11T08:00:12-05:00",
+      "app": "vasospasm",
+      "kind": "run_completed",
+      "headline": "Oura ingest completed — 1248 rows across 10 endpoints",
+      "detail_url": null
+    },
+    {
       "id": "digest_published-2026-11-10-afternoon",
       "at": "2026-11-10T19:05:59Z",
       "app": "newsletter",
@@ -237,22 +262,6 @@
       "headline": "Morning digest · kept 26/5",
       "detail_url": "#/news/2026-11-10-morning",
       "magnitude": 0.634
-    },
-    {
-      "id": "weather_run-2026-11-10",
-      "at": "2026-11-10T08:05:05-05:00",
-      "app": "vasospasm",
-      "kind": "run_completed",
-      "headline": "Weather ingest completed — 7 weather days, 168 hourly rows",
-      "detail_url": null
-    },
-    {
-      "id": "oura_run-2026-11-10",
-      "at": "2026-11-10T08:00:07-05:00",
-      "app": "vasospasm",
-      "kind": "run_completed",
-      "headline": "Oura ingest completed — 1235 rows across 10 endpoints",
-      "detail_url": null
     },
     {
       "id": "digest_published-2026-11-09-afternoon",
@@ -656,15 +665,6 @@
       "headline": "Afternoon digest · kept 35/6",
       "detail_url": "#/news/2026-10-19-afternoon",
       "magnitude": 0.7
-    },
-    {
-      "id": "digest_published-2026-10-19-morning",
-      "at": "2026-10-19T12:02:29Z",
-      "app": "newsletter",
-      "kind": "digest_published",
-      "headline": "Morning digest · kept 12/2",
-      "detail_url": "#/news/2026-10-19-morning",
-      "magnitude": 0.444
     }
   ],
   "attention": [
@@ -672,7 +672,7 @@
       "id": "integrity:freshness:repo-doctor.laptop",
       "app": "integrity",
       "priority": 2,
-      "headline": "repo-doctor laptop (Needs-you) is out of sync — 9.2h ago",
+      "headline": "repo-doctor laptop (Needs-you) is out of sync — 9.7h ago",
       "node": "ops.integrity"
     }
   ]
