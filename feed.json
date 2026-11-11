@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-11T13:41:21-05:00",
+  "generated_at": "2026-11-11T14:11:23-05:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-11T18:40:53Z"
+      "heartbeat": "2026-11-11T19:10:54Z"
     },
     {
       "id": "hiking",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-11T13:40:47-05:00"
+      "heartbeat": "2026-11-11T14:10:47-05:00"
     },
     {
       "id": "insurance",
@@ -60,7 +60,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-11T13:40:47-05:00"
+      "heartbeat": "2026-11-11T14:10:47-05:00"
     },
     {
       "id": "newsletter",
@@ -73,9 +73,9 @@
         "run_failed"
       ],
       "status": "ok",
-      "last_run_at": "2026-11-11T13:07:07Z",
+      "last_run_at": "2026-11-11T19:05:41Z",
       "queue_depth": 0,
-      "heartbeat": "2026-11-11T13:40:48-05:00"
+      "heartbeat": "2026-11-11T14:10:48-05:00"
     },
     {
       "id": "relo",
@@ -139,7 +139,7 @@
       "status": "stale",
       "last_run_at": "2026-05-26T00:00:00-05:00",
       "queue_depth": 0,
-      "heartbeat": "2026-11-11T13:10:46-05:00",
+      "heartbeat": "2026-11-11T14:10:46-05:00",
       "warnings": [
         "No pipeline activity in 169d"
       ]
@@ -162,7 +162,7 @@
       "status": "ok",
       "last_run_at": "2026-11-11T08:05:05-05:00",
       "queue_depth": 0,
-      "heartbeat": "2026-11-11T13:40:46-05:00"
+      "heartbeat": "2026-11-11T14:10:46-05:00"
     },
     {
       "id": "witness",
@@ -172,7 +172,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-11T13:40:47-05:00"
+      "heartbeat": "2026-11-11T14:10:47-05:00"
     }
   ],
   "edges": [
@@ -220,6 +220,15 @@
     }
   ],
   "events": [
+    {
+      "id": "digest_published-2026-11-11-afternoon",
+      "at": "2026-11-11T19:05:41Z",
+      "app": "newsletter",
+      "kind": "digest_published",
+      "headline": "Afternoon digest · kept 37/4",
+      "detail_url": "#/news/2026-11-11-afternoon",
+      "magnitude": 0.712
+    },
     {
       "id": "digest_published-2026-11-11-morning",
       "at": "2026-11-11T13:07:07Z",
@@ -656,15 +665,6 @@
       "headline": "Morning digest · kept 7/1",
       "detail_url": "#/news/2026-10-20-morning",
       "magnitude": 0.318
-    },
-    {
-      "id": "digest_published-2026-10-19-afternoon",
-      "at": "2026-10-19T18:06:16Z",
-      "app": "newsletter",
-      "kind": "digest_published",
-      "headline": "Afternoon digest · kept 35/6",
-      "detail_url": "#/news/2026-10-19-afternoon",
-      "magnitude": 0.7
     }
   ],
   "attention": [
@@ -672,7 +672,7 @@
       "id": "integrity:freshness:repo-doctor.laptop",
       "app": "integrity",
       "priority": 2,
-      "headline": "repo-doctor laptop (Needs-you) is out of sync — 15.2h ago",
+      "headline": "repo-doctor laptop (Needs-you) is out of sync — 15.7h ago",
       "node": "ops.integrity"
     },
     {
