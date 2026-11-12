@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-12T02:07:28-05:00",
+  "generated_at": "2026-11-12T02:27:30-05:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-12T06:57:27Z"
+      "heartbeat": "2026-11-12T07:27:28Z"
     },
     {
       "id": "hiking",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-12T01:57:26-05:00"
+      "heartbeat": "2026-11-12T02:27:27-05:00"
     },
     {
       "id": "insurance",
@@ -60,7 +60,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-12T01:57:26-05:00"
+      "heartbeat": "2026-11-12T02:27:27-05:00"
     },
     {
       "id": "newsletter",
@@ -75,7 +75,7 @@
       "status": "ok",
       "last_run_at": "2026-11-11T19:05:41Z",
       "queue_depth": 0,
-      "heartbeat": "2026-11-12T01:57:27-05:00"
+      "heartbeat": "2026-11-12T02:27:27-05:00"
     },
     {
       "id": "relo",
@@ -162,7 +162,7 @@
       "status": "ok",
       "last_run_at": "2026-11-11T08:05:05-05:00",
       "queue_depth": 0,
-      "heartbeat": "2026-11-12T01:57:26-05:00"
+      "heartbeat": "2026-11-12T02:27:27-05:00"
     },
     {
       "id": "witness",
@@ -172,7 +172,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-12T01:57:26-05:00"
+      "heartbeat": "2026-11-12T02:27:26-05:00"
     }
   ],
   "edges": [
@@ -667,13 +667,5 @@
       "magnitude": 0.318
     }
   ],
-  "attention": [
-    {
-      "id": "integrity:liveness:api",
-      "app": "integrity",
-      "priority": 2,
-      "headline": "turph /api/today is out of sync — unreachable or HTTP None",
-      "node": "ops.integrity"
-    }
-  ]
+  "attention": []
 }
