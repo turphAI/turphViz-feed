@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-11T23:41:58-05:00",
+  "generated_at": "2026-11-12T00:12:00-05:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-12T04:41:01Z"
+      "heartbeat": "2026-11-12T05:11:02Z"
     },
     {
       "id": "hiking",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-11T23:40:49-05:00"
+      "heartbeat": "2026-11-12T00:10:49-05:00"
     },
     {
       "id": "insurance",
@@ -60,7 +60,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-11T23:40:49-05:00"
+      "heartbeat": "2026-11-12T00:10:49-05:00"
     },
     {
       "id": "newsletter",
@@ -75,7 +75,7 @@
       "status": "ok",
       "last_run_at": "2026-11-11T19:05:41Z",
       "queue_depth": 0,
-      "heartbeat": "2026-11-11T23:40:51-05:00"
+      "heartbeat": "2026-11-12T00:10:51-05:00"
     },
     {
       "id": "relo",
@@ -139,9 +139,9 @@
       "status": "stale",
       "last_run_at": "2026-05-26T00:00:00-05:00",
       "queue_depth": 0,
-      "heartbeat": "2026-11-11T23:10:47-05:00",
+      "heartbeat": "2026-11-12T00:10:47-05:00",
       "warnings": [
-        "No pipeline activity in 169d"
+        "No pipeline activity in 170d"
       ]
     },
     {
@@ -162,7 +162,7 @@
       "status": "ok",
       "last_run_at": "2026-11-11T08:05:05-05:00",
       "queue_depth": 0,
-      "heartbeat": "2026-11-11T23:40:48-05:00"
+      "heartbeat": "2026-11-12T00:10:49-05:00"
     },
     {
       "id": "witness",
@@ -172,7 +172,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-11T23:40:49-05:00"
+      "heartbeat": "2026-11-12T00:10:49-05:00"
     }
   ],
   "edges": [
@@ -667,20 +667,5 @@
       "magnitude": 0.318
     }
   ],
-  "attention": [
-    {
-      "id": "integrity:freshness:auth-watch.laptop",
-      "app": "integrity",
-      "priority": 2,
-      "headline": "auth-watch laptop (Systems) is out of sync — 1.7d ago",
-      "node": "ops.integrity"
-    },
-    {
-      "id": "integrity:freshness:sweep-pr-watch.laptop",
-      "app": "integrity",
-      "priority": 2,
-      "headline": "sweep-pr-watch laptop (Systems) is out of sync — 1.6d ago",
-      "node": "ops.integrity"
-    }
-  ]
+  "attention": []
 }
