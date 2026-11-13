@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-13T13:34:26-05:00",
+  "generated_at": "2026-11-13T14:04:28-05:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-13T18:27:57Z"
+      "heartbeat": "2026-11-13T18:57:57Z"
     },
     {
       "id": "hiking",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-13T13:27:36-05:00"
+      "heartbeat": "2026-11-13T13:57:36-05:00"
     },
     {
       "id": "insurance",
@@ -60,7 +60,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-13T13:27:36-05:00"
+      "heartbeat": "2026-11-13T13:57:36-05:00"
     },
     {
       "id": "newsletter",
@@ -73,9 +73,9 @@
         "run_failed"
       ],
       "status": "ok",
-      "last_run_at": "2026-11-13T13:07:23Z",
+      "last_run_at": "2026-11-13T19:04:22Z",
       "queue_depth": 0,
-      "heartbeat": "2026-11-13T13:27:38-05:00"
+      "heartbeat": "2026-11-13T14:04:22-05:00"
     },
     {
       "id": "relo",
@@ -139,7 +139,7 @@
       "status": "stale",
       "last_run_at": "2026-05-26T00:00:00-05:00",
       "queue_depth": 0,
-      "heartbeat": "2026-11-13T12:57:31-05:00",
+      "heartbeat": "2026-11-13T13:57:32-05:00",
       "warnings": [
         "No pipeline activity in 171d"
       ]
@@ -162,7 +162,7 @@
       "status": "ok",
       "last_run_at": "2026-11-13T08:05:03-05:00",
       "queue_depth": 0,
-      "heartbeat": "2026-11-13T13:27:34-05:00"
+      "heartbeat": "2026-11-13T13:57:34-05:00"
     },
     {
       "id": "witness",
@@ -172,7 +172,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-13T13:27:36-05:00"
+      "heartbeat": "2026-11-13T13:57:36-05:00"
     }
   ],
   "edges": [
@@ -220,6 +220,15 @@
     }
   ],
   "events": [
+    {
+      "id": "digest_published-2026-11-13-afternoon",
+      "at": "2026-11-13T19:04:22Z",
+      "app": "newsletter",
+      "kind": "digest_published",
+      "headline": "Afternoon digest · kept 30/3",
+      "detail_url": "#/news/2026-11-13-afternoon",
+      "magnitude": 0.667
+    },
     {
       "id": "digest_published-2026-11-13-morning",
       "at": "2026-11-13T13:07:23Z",
@@ -656,15 +665,6 @@
       "headline": "Morning digest · kept 11/4",
       "detail_url": "#/news/2026-10-22-morning",
       "magnitude": 0.423
-    },
-    {
-      "id": "digest_published-2026-10-21-afternoon",
-      "at": "2026-10-21T18:09:32Z",
-      "app": "newsletter",
-      "kind": "digest_published",
-      "headline": "Afternoon digest · kept 48/11",
-      "detail_url": "#/news/2026-10-21-afternoon",
-      "magnitude": 0.762
     }
   ],
   "attention": []
