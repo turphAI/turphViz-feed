@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-13T06:29:59-05:00",
+  "generated_at": "2026-11-13T06:40:03-05:00",
   "nodes": [
     {
       "id": "turph",
@@ -152,7 +152,7 @@
       "status": "ok",
       "last_run_at": "2026-11-01T03:04:45.825941-05:00",
       "queue_depth": 0,
-      "heartbeat": "2026-11-12T06:30:05-05:00"
+      "heartbeat": "2026-11-13T06:30:04-05:00"
     },
     {
       "id": "vasospasm",
