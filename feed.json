@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-13T09:01:08-05:00",
+  "generated_at": "2026-11-13T09:31:47-05:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-13T14:00:10Z"
+      "heartbeat": "2026-11-13T14:27:54Z"
     },
     {
       "id": "hiking",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-13T08:57:34-05:00"
+      "heartbeat": "2026-11-13T09:27:34-05:00"
     },
     {
       "id": "insurance",
@@ -60,7 +60,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-13T08:57:34-05:00"
+      "heartbeat": "2026-11-13T09:27:34-05:00"
     },
     {
       "id": "newsletter",
@@ -75,7 +75,7 @@
       "status": "ok",
       "last_run_at": "2026-11-13T13:07:23Z",
       "queue_depth": 0,
-      "heartbeat": "2026-11-13T08:57:36-05:00"
+      "heartbeat": "2026-11-13T09:27:36-05:00"
     },
     {
       "id": "relo",
@@ -162,7 +162,7 @@
       "status": "ok",
       "last_run_at": "2026-11-13T08:05:03-05:00",
       "queue_depth": 0,
-      "heartbeat": "2026-11-13T08:57:33-05:00"
+      "heartbeat": "2026-11-13T09:27:33-05:00"
     },
     {
       "id": "witness",
@@ -172,7 +172,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-13T08:57:34-05:00"
+      "heartbeat": "2026-11-13T09:27:34-05:00"
     }
   ],
   "edges": [
@@ -667,55 +667,5 @@
       "magnitude": 0.762
     }
   ],
-  "attention": [
-    {
-      "id": "sweep-pr:laptop-newsletter-probe",
-      "app": "sweep-pr",
-      "priority": 2,
-      "headline": "sweep-pr-watch couldn't check newsletter on laptop — probe is blind",
-      "node": "ops.sweep-pr"
-    },
-    {
-      "id": "sweep-pr:laptop-retirement_location-probe",
-      "app": "sweep-pr",
-      "priority": 2,
-      "headline": "sweep-pr-watch couldn't check retirement_location on laptop — probe is blind",
-      "node": "ops.sweep-pr"
-    },
-    {
-      "id": "sweep-pr:laptop-witness-probe",
-      "app": "sweep-pr",
-      "priority": 2,
-      "headline": "sweep-pr-watch couldn't check witness on laptop — probe is blind",
-      "node": "ops.sweep-pr"
-    },
-    {
-      "id": "sweep-pr:laptop-insurance-probe",
-      "app": "sweep-pr",
-      "priority": 2,
-      "headline": "sweep-pr-watch couldn't check insurance on laptop — probe is blind",
-      "node": "ops.sweep-pr"
-    },
-    {
-      "id": "sweep-pr:laptop-turph-probe",
-      "app": "sweep-pr",
-      "priority": 2,
-      "headline": "sweep-pr-watch couldn't check turph on laptop — probe is blind",
-      "node": "ops.sweep-pr"
-    },
-    {
-      "id": "sweep-pr:laptop-turphfolio-probe",
-      "app": "sweep-pr",
-      "priority": 2,
-      "headline": "sweep-pr-watch couldn't check turphfolio on laptop — probe is blind",
-      "node": "ops.sweep-pr"
-    },
-    {
-      "id": "sweep-pr:laptop-turphUtilities-probe",
-      "app": "sweep-pr",
-      "priority": 2,
-      "headline": "sweep-pr-watch couldn't check turphUtilities on laptop — probe is blind",
-      "node": "ops.sweep-pr"
-    }
-  ]
+  "attention": []
 }
