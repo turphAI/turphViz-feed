@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-20T06:16:04-05:00",
+  "generated_at": "2026-11-20T06:36:06-05:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-20T11:10:03Z"
+      "heartbeat": "2026-11-20T11:30:09Z"
     },
     {
       "id": "hiking",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-20T05:58:18-05:00"
+      "heartbeat": "2026-11-20T06:28:18-05:00"
     },
     {
       "id": "insurance",
@@ -60,7 +60,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-20T05:58:18-05:00"
+      "heartbeat": "2026-11-20T06:28:18-05:00"
     },
     {
       "id": "newsletter",
@@ -75,7 +75,7 @@
       "status": "ok",
       "last_run_at": "2026-11-19T19:04:28Z",
       "queue_depth": 0,
-      "heartbeat": "2026-11-20T05:58:29-05:00"
+      "heartbeat": "2026-11-20T06:28:29-05:00"
     },
     {
       "id": "relo",
@@ -152,7 +152,7 @@
       "status": "ok",
       "last_run_at": "2026-11-01T03:04:45.825941-05:00",
       "queue_depth": 0,
-      "heartbeat": "2026-11-19T06:30:03-05:00"
+      "heartbeat": "2026-11-20T06:30:03-05:00"
     },
     {
       "id": "vasospasm",
@@ -162,7 +162,7 @@
       "status": "ok",
       "last_run_at": "2026-11-19T08:05:07-05:00",
       "queue_depth": 0,
-      "heartbeat": "2026-11-20T05:58:10-05:00"
+      "heartbeat": "2026-11-20T06:28:11-05:00"
     },
     {
       "id": "witness",
@@ -172,7 +172,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-20T05:58:18-05:00"
+      "heartbeat": "2026-11-20T06:28:18-05:00"
     }
   ],
   "edges": [
