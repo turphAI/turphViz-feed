@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-20T07:36:09-05:00",
+  "generated_at": "2026-11-20T08:06:11-05:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-20T12:30:10Z"
+      "heartbeat": "2026-11-20T13:00:11Z"
     },
     {
       "id": "hiking",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-20T07:28:19-05:00"
+      "heartbeat": "2026-11-20T07:58:19-05:00"
     },
     {
       "id": "insurance",
@@ -60,7 +60,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-20T07:28:19-05:00"
+      "heartbeat": "2026-11-20T07:58:19-05:00"
     },
     {
       "id": "newsletter",
@@ -75,7 +75,7 @@
       "status": "ok",
       "last_run_at": "2026-11-19T19:04:28Z",
       "queue_depth": 0,
-      "heartbeat": "2026-11-20T07:28:29-05:00"
+      "heartbeat": "2026-11-20T07:58:29-05:00"
     },
     {
       "id": "relo",
@@ -139,7 +139,7 @@
       "status": "stale",
       "last_run_at": "2026-05-26T00:00:00-05:00",
       "queue_depth": 0,
-      "heartbeat": "2026-11-20T06:57:54-05:00",
+      "heartbeat": "2026-11-20T07:57:54-05:00",
       "warnings": [
         "No pipeline activity in 178d"
       ]
@@ -162,7 +162,7 @@
       "status": "ok",
       "last_run_at": "2026-11-19T08:05:07-05:00",
       "queue_depth": 0,
-      "heartbeat": "2026-11-20T07:28:11-05:00"
+      "heartbeat": "2026-11-20T07:58:11-05:00"
     },
     {
       "id": "witness",
@@ -172,7 +172,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-20T07:28:19-05:00"
+      "heartbeat": "2026-11-20T07:58:19-05:00"
     }
   ],
   "edges": [
