@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-22T06:59:51-05:00",
+  "generated_at": "2026-11-22T07:09:53-05:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-22T11:30:49Z"
+      "heartbeat": "2026-11-22T12:00:49Z"
     },
     {
       "id": "hiking",
@@ -687,6 +687,13 @@
       "app": "integrity",
       "priority": 2,
       "headline": "sweep-pr-watch laptop (Systems) is out of sync — 1.9d ago",
+      "node": "ops.integrity"
+    },
+    {
+      "id": "integrity:records-agree:newsletter",
+      "app": "integrity",
+      "priority": 2,
+      "headline": "newsletter findings vs Issues is out of sync — 6 resolved findings with no re-check receipt, so never confirmed (entity-cache-glob-includes-self, haiku-sender-unescaped-in-prompt, classify-topics-serial-per-item, +3 more)",
       "node": "ops.integrity"
     }
   ]
