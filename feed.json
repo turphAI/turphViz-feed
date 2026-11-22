@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-22T07:59:57-05:00",
+  "generated_at": "2026-11-22T08:09:59-05:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-22T12:30:50Z"
+      "heartbeat": "2026-11-22T13:00:50Z"
     },
     {
       "id": "hiking",
@@ -73,9 +73,9 @@
         "run_failed"
       ],
       "status": "ok",
-      "last_run_at": "2026-11-21T19:01:17Z",
+      "last_run_at": "2026-11-22T13:02:39Z",
       "queue_depth": 0,
-      "heartbeat": "2026-11-22T07:58:45-05:00"
+      "heartbeat": "2026-11-22T08:02:39-05:00"
     },
     {
       "id": "relo",
@@ -220,6 +220,15 @@
     }
   ],
   "events": [
+    {
+      "id": "digest_published-2026-11-22-morning",
+      "at": "2026-11-22T13:02:39Z",
+      "app": "newsletter",
+      "kind": "digest_published",
+      "headline": "Morning digest · kept 11/3",
+      "detail_url": "#/news/2026-11-22-morning",
+      "magnitude": 0.423
+    },
     {
       "id": "digest_published-2026-11-21-afternoon",
       "at": "2026-11-21T19:01:17Z",
@@ -656,15 +665,6 @@
       "headline": "Afternoon digest · kept 9/4",
       "detail_url": "#/news/2026-10-30-afternoon",
       "magnitude": 0.375
-    },
-    {
-      "id": "digest_published-2026-10-30-morning",
-      "at": "2026-10-30T12:02:59Z",
-      "app": "newsletter",
-      "kind": "digest_published",
-      "headline": "Morning digest · kept 15/3",
-      "detail_url": "#/news/2026-10-30-morning",
-      "magnitude": 0.5
     }
   ],
   "attention": [
@@ -686,7 +686,7 @@
       "id": "integrity:freshness:sweep-pr-watch.laptop",
       "app": "integrity",
       "priority": 2,
-      "headline": "sweep-pr-watch laptop (Systems) is out of sync — 1.9d ago",
+      "headline": "sweep-pr-watch laptop (Systems) is out of sync — 2.0d ago",
       "node": "ops.integrity"
     }
   ]
