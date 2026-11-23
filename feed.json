@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-23T14:02:20-05:00",
+  "generated_at": "2026-11-23T14:12:22-05:00",
   "nodes": [
     {
       "id": "turph",
@@ -73,9 +73,9 @@
         "run_failed"
       ],
       "status": "ok",
-      "last_run_at": "2026-11-23T13:02:34Z",
+      "last_run_at": "2026-11-23T19:08:35Z",
       "queue_depth": 0,
-      "heartbeat": "2026-11-23T13:58:55-05:00"
+      "heartbeat": "2026-11-23T14:08:36-05:00"
     },
     {
       "id": "relo",
@@ -220,6 +220,15 @@
     }
   ],
   "events": [
+    {
+      "id": "digest_published-2026-11-23-afternoon",
+      "at": "2026-11-23T19:08:35Z",
+      "app": "newsletter",
+      "kind": "digest_published",
+      "headline": "Afternoon digest · kept 41/10",
+      "detail_url": "#/news/2026-11-23-afternoon",
+      "magnitude": 0.732
+    },
     {
       "id": "digest_published-2026-11-23-morning",
       "at": "2026-11-23T13:02:34Z",
@@ -656,15 +665,6 @@
       "kind": "run_completed",
       "headline": "Monthly analysis completed — 6 tests, 0 candidates",
       "detail_url": null
-    },
-    {
-      "id": "digest_published-2026-10-31-afternoon",
-      "at": "2026-10-31T18:03:06Z",
-      "app": "newsletter",
-      "kind": "digest_published",
-      "headline": "Afternoon digest · kept 9/4",
-      "detail_url": "#/news/2026-10-31-afternoon",
-      "magnitude": 0.375
     }
   ],
   "attention": [
