@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-24T14:03:59-05:00",
+  "generated_at": "2026-11-24T14:14:01-05:00",
   "nodes": [
     {
       "id": "turph",
@@ -73,9 +73,9 @@
         "run_failed"
       ],
       "status": "ok",
-      "last_run_at": "2026-11-24T13:03:35Z",
+      "last_run_at": "2026-11-24T19:05:38Z",
       "queue_depth": 0,
-      "heartbeat": "2026-11-24T13:59:03-05:00"
+      "heartbeat": "2026-11-24T14:05:38-05:00"
     },
     {
       "id": "relo",
@@ -220,6 +220,15 @@
     }
   ],
   "events": [
+    {
+      "id": "digest_published-2026-11-24-afternoon",
+      "at": "2026-11-24T19:05:38Z",
+      "app": "newsletter",
+      "kind": "digest_published",
+      "headline": "Afternoon digest · kept 30/6",
+      "detail_url": "#/news/2026-11-24-afternoon",
+      "magnitude": 0.667
+    },
     {
       "id": "digest_published-2026-11-24-morning",
       "at": "2026-11-24T13:03:35Z",
@@ -658,14 +667,6 @@
       "headline": "Morning digest · kept 10/1",
       "detail_url": "#/news/2026-11-01-morning",
       "magnitude": 0.4
-    },
-    {
-      "id": "lag_analysis_run-2026-11-01",
-      "at": "2026-11-01T08:10:06-05:00",
-      "app": "vasospasm",
-      "kind": "run_completed",
-      "headline": "Lag analysis completed — 5 tests, 1 candidates",
-      "detail_url": null
     }
   ],
   "attention": [
