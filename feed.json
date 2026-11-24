@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-24T00:33:05-05:00",
+  "generated_at": "2026-11-24T01:03:07-05:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-24T05:31:22Z"
+      "heartbeat": "2026-11-24T06:01:23Z"
     },
     {
       "id": "hiking",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-24T00:28:43-05:00"
+      "heartbeat": "2026-11-24T00:58:43-05:00"
     },
     {
       "id": "insurance",
@@ -60,7 +60,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-24T00:28:43-05:00"
+      "heartbeat": "2026-11-24T00:58:43-05:00"
     },
     {
       "id": "newsletter",
@@ -75,7 +75,7 @@
       "status": "ok",
       "last_run_at": "2026-11-23T19:08:35Z",
       "queue_depth": 0,
-      "heartbeat": "2026-11-24T00:28:58-05:00"
+      "heartbeat": "2026-11-24T00:58:58-05:00"
     },
     {
       "id": "relo",
@@ -139,9 +139,9 @@
       "status": "stale",
       "last_run_at": "2026-05-26T00:00:00-05:00",
       "queue_depth": 0,
-      "heartbeat": "2026-11-23T23:58:07-05:00",
+      "heartbeat": "2026-11-24T00:58:07-05:00",
       "warnings": [
-        "No pipeline activity in 181d"
+        "No pipeline activity in 182d"
       ]
     },
     {
@@ -162,7 +162,7 @@
       "status": "ok",
       "last_run_at": "2026-11-23T08:05:05-05:00",
       "queue_depth": 0,
-      "heartbeat": "2026-11-24T00:28:30-05:00"
+      "heartbeat": "2026-11-24T00:58:30-05:00"
     },
     {
       "id": "witness",
@@ -172,7 +172,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-24T00:28:43-05:00"
+      "heartbeat": "2026-11-24T00:58:43-05:00"
     }
   ],
   "edges": [
@@ -679,7 +679,7 @@
       "id": "integrity:freshness:sweep-pr-watch.laptop",
       "app": "integrity",
       "priority": 2,
-      "headline": "sweep-pr-watch laptop (Systems) is out of sync — 3.6d ago",
+      "headline": "sweep-pr-watch laptop (Systems) is out of sync — 3.7d ago",
       "node": "ops.integrity"
     }
   ]
