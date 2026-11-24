@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-24T07:03:32-05:00",
+  "generated_at": "2026-11-24T07:33:34-05:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-24T12:01:28Z"
+      "heartbeat": "2026-11-24T12:31:28Z"
     },
     {
       "id": "hiking",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-24T06:58:44-05:00"
+      "heartbeat": "2026-11-24T07:28:45-05:00"
     },
     {
       "id": "insurance",
@@ -60,7 +60,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-24T06:58:44-05:00"
+      "heartbeat": "2026-11-24T07:28:45-05:00"
     },
     {
       "id": "newsletter",
@@ -75,7 +75,7 @@
       "status": "ok",
       "last_run_at": "2026-11-23T19:08:35Z",
       "queue_depth": 0,
-      "heartbeat": "2026-11-24T06:59:00-05:00"
+      "heartbeat": "2026-11-24T07:29:00-05:00"
     },
     {
       "id": "relo",
@@ -162,7 +162,7 @@
       "status": "ok",
       "last_run_at": "2026-11-23T08:05:05-05:00",
       "queue_depth": 0,
-      "heartbeat": "2026-11-24T06:58:32-05:00"
+      "heartbeat": "2026-11-24T07:28:32-05:00"
     },
     {
       "id": "witness",
@@ -172,7 +172,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-24T06:58:44-05:00"
+      "heartbeat": "2026-11-24T07:28:45-05:00"
     }
   ],
   "edges": [
@@ -672,14 +672,14 @@
       "id": "integrity:freshness:repo-doctor.laptop",
       "app": "integrity",
       "priority": 2,
-      "headline": "repo-doctor laptop (Needs-you) is out of sync — 11.8h ago",
+      "headline": "repo-doctor laptop (Needs-you) is out of sync — 12.3h ago",
       "node": "ops.integrity"
     },
     {
       "id": "integrity:freshness:auth-watch.laptop",
       "app": "integrity",
       "priority": 2,
-      "headline": "auth-watch laptop (Systems) is out of sync — 4.0d ago",
+      "headline": "auth-watch laptop (Systems) is out of sync — 4.1d ago",
       "node": "ops.integrity"
     },
     {
