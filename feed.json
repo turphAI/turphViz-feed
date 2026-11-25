@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-25T07:05:09-05:00",
+  "generated_at": "2026-11-25T07:35:11-05:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-25T12:01:47Z"
+      "heartbeat": "2026-11-25T12:31:48Z"
     },
     {
       "id": "hiking",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-25T06:58:51-05:00"
+      "heartbeat": "2026-11-25T07:28:51-05:00"
     },
     {
       "id": "insurance",
@@ -60,7 +60,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-25T06:58:51-05:00"
+      "heartbeat": "2026-11-25T07:28:51-05:00"
     },
     {
       "id": "newsletter",
@@ -75,7 +75,7 @@
       "status": "ok",
       "last_run_at": "2026-11-24T19:05:38Z",
       "queue_depth": 0,
-      "heartbeat": "2026-11-25T06:59:08-05:00"
+      "heartbeat": "2026-11-25T07:29:08-05:00"
     },
     {
       "id": "relo",
@@ -162,7 +162,7 @@
       "status": "ok",
       "last_run_at": "2026-11-24T08:05:05-05:00",
       "queue_depth": 0,
-      "heartbeat": "2026-11-25T06:58:37-05:00"
+      "heartbeat": "2026-11-25T07:28:37-05:00"
     },
     {
       "id": "witness",
@@ -172,7 +172,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-25T06:58:51-05:00"
+      "heartbeat": "2026-11-25T07:28:51-05:00"
     }
   ],
   "edges": [
@@ -681,7 +681,7 @@
       "id": "integrity:freshness:auth-watch.laptop",
       "app": "integrity",
       "priority": 2,
-      "headline": "auth-watch laptop (Systems) is out of sync — 5.0d ago",
+      "headline": "auth-watch laptop (Systems) is out of sync — 5.1d ago",
       "node": "ops.integrity"
     },
     {
@@ -689,13 +689,6 @@
       "app": "integrity",
       "priority": 2,
       "headline": "sweep-pr-watch laptop (Systems) is out of sync — 4.9d ago",
-      "node": "ops.integrity"
-    },
-    {
-      "id": "integrity:records-agree:newsletter",
-      "app": "integrity",
-      "priority": 2,
-      "headline": "newsletter findings vs Issues is out of sync — 7 resolved findings with no re-check receipt, so never confirmed (entity-cache-glob-includes-self, haiku-sender-unescaped-in-prompt, classify-topics-serial-per-item, +4 more); 2 open findings with no Issue (same-label-rerun-overwrites-digest, entity-cache-in-digests-dir-crashes-backfill)",
       "node": "ops.integrity"
     }
   ]
