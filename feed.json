@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-25T14:05:38-05:00",
+  "generated_at": "2026-11-25T14:35:40-05:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-25T19:01:53Z"
+      "heartbeat": "2026-11-25T19:31:53Z"
     },
     {
       "id": "hiking",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-25T13:58:53-05:00"
+      "heartbeat": "2026-11-25T14:28:53-05:00"
     },
     {
       "id": "insurance",
@@ -60,7 +60,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-25T13:58:53-05:00"
+      "heartbeat": "2026-11-25T14:28:53-05:00"
     },
     {
       "id": "newsletter",
@@ -75,7 +75,7 @@
       "status": "ok",
       "last_run_at": "2026-11-25T19:04:11Z",
       "queue_depth": 0,
-      "heartbeat": "2026-11-25T14:04:11-05:00"
+      "heartbeat": "2026-11-25T14:29:11-05:00"
     },
     {
       "id": "relo",
@@ -162,7 +162,7 @@
       "status": "ok",
       "last_run_at": "2026-11-25T08:05:04-05:00",
       "queue_depth": 0,
-      "heartbeat": "2026-11-25T13:58:38-05:00"
+      "heartbeat": "2026-11-25T14:28:38-05:00"
     },
     {
       "id": "witness",
@@ -172,7 +172,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-25T13:58:53-05:00"
+      "heartbeat": "2026-11-25T14:28:53-05:00"
     }
   ],
   "edges": [
@@ -674,7 +674,7 @@
       "id": "integrity:freshness:auth-watch.laptop",
       "app": "integrity",
       "priority": 2,
-      "headline": "auth-watch laptop (Systems) is out of sync — 5.3d ago",
+      "headline": "auth-watch laptop (Systems) is out of sync — 5.4d ago",
       "node": "ops.integrity"
     },
     {
