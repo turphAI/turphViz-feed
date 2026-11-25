@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-25T17:05:49-05:00",
+  "generated_at": "2026-11-25T17:35:51-05:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-25T22:01:55Z"
+      "heartbeat": "2026-11-25T22:31:56Z"
     },
     {
       "id": "hiking",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-25T16:58:54-05:00"
+      "heartbeat": "2026-11-25T17:28:54-05:00"
     },
     {
       "id": "insurance",
@@ -60,7 +60,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-25T16:58:54-05:00"
+      "heartbeat": "2026-11-25T17:28:54-05:00"
     },
     {
       "id": "newsletter",
@@ -75,7 +75,7 @@
       "status": "ok",
       "last_run_at": "2026-11-25T19:04:11Z",
       "queue_depth": 0,
-      "heartbeat": "2026-11-25T16:59:11-05:00"
+      "heartbeat": "2026-11-25T17:29:12-05:00"
     },
     {
       "id": "relo",
@@ -162,7 +162,7 @@
       "status": "ok",
       "last_run_at": "2026-11-25T08:05:04-05:00",
       "queue_depth": 0,
-      "heartbeat": "2026-11-25T16:58:39-05:00"
+      "heartbeat": "2026-11-25T17:28:39-05:00"
     },
     {
       "id": "witness",
@@ -172,7 +172,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-25T16:58:54-05:00"
+      "heartbeat": "2026-11-25T17:28:54-05:00"
     }
   ],
   "edges": [
@@ -681,7 +681,7 @@
       "id": "integrity:freshness:sweep-pr-watch.laptop",
       "app": "integrity",
       "priority": 2,
-      "headline": "sweep-pr-watch laptop (Systems) is out of sync — 5.3d ago",
+      "headline": "sweep-pr-watch laptop (Systems) is out of sync — 5.4d ago",
       "node": "ops.integrity"
     },
     {
@@ -689,18 +689,6 @@
       "app": "newsletter",
       "priority": 1,
       "headline": "newsletter (laptop): main 1 behind origin/main"
-    },
-    {
-      "id": "repo:laptop:turph",
-      "app": "turph",
-      "priority": 1,
-      "headline": "turph (laptop): main 1 behind origin/main"
-    },
-    {
-      "id": "repo:laptop:turphfolio",
-      "app": "turphfolio",
-      "priority": 1,
-      "headline": "turphfolio (laptop): main 1 behind origin/main"
     },
     {
       "id": "repo:laptop:witness",
