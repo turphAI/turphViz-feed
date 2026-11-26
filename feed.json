@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-26T08:56:50-05:00",
+  "generated_at": "2026-11-26T09:06:51-05:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-26T13:32:08Z"
+      "heartbeat": "2026-11-26T14:02:08Z"
     },
     {
       "id": "hiking",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-26T08:28:58-05:00"
+      "heartbeat": "2026-11-26T08:58:58-05:00"
     },
     {
       "id": "insurance",
@@ -60,7 +60,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-26T08:28:58-05:00"
+      "heartbeat": "2026-11-26T08:57:06-05:00"
     },
     {
       "id": "newsletter",
@@ -139,7 +139,7 @@
       "status": "stale",
       "last_run_at": "2026-05-26T00:00:00-05:00",
       "queue_depth": 0,
-      "heartbeat": "2026-11-26T07:58:15-05:00",
+      "heartbeat": "2026-11-26T08:58:15-05:00",
       "warnings": [
         "No pipeline activity in 184d"
       ]
@@ -162,7 +162,7 @@
       "status": "ok",
       "last_run_at": "2026-11-26T08:05:02-05:00",
       "queue_depth": 0,
-      "heartbeat": "2026-11-26T08:28:42-05:00"
+      "heartbeat": "2026-11-26T08:58:42-05:00"
     },
     {
       "id": "witness",
@@ -172,7 +172,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-26T08:28:58-05:00"
+      "heartbeat": "2026-11-26T08:58:58-05:00"
     }
   ],
   "edges": [
@@ -669,20 +669,5 @@
       "magnitude": 0.746
     }
   ],
-  "attention": [
-    {
-      "id": "integrity:freshness:repo-doctor.laptop",
-      "app": "integrity",
-      "priority": 2,
-      "headline": "repo-doctor laptop (Needs-you) is out of sync — 11.0h ago",
-      "node": "ops.integrity"
-    },
-    {
-      "id": "integrity:freshness:sweep-pr-watch.laptop",
-      "app": "integrity",
-      "priority": 2,
-      "headline": "sweep-pr-watch laptop (Systems) is out of sync — 6.0d ago",
-      "node": "ops.integrity"
-    }
-  ]
+  "attention": []
 }
