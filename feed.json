@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-26T18:39:08-05:00",
+  "generated_at": "2026-11-26T18:59:09-05:00",
   "nodes": [
     {
       "id": "turph",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-26T18:29:00-05:00"
+      "heartbeat": "2026-11-26T18:59:00-05:00"
     },
     {
       "id": "insurance",
@@ -60,7 +60,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-26T18:27:08-05:00"
+      "heartbeat": "2026-11-26T18:57:09-05:00"
     },
     {
       "id": "newsletter",
@@ -75,7 +75,7 @@
       "status": "ok",
       "last_run_at": "2026-11-26T19:03:21Z",
       "queue_depth": 0,
-      "heartbeat": "2026-11-26T18:19:17-05:00"
+      "heartbeat": "2026-11-26T18:49:17-05:00"
     },
     {
       "id": "relo",
@@ -139,7 +139,7 @@
       "status": "stale",
       "last_run_at": "2026-05-26T00:00:00-05:00",
       "queue_depth": 0,
-      "heartbeat": "2026-11-26T17:58:16-05:00",
+      "heartbeat": "2026-11-26T18:58:16-05:00",
       "warnings": [
         "No pipeline activity in 184d"
       ]
@@ -162,7 +162,7 @@
       "status": "ok",
       "last_run_at": "2026-11-26T08:05:02-05:00",
       "queue_depth": 0,
-      "heartbeat": "2026-11-26T18:28:44-05:00"
+      "heartbeat": "2026-11-26T18:58:44-05:00"
     },
     {
       "id": "witness",
@@ -172,7 +172,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-26T18:29:00-05:00"
+      "heartbeat": "2026-11-26T18:59:00-05:00"
     }
   ],
   "edges": [
