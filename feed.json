@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-26T16:28:54-05:00",
+  "generated_at": "2026-11-26T16:38:55-05:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-26T21:02:14Z"
+      "heartbeat": "2026-11-26T21:32:14Z"
     },
     {
       "id": "hiking",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-26T15:59:00-05:00"
+      "heartbeat": "2026-11-26T16:29:00-05:00"
     },
     {
       "id": "insurance",
@@ -172,7 +172,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-26T15:59:00-05:00"
+      "heartbeat": "2026-11-26T16:29:00-05:00"
     }
   ],
   "edges": [
@@ -669,12 +669,5 @@
       "magnitude": 0.615
     }
   ],
-  "attention": [
-    {
-      "id": "repo:laptop:turphfolio",
-      "app": "turphfolio",
-      "priority": 1,
-      "headline": "turphfolio (laptop): on branch 'feat/cash-account-feed', not main; uncommitted changes (4 tracked path(s)); 4 untracked file(s) — gitignore or commit?"
-    }
-  ]
+  "attention": []
 }
