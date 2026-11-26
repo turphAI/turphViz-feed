@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-26T08:06:46-05:00",
+  "generated_at": "2026-11-26T08:36:48-05:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-26T13:02:08Z"
+      "heartbeat": "2026-11-26T13:32:08Z"
     },
     {
       "id": "hiking",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-26T07:58:58-05:00"
+      "heartbeat": "2026-11-26T08:28:58-05:00"
     },
     {
       "id": "insurance",
@@ -60,7 +60,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-26T07:58:58-05:00"
+      "heartbeat": "2026-11-26T08:28:58-05:00"
     },
     {
       "id": "newsletter",
@@ -75,7 +75,7 @@
       "status": "ok",
       "last_run_at": "2026-11-26T13:03:52Z",
       "queue_depth": 0,
-      "heartbeat": "2026-11-26T08:03:53-05:00"
+      "heartbeat": "2026-11-26T08:29:17-05:00"
     },
     {
       "id": "relo",
@@ -160,9 +160,9 @@
       "kind": "pipeline",
       "desc": "Wearable/weather ingestion + correlation research for a coronary vasospasm case; only pipeline-health metadata surfaces, never the underlying clinical data.",
       "status": "ok",
-      "last_run_at": "2026-11-25T08:05:04-05:00",
+      "last_run_at": "2026-11-26T08:05:02-05:00",
       "queue_depth": 0,
-      "heartbeat": "2026-11-26T07:58:42-05:00"
+      "heartbeat": "2026-11-26T08:28:42-05:00"
     },
     {
       "id": "witness",
@@ -172,7 +172,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-26T07:58:58-05:00"
+      "heartbeat": "2026-11-26T08:28:58-05:00"
     }
   ],
   "edges": [
@@ -230,6 +230,22 @@
       "magnitude": 0.605
     },
     {
+      "id": "weather_run-2026-11-26",
+      "at": "2026-11-26T08:05:02-05:00",
+      "app": "vasospasm",
+      "kind": "run_completed",
+      "headline": "Weather ingest completed — 7 weather days, 168 hourly rows",
+      "detail_url": null
+    },
+    {
+      "id": "oura_run-2026-11-26",
+      "at": "2026-11-26T08:00:13-05:00",
+      "app": "vasospasm",
+      "kind": "run_completed",
+      "headline": "Oura ingest completed — 8128 rows across 10 endpoints",
+      "detail_url": null
+    },
+    {
       "id": "digest_published-2026-11-25-afternoon",
       "at": "2026-11-25T19:04:11Z",
       "app": "newsletter",
@@ -246,22 +262,6 @@
       "headline": "Morning digest · kept 26/5",
       "detail_url": "#/news/2026-11-25-morning",
       "magnitude": 0.634
-    },
-    {
-      "id": "weather_run-2026-11-25",
-      "at": "2026-11-25T08:05:04-05:00",
-      "app": "vasospasm",
-      "kind": "run_completed",
-      "headline": "Weather ingest completed — 7 weather days, 168 hourly rows",
-      "detail_url": null
-    },
-    {
-      "id": "oura_run-2026-11-25",
-      "at": "2026-11-25T08:00:09-05:00",
-      "app": "vasospasm",
-      "kind": "run_completed",
-      "headline": "Oura ingest completed — 1358 rows across 10 endpoints",
-      "detail_url": null
     },
     {
       "id": "digest_published-2026-11-24-afternoon",
@@ -674,7 +674,7 @@
       "id": "integrity:freshness:repo-doctor.laptop",
       "app": "integrity",
       "priority": 2,
-      "headline": "repo-doctor laptop (Needs-you) is out of sync — 10.5h ago",
+      "headline": "repo-doctor laptop (Needs-you) is out of sync — 11.0h ago",
       "node": "ops.integrity"
     },
     {
