@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-26T14:58:45-05:00",
+  "generated_at": "2026-11-26T15:08:46-05:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-26T19:32:13Z"
+      "heartbeat": "2026-11-26T20:02:13Z"
     },
     {
       "id": "hiking",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-26T14:28:59-05:00"
+      "heartbeat": "2026-11-26T14:58:59-05:00"
     },
     {
       "id": "insurance",
@@ -172,7 +172,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-26T14:28:59-05:00"
+      "heartbeat": "2026-11-26T14:58:59-05:00"
     }
   ],
   "edges": [
