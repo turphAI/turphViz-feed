@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-26T15:28:48-05:00",
+  "generated_at": "2026-11-26T15:38:49-05:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-26T20:02:13Z"
+      "heartbeat": "2026-11-26T20:32:14Z"
     },
     {
       "id": "hiking",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-26T14:58:59-05:00"
+      "heartbeat": "2026-11-26T15:29:00-05:00"
     },
     {
       "id": "insurance",
@@ -152,7 +152,7 @@
       "status": "ok",
       "last_run_at": "2026-11-01T03:04:45.825941-05:00",
       "queue_depth": 0,
-      "heartbeat": "2026-11-26T06:30:02-05:00"
+      "heartbeat": "2026-11-26T15:33:54-05:00"
     },
     {
       "id": "vasospasm",
@@ -172,7 +172,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-26T14:58:59-05:00"
+      "heartbeat": "2026-11-26T15:29:00-05:00"
     }
   ],
   "edges": [
@@ -669,5 +669,12 @@
       "magnitude": 0.615
     }
   ],
-  "attention": []
+  "attention": [
+    {
+      "id": "repo:mini:turphfolio",
+      "app": "turphfolio",
+      "priority": 1,
+      "headline": "turphfolio (mini): main 1 behind origin/main"
+    }
+  ]
 }
