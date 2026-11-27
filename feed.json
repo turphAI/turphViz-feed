@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-27T09:21:23-05:00",
+  "generated_at": "2026-11-27T09:31:24-05:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-27T14:02:27Z"
+      "heartbeat": "2026-11-27T14:05:16Z"
     },
     {
       "id": "hiking",
@@ -50,7 +50,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-27T08:59:04-05:00"
+      "heartbeat": "2026-11-27T09:29:04-05:00"
     },
     {
       "id": "insurance",
@@ -60,7 +60,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-27T08:57:12-05:00"
+      "heartbeat": "2026-11-27T09:27:12-05:00"
     },
     {
       "id": "newsletter",
@@ -162,7 +162,7 @@
       "status": "ok",
       "last_run_at": "2026-11-27T08:05:04-05:00",
       "queue_depth": 0,
-      "heartbeat": "2026-11-27T08:58:47-05:00"
+      "heartbeat": "2026-11-27T09:28:47-05:00"
     },
     {
       "id": "witness",
@@ -172,7 +172,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-27T08:59:04-05:00"
+      "heartbeat": "2026-11-27T09:29:04-05:00"
     }
   ],
   "edges": [
@@ -676,6 +676,55 @@
       "priority": 2,
       "headline": "repo-doctor laptop (Needs-you) is out of sync — 16.5h ago",
       "node": "ops.integrity"
+    },
+    {
+      "id": "sweep-pr:laptop-newsletter-probe",
+      "app": "sweep-pr",
+      "priority": 2,
+      "headline": "sweep-pr-watch couldn't check newsletter on laptop — probe is blind",
+      "node": "ops.sweep-pr"
+    },
+    {
+      "id": "sweep-pr:laptop-retirement_location-probe",
+      "app": "sweep-pr",
+      "priority": 2,
+      "headline": "sweep-pr-watch couldn't check retirement_location on laptop — probe is blind",
+      "node": "ops.sweep-pr"
+    },
+    {
+      "id": "sweep-pr:laptop-witness-probe",
+      "app": "sweep-pr",
+      "priority": 2,
+      "headline": "sweep-pr-watch couldn't check witness on laptop — probe is blind",
+      "node": "ops.sweep-pr"
+    },
+    {
+      "id": "sweep-pr:laptop-insurance-probe",
+      "app": "sweep-pr",
+      "priority": 2,
+      "headline": "sweep-pr-watch couldn't check insurance on laptop — probe is blind",
+      "node": "ops.sweep-pr"
+    },
+    {
+      "id": "sweep-pr:laptop-turph-probe",
+      "app": "sweep-pr",
+      "priority": 2,
+      "headline": "sweep-pr-watch couldn't check turph on laptop — probe is blind",
+      "node": "ops.sweep-pr"
+    },
+    {
+      "id": "sweep-pr:laptop-turphfolio-probe",
+      "app": "sweep-pr",
+      "priority": 2,
+      "headline": "sweep-pr-watch couldn't check turphfolio on laptop — probe is blind",
+      "node": "ops.sweep-pr"
+    },
+    {
+      "id": "sweep-pr:laptop-turphUtilities-probe",
+      "app": "sweep-pr",
+      "priority": 2,
+      "headline": "sweep-pr-watch couldn't check turphUtilities on laptop — probe is blind",
+      "node": "ops.sweep-pr"
     }
   ]
 }
