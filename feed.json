@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-27T08:01:11-05:00",
+  "generated_at": "2026-11-27T08:11:12-05:00",
   "nodes": [
     {
       "id": "turph",
@@ -40,7 +40,7 @@
       "status": "ok",
       "last_run_at": null,
       "queue_depth": 0,
-      "heartbeat": "2026-11-27T12:32:26Z"
+      "heartbeat": "2026-11-27T13:02:26Z"
     },
     {
       "id": "hiking",
@@ -73,9 +73,9 @@
         "run_failed"
       ],
       "status": "ok",
-      "last_run_at": "2026-11-26T19:03:21Z",
+      "last_run_at": "2026-11-27T13:01:55Z",
       "queue_depth": 0,
-      "heartbeat": "2026-11-27T07:49:21-05:00"
+      "heartbeat": "2026-11-27T08:01:55-05:00"
     },
     {
       "id": "relo",
@@ -220,6 +220,15 @@
     }
   ],
   "events": [
+    {
+      "id": "digest_published-2026-11-27-morning",
+      "at": "2026-11-27T13:01:55Z",
+      "app": "newsletter",
+      "kind": "digest_published",
+      "headline": "Morning digest · kept 10/2",
+      "detail_url": "#/news/2026-11-27-morning",
+      "magnitude": 0.4
+    },
     {
       "id": "digest_published-2026-11-26-afternoon",
       "at": "2026-11-26T19:03:21Z",
@@ -658,15 +667,6 @@
       "headline": "Afternoon digest · kept 24/8",
       "detail_url": "#/news/2026-11-03-afternoon",
       "magnitude": 0.615
-    },
-    {
-      "id": "digest_published-2026-11-03-morning",
-      "at": "2026-11-03T13:06:06Z",
-      "app": "newsletter",
-      "kind": "digest_published",
-      "headline": "Morning digest · kept 24/5",
-      "detail_url": "#/news/2026-11-03-morning",
-      "magnitude": 0.615
     }
   ],
   "attention": [
@@ -674,7 +674,7 @@
       "id": "integrity:freshness:repo-doctor.laptop",
       "app": "integrity",
       "priority": 2,
-      "headline": "repo-doctor laptop (Needs-you) is out of sync — 15.0h ago",
+      "headline": "repo-doctor laptop (Needs-you) is out of sync — 15.5h ago",
       "node": "ops.integrity"
     }
   ]
